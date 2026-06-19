@@ -1,0 +1,20 @@
+{
+  "name": "deterministic stage prior + closed-loop tactile residual",
+  "observations": [
+    "palm frame position",
+    "vial frame position",
+    "dial angle/velocity",
+    "latch depth",
+    "five fingertip touch channels"
+  ],
+  "actions": [
+    "gantry XYZ",
+    "wrist YPR",
+    "11 finger joints",
+    "dial load",
+    "latch spring"
+  ],
+  "feedback": "EMA pose residual and slip observer correct nominal stage targets every control tick",
+  "honest_scope": "High-level phases and post-contact vial attachment are deterministic for reproducibility; gantry, wrist, fingers, dial and latch run through MuJoCo actuators and sensor feedback.",
+  "random_seed": 20260619
+}

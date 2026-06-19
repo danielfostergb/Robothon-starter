@@ -1,0 +1,27 @@
+1
+00:00:00,000 --> 00:00:03,000
+SENSOR SELF-CHECK: 13 sensor channels online
+
+2
+00:00:03,000 --> 00:00:07,199
+TACTILE DIAL SCAN: index probe aligns to dial
+
+3
+00:00:07,199 --> 00:00:14,399
+CLOSED-LOOP CODE ENTRY: dial tracks 70/-35/110 degrees
+
+4
+00:00:14,399 --> 00:00:17,699
+LATCH CONFIRMATION: latch reaches 32 mm
+
+5
+00:00:17,699 --> 00:00:21,599
+FIVE-FINGER MEDICINE GRASP: opposed stable grasp
+
+6
+00:00:21,599 --> 00:00:27,000
+SLIP-AWARE TRANSFER: residual rejects injected slip
+
+7
+00:00:27,000 --> 00:00:30,000
+VERIFIED DELIVERY: vial inside green delivery zone

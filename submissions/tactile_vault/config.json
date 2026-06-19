@@ -1,0 +1,23 @@
+{
+  "project": "Tactile Vault",
+  "random_seed": 20260619,
+  "control_frequency_hz": 250,
+  "video": {
+    "duration_seconds": 30,
+    "fps": 15,
+    "resolution": [640, 360]
+  },
+  "task": {
+    "dial_code_degrees": [70, -35, 110],
+    "latch_target_mm": 32,
+    "delivery_tolerance_mm": 20,
+    "stress_rollouts": 32
+  },
+  "controller": {
+    "type": "deterministic_stage_prior_with_sensor_residual",
+    "servo_ema": 0.72,
+    "pose_residual_gain": 0.62,
+    "slip_residual_gain": 0.85,
+    "residual_limit_mm": 35
+  }
+}

@@ -1,0 +1,142 @@
+<mujoco model="tactile_vault">
+  <compiler angle="degree" autolimits="true"/>
+  <option timestep="0.004" gravity="0 0 -9.81" integrator="implicitfast">
+    <flag contact="enable"/>
+  </option>
+  <size njmax="3000" nconmax="500"/>
+
+  <visual>
+    <global offwidth="640" offheight="360"/>
+    <headlight ambient="0.35 0.35 0.40" diffuse="0.75 0.75 0.75" specular="0.2 0.2 0.2"/>
+    <rgba haze="0.08 0.10 0.14 1"/>
+  </visual>
+
+  <default>
+    <joint damping="2" armature="0.02"/>
+    <geom friction="1.1 0.01 0.001" condim="4" solref="0.01 1" solimp="0.9 0.95 0.001"/>
+    <position kp="90" kv="10"/>
+    <default class="finger">
+      <geom type="capsule" size="0.012" rgba="0.22 0.62 0.86 1"/>
+      <joint type="hinge" axis="0 1 0" range="-5 95"/>
+    </default>
+    <default class="pad">
+      <geom type="sphere" size="0.014" rgba="0.04 0.95 0.80 1" friction="1.8 0.02 0.002"/>
+    </default>
+  </default>
+
+  <asset>
+    <texture name="grid" type="2d" builtin="checker" width="256" height="256" rgb1="0.10 0.12 0.17" rgb2="0.16 0.19 0.25"/>
+    <material name="floor_mat" texture="grid" texrepeat="8 8" reflectance="0.1"/>
+    <material name="vault_mat" rgba="0.28 0.31 0.38 1" metallic="0.55" roughness="0.45"/>
+    <material name="medicine_mat" rgba="0.95 0.44 0.14 1"/>
+  </asset>
+
+  <worldbody>
+    <geom name="floor" type="plane" size="2 2 0.1" material="floor_mat"/>
+    <light pos="0 -1.5 2.5" dir="0 0.5 -1"/>
+    <light pos="-1 1 1.8" dir="0.5 -0.4 -1" diffuse="0.35 0.55 0.75"/>
+
+    <!-- Emergency medicine vault and tactile controls. -->
+    <body name="vault" pos="0.35 0.18 0.48">
+      <geom name="vault_case" type="box" size="0.24 0.18 0.28" material="vault_mat"/>
+      <geom name="vault_panel" type="box" pos="0 -0.19 0" size="0.21 0.015 0.24" rgba="0.13 0.16 0.22 1"/>
+      <body name="dial" pos="0 -0.225 0.07" euler="90 0 0">
+        <joint name="dial_hinge" type="hinge" axis="0 0 1" range="-720 720" damping="1.5"/>
+        <geom name="dial_rim" type="cylinder" size="0.075 0.018" rgba="0.78 0.82 0.88 1" friction="2"/>
+        <geom name="dial_marker" type="box" pos="0 0.055 0.022" size="0.007 0.022 0.006" rgba="1 0.22 0.12 1"/>
+        <site name="dial_touch_site" pos="0 -0.064 0.025" size="0.022" rgba="1 0.7 0.1 0.35"/>
+      </body>
+      <body name="latch" pos="0.13 -0.225 -0.11">
+        <joint name="latch_slide" type="slide" axis="0 0 -1" range="0 0.045" stiffness="20" damping="2"/>
+        <geom name="latch_button" type="box" size="0.035 0.018 0.035" rgba="0.9 0.16 0.12 1"/>
+        <site name="latch_touch_site" pos="0 -0.022 0" size="0.03" rgba="1 0 0 0.2"/>
+      </body>
+      <site name="vault_goal" pos="0 -0.27 -0.10" size="0.025" rgba="0.1 1 0.3 0.6"/>
+    </body>
+
+    <body name="medicine_vial" pos="0.35 -0.09 0.28">
+      <freejoint name="vial_free"/>
+      <geom name="vial_body" type="cylinder" size="0.030 0.075" material="medicine_mat" mass="0.08"/>
+      <geom name="vial_cap" type="cylinder" pos="0 0 0.085" size="0.034 0.012" rgba="0.95 0.95 1 1" mass="0.015"/>
+      <site name="vial_site" pos="0 0 0" size="0.012" rgba="1 1 1 0.4"/>
+    </body>
+    <site name="delivery_goal" pos="-0.38 -0.18 0.22" size="0.07" rgba="0.15 0.85 0.35 0.35"/>
+    <geom name="delivery_pad" type="cylinder" pos="-0.38 -0.18 0.012" size="0.09 0.012" rgba="0.1 0.65 0.28 1"/>
+
+    <!-- 6-DOF gantry wrist plus independently actuated five-finger hand. -->
+    <body name="gantry" pos="-0.18 -0.30 0.65">
+      <joint name="hand_x" type="slide" axis="1 0 0" range="-0.35 0.65" damping="12"/>
+      <joint name="hand_y" type="slide" axis="0 1 0" range="-0.25 0.38" damping="12"/>
+      <joint name="hand_z" type="slide" axis="0 0 1" range="-0.35 0.20" damping="12"/>
+      <geom type="box" size="0.11 0.025 0.025" rgba="0.32 0.38 0.48 1" contype="0" conaffinity="0"/>
+      <body name="wrist" pos="0 0 -0.06">
+        <joint name="wrist_yaw" type="hinge" axis="0 0 1" range="-100 100"/>
+        <joint name="wrist_pitch" type="hinge" axis="0 1 0" range="-75 75"/>
+        <joint name="wrist_roll" type="hinge" axis="1 0 0" range="-170 170"/>
+        <geom type="cylinder" size="0.045 0.045" rgba="0.40 0.46 0.58 1"/>
+        <body name="palm" pos="0 0 -0.075">
+          <geom name="palm_geom" type="box" size="0.075 0.050 0.022" rgba="0.20 0.48 0.72 1"/>
+          <site name="palm_site" pos="0 0 -0.025" size="0.012"/>
+
+          <body name="index" pos="0.058 -0.038 -0.012" childclass="finger">
+            <joint name="index_base"/><geom fromto="0 0 0 0.085 0 -0.01"/>
+            <body pos="0.085 0 -0.01"><joint name="index_tip"/><geom fromto="0 0 0 0.055 0 -0.008"/>
+              <body name="index_pad" pos="0.055 0 -0.008" childclass="pad"><geom name="index_pad_geom"/><site name="index_touch_site" size="0.017"/></body>
+            </body>
+          </body>
+          <body name="middle" pos="0.062 -0.012 -0.012" childclass="finger">
+            <joint name="middle_base"/><geom fromto="0 0 0 0.092 0 -0.01"/>
+            <body pos="0.092 0 -0.01"><joint name="middle_tip"/><geom fromto="0 0 0 0.060 0 -0.008"/>
+              <body name="middle_pad" pos="0.060 0 -0.008" childclass="pad"><geom name="middle_pad_geom"/><site name="middle_touch_site" size="0.017"/></body>
+            </body>
+          </body>
+          <body name="ring" pos="0.056 0.018 -0.012" childclass="finger">
+            <joint name="ring_base"/><geom fromto="0 0 0 0.080 0 -0.01"/>
+            <body pos="0.080 0 -0.01"><joint name="ring_tip"/><geom fromto="0 0 0 0.053 0 -0.008"/>
+              <body name="ring_pad" pos="0.053 0 -0.008" childclass="pad"><geom name="ring_pad_geom"/><site name="ring_touch_site" size="0.017"/></body>
+            </body>
+          </body>
+          <body name="little" pos="0.045 0.046 -0.010" childclass="finger">
+            <joint name="little_base"/><geom fromto="0 0 0 0.070 0 -0.008" size="0.010"/>
+            <body pos="0.070 0 -0.008"><joint name="little_tip"/><geom fromto="0 0 0 0.047 0 -0.006" size="0.009"/>
+              <body name="little_pad" pos="0.047 0 -0.006" childclass="pad"><geom name="little_pad_geom" size="0.012"/><site name="little_touch_site" size="0.015"/></body>
+            </body>
+          </body>
+          <body name="thumb" pos="-0.025 -0.060 -0.005" euler="0 0 -48" childclass="finger">
+            <joint name="thumb_opp" type="hinge" axis="0 0 1" range="-20 80"/><joint name="thumb_base"/>
+            <geom fromto="0 0 0 0.070 0.012 -0.012" size="0.013"/>
+            <body pos="0.070 0.012 -0.012"><joint name="thumb_tip"/><geom fromto="0 0 0 0.052 0.006 -0.008" size="0.011"/>
+              <body name="thumb_pad" pos="0.052 0.006 -0.008" childclass="pad"><geom name="thumb_pad_geom"/><site name="thumb_touch_site" size="0.017"/></body>
+            </body>
+          </body>
+        </body>
+      </body>
+    </body>
+    <camera name="judge_camera" pos="1.25 -1.55 1.05" xyaxes="0.78 0.63 0 -0.30 0.37 0.88"/>
+  </worldbody>
+
+  <actuator>
+    <position name="hand_x_servo" joint="hand_x" kp="300" kv="35"/>
+    <position name="hand_y_servo" joint="hand_y" kp="300" kv="35"/>
+    <position name="hand_z_servo" joint="hand_z" kp="300" kv="35"/>
+    <position name="wrist_yaw_servo" joint="wrist_yaw"/><position name="wrist_pitch_servo" joint="wrist_pitch"/><position name="wrist_roll_servo" joint="wrist_roll"/>
+    <position name="index_base_servo" joint="index_base"/><position name="index_tip_servo" joint="index_tip"/>
+    <position name="middle_base_servo" joint="middle_base"/><position name="middle_tip_servo" joint="middle_tip"/>
+    <position name="ring_base_servo" joint="ring_base"/><position name="ring_tip_servo" joint="ring_tip"/>
+    <position name="little_base_servo" joint="little_base"/><position name="little_tip_servo" joint="little_tip"/>
+    <position name="thumb_opp_servo" joint="thumb_opp"/><position name="thumb_base_servo" joint="thumb_base"/><position name="thumb_tip_servo" joint="thumb_tip"/>
+    <position name="dial_load" joint="dial_hinge" kp="18" kv="2"/>
+    <position name="latch_spring" joint="latch_slide" kp="80" kv="5"/>
+  </actuator>
+
+  <sensor>
+    <framepos name="palm_position" objtype="site" objname="palm_site"/>
+    <framepos name="vial_position" objtype="site" objname="vial_site"/>
+    <framepos name="goal_position" objtype="site" objname="delivery_goal"/>
+    <jointpos name="dial_angle" joint="dial_hinge"/><jointvel name="dial_velocity" joint="dial_hinge"/>
+    <jointpos name="latch_depth" joint="latch_slide"/>
+    <touch name="index_touch" site="index_touch_site"/><touch name="middle_touch" site="middle_touch_site"/>
+    <touch name="ring_touch" site="ring_touch_site"/><touch name="little_touch" site="little_touch_site"/><touch name="thumb_touch" site="thumb_touch_site"/>
+    <touch name="dial_contact" site="dial_touch_site"/><touch name="latch_contact" site="latch_touch_site"/>
+  </sensor>
+</mujoco>

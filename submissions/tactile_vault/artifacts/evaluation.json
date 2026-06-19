@@ -1,0 +1,458 @@
+{
+  "seed": 20260619,
+  "rollouts": 32,
+  "baseline_success_rate": 0.3125,
+  "residual_success_rate": 1.0,
+  "baseline_median_error_mm": 31.6145,
+  "residual_median_error_mm": 7.2865,
+  "cases": [
+    {
+      "seed": 0,
+      "pose_offset_mm": [
+        6.082,
+        -24.257,
+        -11.074
+      ],
+      "dial_friction_scale": 1.176,
+      "slip_impulse_mm": 21.11,
+      "baseline_final_error_mm": 37.275,
+      "residual_final_error_mm": 8.512,
+      "baseline_success": false,
+      "residual_success": true
+    },
+    {
+      "seed": 1,
+      "pose_offset_mm": [
+        4.2,
+        11.223,
+        -9.287
+      ],
+      "dial_friction_scale": 1.218,
+      "slip_impulse_mm": 14.751,
+      "baseline_final_error_mm": 22.661,
+      "residual_final_error_mm": 5.229,
+      "baseline_success": true,
+      "residual_success": true
+    },
+    {
+      "seed": 2,
+      "pose_offset_mm": [
+        -31.295,
+        8.638,
+        -11.98
+      ],
+      "dial_friction_scale": 0.947,
+      "slip_impulse_mm": 22.617,
+      "baseline_final_error_mm": 44.421,
+      "residual_final_error_mm": 7.508,
+      "baseline_success": false,
+      "residual_success": true
+    },
+    {
+      "seed": 3,
+      "pose_offset_mm": [
+        17.274,
+        -3.478,
+        -9.036
+      ],
+      "dial_friction_scale": 1.095,
+      "slip_impulse_mm": 1.355,
+      "baseline_final_error_mm": 20.941,
+      "residual_final_error_mm": 4.808,
+      "baseline_success": true,
+      "residual_success": true
+    },
+    {
+      "seed": 4,
+      "pose_offset_mm": [
+        12.398,
+        3.464,
+        0.472
+      ],
+      "dial_friction_scale": 1.122,
+      "slip_impulse_mm": 13.513,
+      "baseline_final_error_mm": 19.288,
+      "residual_final_error_mm": 3.38,
+      "baseline_success": true,
+      "residual_success": true
+    },
+    {
+      "seed": 5,
+      "pose_offset_mm": [
+        -12.974,
+        -25.132,
+        -15.914
+      ],
+      "dial_friction_scale": 1.114,
+      "slip_impulse_mm": 20.164,
+      "baseline_final_error_mm": 41.606,
+      "residual_final_error_mm": 7.043,
+      "baseline_success": false,
+      "residual_success": true
+    },
+    {
+      "seed": 6,
+      "pose_offset_mm": [
+        4.086,
+        5.238,
+        6.518
+      ],
+      "dial_friction_scale": 0.978,
+      "slip_impulse_mm": 7.639,
+      "baseline_final_error_mm": 12.648,
+      "residual_final_error_mm": 2.451,
+      "baseline_success": true,
+      "residual_success": true
+    },
+    {
+      "seed": 7,
+      "pose_offset_mm": [
+        -25.149,
+        -22.94,
+        -23.003
+      ],
+      "dial_friction_scale": 1.016,
+      "slip_impulse_mm": 13.046,
+      "baseline_final_error_mm": 46.661,
+      "residual_final_error_mm": 9.575,
+      "baseline_success": false,
+      "residual_success": true
+    },
+    {
+      "seed": 8,
+      "pose_offset_mm": [
+        -3.73,
+        -5.898,
+        2.296
+      ],
+      "dial_friction_scale": 1.327,
+      "slip_impulse_mm": 0.413,
+      "baseline_final_error_mm": 9.48,
+      "residual_final_error_mm": 2.212,
+      "baseline_success": true,
+      "residual_success": true
+    },
+    {
+      "seed": 9,
+      "pose_offset_mm": [
+        -6.924,
+        -3.319,
+        1.0
+      ],
+      "dial_friction_scale": 1.341,
+      "slip_impulse_mm": 3.807,
+      "baseline_final_error_mm": 11.388,
+      "residual_final_error_mm": 3.091,
+      "baseline_success": true,
+      "residual_success": true
+    },
+    {
+      "seed": 10,
+      "pose_offset_mm": [
+        -23.503,
+        -9.215,
+        17.047
+      ],
+      "dial_friction_scale": 1.265,
+      "slip_impulse_mm": 19.147,
+      "baseline_final_error_mm": 40.092,
+      "residual_final_error_mm": 8.027,
+      "baseline_success": false,
+      "residual_success": true
+    },
+    {
+      "seed": 11,
+      "pose_offset_mm": [
+        15.435,
+        -8.367,
+        5.73
+      ],
+      "dial_friction_scale": 1.303,
+      "slip_impulse_mm": 16.265,
+      "baseline_final_error_mm": 27.117,
+      "residual_final_error_mm": 6.25,
+      "baseline_success": false,
+      "residual_success": true
+    },
+    {
+      "seed": 12,
+      "pose_offset_mm": [
+        28.895,
+        12.351,
+        12.88
+      ],
+      "dial_friction_scale": 1.206,
+      "slip_impulse_mm": 27.096,
+      "baseline_final_error_mm": 46.578,
+      "residual_final_error_mm": 12.194,
+      "baseline_success": false,
+      "residual_success": true
+    },
+    {
+      "seed": 13,
+      "pose_offset_mm": [
+        10.497,
+        -15.105,
+        13.412
+      ],
+      "dial_friction_scale": 1.176,
+      "slip_impulse_mm": 16.429,
+      "baseline_final_error_mm": 30.723,
+      "residual_final_error_mm": 7.285,
+      "baseline_success": false,
+      "residual_success": true
+    },
+    {
+      "seed": 14,
+      "pose_offset_mm": [
+        22.049,
+        -9.046,
+        -1.495
+      ],
+      "dial_friction_scale": 0.814,
+      "slip_impulse_mm": 8.23,
+      "baseline_final_error_mm": 28.45,
+      "residual_final_error_mm": 6.177,
+      "baseline_success": false,
+      "residual_success": true
+    },
+    {
+      "seed": 15,
+      "pose_offset_mm": [
+        -22.479,
+        -12.429,
+        -5.531
+      ],
+      "dial_friction_scale": 1.028,
+      "slip_impulse_mm": 18.618,
+      "baseline_final_error_mm": 34.261,
+      "residual_final_error_mm": 8.114,
+      "baseline_success": false,
+      "residual_success": true
+    },
+    {
+      "seed": 16,
+      "pose_offset_mm": [
+        -19.715,
+        8.836,
+        9.922
+      ],
+      "dial_friction_scale": 1.032,
+      "slip_impulse_mm": 0.167,
+      "baseline_final_error_mm": 24.035,
+      "residual_final_error_mm": 5.906,
+      "baseline_success": true,
+      "residual_success": true
+    },
+    {
+      "seed": 17,
+      "pose_offset_mm": [
+        36.456,
+        -14.066,
+        -16.487
+      ],
+      "dial_friction_scale": 0.773,
+      "slip_impulse_mm": 10.719,
+      "baseline_final_error_mm": 48.277,
+      "residual_final_error_mm": 11.488,
+      "baseline_success": false,
+      "residual_success": true
+    },
+    {
+      "seed": 18,
+      "pose_offset_mm": [
+        25.533,
+        17.64,
+        6.174
+      ],
+      "dial_friction_scale": 0.762,
+      "slip_impulse_mm": 13.783,
+      "baseline_final_error_mm": 38.861,
+      "residual_final_error_mm": 10.2,
+      "baseline_success": false,
+      "residual_success": true
+    },
+    {
+      "seed": 19,
+      "pose_offset_mm": [
+        35.263,
+        -14.671,
+        16.36
+      ],
+      "dial_friction_scale": 0.777,
+      "slip_impulse_mm": 16.968,
+      "baseline_final_error_mm": 50.016,
+      "residual_final_error_mm": 11.332,
+      "baseline_success": false,
+      "residual_success": true
+    },
+    {
+      "seed": 20,
+      "pose_offset_mm": [
+        20.882,
+        -13.909,
+        -11.385
+      ],
+      "dial_friction_scale": 0.913,
+      "slip_impulse_mm": 10.082,
+      "baseline_final_error_mm": 32.311,
+      "residual_final_error_mm": 7.288,
+      "baseline_success": false,
+      "residual_success": true
+    },
+    {
+      "seed": 21,
+      "pose_offset_mm": [
+        -15.348,
+        24.628,
+        -2.048
+      ],
+      "dial_friction_scale": 1.294,
+      "slip_impulse_mm": 27.331,
+      "baseline_final_error_mm": 42.334,
+      "residual_final_error_mm": 11.026,
+      "baseline_success": false,
+      "residual_success": true
+    },
+    {
+      "seed": 22,
+      "pose_offset_mm": [
+        -7.929,
+        19.064,
+        -7.605
+      ],
+      "dial_friction_scale": 1.091,
+      "slip_impulse_mm": 19.923,
+      "baseline_final_error_mm": 30.918,
+      "residual_final_error_mm": 8.462,
+      "baseline_success": false,
+      "residual_success": true
+    },
+    {
+      "seed": 23,
+      "pose_offset_mm": [
+        -28.172,
+        12.046,
+        -5.062
+      ],
+      "dial_friction_scale": 0.955,
+      "slip_impulse_mm": 23.363,
+      "baseline_final_error_mm": 41.134,
+      "residual_final_error_mm": 9.127,
+      "baseline_success": false,
+      "residual_success": true
+    },
+    {
+      "seed": 24,
+      "pose_offset_mm": [
+        13.691,
+        -23.535,
+        -7.545
+      ],
+      "dial_friction_scale": 1.027,
+      "slip_impulse_mm": 0.334,
+      "baseline_final_error_mm": 28.555,
+      "residual_final_error_mm": 6.669,
+      "baseline_success": false,
+      "residual_success": true
+    },
+    {
+      "seed": 25,
+      "pose_offset_mm": [
+        13.154,
+        0.895,
+        -6.305
+      ],
+      "dial_friction_scale": 0.93,
+      "slip_impulse_mm": 10.67,
+      "baseline_final_error_mm": 19.515,
+      "residual_final_error_mm": 5.159,
+      "baseline_success": true,
+      "residual_success": true
+    },
+    {
+      "seed": 26,
+      "pose_offset_mm": [
+        -17.79,
+        16.092,
+        0.953
+      ],
+      "dial_friction_scale": 0.998,
+      "slip_impulse_mm": 25.334,
+      "baseline_final_error_mm": 34.658,
+      "residual_final_error_mm": 8.7,
+      "baseline_success": false,
+      "residual_success": true
+    },
+    {
+      "seed": 27,
+      "pose_offset_mm": [
+        -43.732,
+        -11.418,
+        -2.859
+      ],
+      "dial_friction_scale": 0.834,
+      "slip_impulse_mm": 12.907,
+      "baseline_final_error_mm": 51.704,
+      "residual_final_error_mm": 8.733,
+      "baseline_success": false,
+      "residual_success": true
+    },
+    {
+      "seed": 28,
+      "pose_offset_mm": [
+        4.612,
+        4.407,
+        4.892
+      ],
+      "dial_friction_scale": 1.097,
+      "slip_impulse_mm": 16.108,
+      "baseline_final_error_mm": 15.389,
+      "residual_final_error_mm": 2.989,
+      "baseline_success": true,
+      "residual_success": true
+    },
+    {
+      "seed": 29,
+      "pose_offset_mm": [
+        -3.891,
+        13.393,
+        -5.555
+      ],
+      "dial_friction_scale": 0.947,
+      "slip_impulse_mm": 0.806,
+      "baseline_final_error_mm": 15.669,
+      "residual_final_error_mm": 3.49,
+      "baseline_success": true,
+      "residual_success": true
+    },
+    {
+      "seed": 30,
+      "pose_offset_mm": [
+        1.328,
+        23.496,
+        -32.948
+      ],
+      "dial_friction_scale": 0.905,
+      "slip_impulse_mm": 18.984,
+      "baseline_final_error_mm": 49.033,
+      "residual_final_error_mm": 9.192,
+      "baseline_success": false,
+      "residual_success": true
+    },
+    {
+      "seed": 31,
+      "pose_offset_mm": [
+        -7.399,
+        -13.262,
+        18.233
+      ],
+      "dial_friction_scale": 1.085,
+      "slip_impulse_mm": 5.248,
+      "baseline_final_error_mm": 26.445,
+      "residual_final_error_mm": 4.606,
+      "baseline_success": false,
+      "residual_success": true
+    }
+  ]
+}

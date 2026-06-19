@@ -1,0 +1,13 @@
+{
+  "project": "Tactile Vault",
+  "task_success": true,
+  "final_delivery_error_mm": 6.176,
+  "stage_count": 7,
+  "sample_count": 91,
+  "actuated_channels": 19,
+  "sensor_channels": 13,
+  "five_finger_hand": true,
+  "residual_corrections": 900,
+  "peak_residual_mm": 49.105,
+  "stress_residual_success_rate": 1.0
+}
