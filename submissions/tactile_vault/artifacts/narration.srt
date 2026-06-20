@@ -1,27 +1,31 @@
 1
-00:00:00,000 --> 00:00:03,000
-SENSOR SELF-CHECK: 13 sensor channels online
+00:00:00,048 --> 00:00:01,248
+TACTILE SELF-CHECK: 19 sensor channels verified
 
 2
-00:00:03,000 --> 00:00:07,199
-TACTILE DIAL SCAN: index probe aligns to dial
+00:00:01,248 --> 00:00:06,048
+PHYSICAL TACTILE CODE: index presses triangle / bars / dot
 
 3
-00:00:07,199 --> 00:00:14,399
-CLOSED-LOOP CODE ENTRY: dial tracks 70/-35/110 degrees
+00:00:06,048 --> 00:00:07,008
+SENSOR-GATED UNLOCK: measured key travel releases lid lock
 
 4
-00:00:14,399 --> 00:00:17,699
-LATCH CONFIRMATION: latch reaches 32 mm
+00:00:07,008 --> 00:00:09,887
+CONTACT-DRIVEN LID OPEN: index pushes unactuated sliding lid
 
 5
-00:00:17,699 --> 00:00:21,599
-FIVE-FINGER MEDICINE GRASP: opposed stable grasp
+00:00:09,887 --> 00:00:12,768
+FIVE-CONTACT GRASP: independent digits close until touch
 
 6
-00:00:21,599 --> 00:00:27,000
-SLIP-AWARE TRANSFER: residual rejects injected slip
+00:00:12,768 --> 00:00:17,088
+TACTILE FORCE REJECTION: contact reflex rejects external force
 
 7
-00:00:27,000 --> 00:00:30,000
-VERIFIED DELIVERY: vial inside green delivery zone
+00:00:17,088 --> 00:00:20,207
+FREE-BODY DELIVERY: adhesion off; fingers open; vial settles
+
+8
+00:00:20,207 --> 00:00:20,698
+TASK COMPLETE: all mechanically dependent gates pass

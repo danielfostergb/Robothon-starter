@@ -1,3278 +1,5106 @@
 [
   {
-    "phase": 0.0,
+    "time_s": 0.048,
     "stage": "boot",
+    "stage_time_s": 0.048,
+    "code_events": [],
+    "expected_code": [
+      1,
+      3,
+      2
+    ],
+    "key_depth_mm": {
+      "1": 1.5925,
+      "3": 1.5373,
+      "2": 1.4817
+    },
+    "lid_position_mm": 0.0,
+    "lock_active": true,
     "palm_xyz": [
-      -0.19054437785438577,
-      -0.2991808974776606,
-      0.48421608423375995
+      -0.309709,
+      -0.239587,
+      0.44382
     ],
     "vial_xyz": [
-      0.35,
-      -0.09,
-      0.25990912000000005
+      0.180001,
+      0.080001,
+      0.179983
     ],
-    "dial_angle_deg": 0.0,
-    "latch_depth_mm": 8.395598908784772,
-    "touch": {
+    "touch_n": {
       "thumb": 0.0,
       "index": 0.0,
       "middle": 0.0,
       "ring": 0.0,
       "little": 0.0
     },
-    "servo_error_mm": [
-      10.544377854385779,
-      -4.3238676031172645,
-      171.78391576624009
+    "contact_count": 0,
+    "adhesion_active": false,
+    "grasp_verified": false,
+    "slip_mm": 0.0,
+    "external_force_n": [
+      0.0,
+      0.0,
+      0.0
     ],
-    "residual_action_mm": [
-      1.8305039955213713,
-      -1.1886910128777428,
-      35.0
+    "hand_target": [
+      0.062,
+      -0.112,
+      0.026019
     ],
-    "slip_estimate_mm": 0.0,
-    "grip_command": 0.0,
-    "policy_confidence": 0.25
+    "finger_target": {
+      "thumb": 0.0,
+      "index": 0.0,
+      "middle": 0.0,
+      "ring": 0.0,
+      "little": 0.0
+    }
   },
   {
-    "phase": 0.011135857461024499,
+    "time_s": 0.288,
     "stage": "boot",
+    "stage_time_s": 0.288,
+    "code_events": [],
+    "expected_code": [
+      1,
+      3,
+      2
+    ],
+    "key_depth_mm": {
+      "1": 1.5261,
+      "3": 1.4716,
+      "2": 1.4171
+    },
+    "lid_position_mm": 0.0,
+    "lock_active": true,
     "palm_xyz": [
-      -0.20208446228234947,
-      -0.2991359722907967,
-      0.45928340227160885
+      -0.268317,
+      -0.323329,
+      0.442139
     ],
     "vial_xyz": [
-      0.35,
-      -0.09,
-      0.25990912000000005
+      0.180001,
+      0.080001,
+      0.179989
     ],
-    "dial_angle_deg": 0.0,
-    "latch_depth_mm": 17.300424140423534,
-    "touch": {
+    "touch_n": {
       "thumb": 0.0,
       "index": 0.0,
       "middle": 0.0,
       "ring": 0.0,
       "little": 0.0
     },
-    "servo_error_mm": [
-      26.14521168598443,
-      -6.3544850530770915,
-      196.58279806538013
+    "contact_count": 0,
+    "adhesion_active": false,
+    "grasp_verified": false,
+    "slip_mm": 0.0,
+    "external_force_n": [
+      0.0,
+      0.0,
+      0.0
     ],
-    "residual_action_mm": [
-      16.064342776257718,
-      -3.7853134493257943,
-      35.0
+    "hand_target": [
+      0.049367,
+      -0.098872,
+      0.027328
     ],
-    "slip_estimate_mm": 0.0,
-    "grip_command": 0.0,
-    "policy_confidence": 0.25
+    "finger_target": {
+      "thumb": 0.0,
+      "index": 0.0,
+      "middle": 0.0,
+      "ring": 0.0,
+      "little": 0.0
+    }
   },
   {
-    "phase": 0.022271714922048998,
+    "time_s": 0.528,
     "stage": "boot",
+    "stage_time_s": 0.528,
+    "code_events": [],
+    "expected_code": [
+      1,
+      3,
+      2
+    ],
+    "key_depth_mm": {
+      "1": 1.526,
+      "3": 1.4715,
+      "2": 1.417
+    },
+    "lid_position_mm": 0.0,
+    "lock_active": true,
     "palm_xyz": [
-      -0.19830808462562438,
-      -0.2999348620096585,
-      0.45948742162406675
+      -0.270068,
+      -0.319856,
+      0.442195
     ],
     "vial_xyz": [
-      0.35,
-      -0.09,
-      0.25990912000000005
+      0.180001,
+      0.080001,
+      0.179989
     ],
-    "dial_angle_deg": 0.0,
-    "latch_depth_mm": 17.30494465922917,
-    "touch": {
+    "touch_n": {
       "thumb": 0.0,
       "index": 0.0,
       "middle": 0.0,
       "ring": 0.0,
       "little": 0.0
     },
-    "servo_error_mm": [
-      25.950446477750763,
-      -7.18307893596231,
-      195.98334717382974
+    "contact_count": 0,
+    "adhesion_active": false,
+    "grasp_verified": false,
+    "slip_mm": 0.0,
+    "external_force_n": [
+      0.0,
+      0.0,
+      0.0
     ],
-    "residual_action_mm": [
-      15.914043697745642,
-      -4.365337895045691,
-      35.0
+    "hand_target": [
+      0.050028,
+      -0.100054,
+      0.027297
     ],
-    "slip_estimate_mm": 0.0,
-    "grip_command": 0.0,
-    "policy_confidence": 0.25
+    "finger_target": {
+      "thumb": 0.0,
+      "index": 0.0,
+      "middle": 0.0,
+      "ring": 0.0,
+      "little": 0.0
+    }
   },
   {
-    "phase": 0.0334075723830735,
+    "time_s": 0.768,
     "stage": "boot",
+    "stage_time_s": 0.768,
+    "code_events": [],
+    "expected_code": [
+      1,
+      3,
+      2
+    ],
+    "key_depth_mm": {
+      "1": 1.526,
+      "3": 1.4715,
+      "2": 1.417
+    },
+    "lid_position_mm": 0.0,
+    "lock_active": true,
     "palm_xyz": [
-      -0.19750739292361605,
-      -0.30042712116492265,
-      0.45957155779270514
+      -0.269997,
+      -0.320006,
+      0.442194
     ],
     "vial_xyz": [
-      0.35,
-      -0.09,
-      0.25990912000000005
+      0.180001,
+      0.080001,
+      0.179989
     ],
-    "dial_angle_deg": 0.0,
-    "latch_depth_mm": 17.30484011173703,
-    "touch": {
+    "touch_n": {
       "thumb": 0.0,
       "index": 0.0,
       "middle": 0.0,
       "ring": 0.0,
       "little": 0.0
     },
-    "servo_error_mm": [
-      27.829627760908394,
-      -7.853914363826172,
-      195.25978379224225
+    "contact_count": 0,
+    "adhesion_active": false,
+    "grasp_verified": false,
+    "slip_mm": 0.0,
+    "external_force_n": [
+      0.0,
+      0.0,
+      0.0
     ],
-    "residual_action_mm": [
-      17.119422255051024,
-      -4.81531131948488,
-      35.0
+    "hand_target": [
+      0.049999,
+      -0.099998,
+      0.027298
     ],
-    "slip_estimate_mm": 0.0,
-    "grip_command": 0.0,
-    "policy_confidence": 0.25
+    "finger_target": {
+      "thumb": 0.0,
+      "index": 0.0,
+      "middle": 0.0,
+      "ring": 0.0,
+      "little": 0.0
+    }
   },
   {
-    "phase": 0.044543429844097995,
+    "time_s": 1.008,
     "stage": "boot",
+    "stage_time_s": 1.008,
+    "code_events": [],
+    "expected_code": [
+      1,
+      3,
+      2
+    ],
+    "key_depth_mm": {
+      "1": 1.526,
+      "3": 1.4715,
+      "2": 1.417
+    },
+    "lid_position_mm": 0.0,
+    "lock_active": true,
     "palm_xyz": [
-      -0.19670709282275795,
-      -0.30074756646176626,
-      0.45957440062437677
+      -0.27,
+      -0.32,
+      0.442194
     ],
     "vial_xyz": [
-      0.35,
-      -0.09,
-      0.25990912000000005
+      0.180001,
+      0.080001,
+      0.179989
     ],
-    "dial_angle_deg": 0.0,
-    "latch_depth_mm": 17.30483999880408,
-    "touch": {
+    "touch_n": {
       "thumb": 0.0,
       "index": 0.0,
       "middle": 0.0,
       "ring": 0.0,
       "little": 0.0
     },
-    "servo_error_mm": [
-      28.4912569410838,
-      -8.156291963154356,
-      194.40203645563577
+    "contact_count": 0,
+    "adhesion_active": false,
+    "grasp_verified": false,
+    "slip_mm": 0.0,
+    "external_force_n": [
+      0.0,
+      0.0,
+      0.0
     ],
-    "residual_action_mm": [
-      17.62579880761181,
-      -5.0394802875992255,
-      35.0
+    "hand_target": [
+      0.05,
+      -0.1,
+      0.027298
     ],
-    "slip_estimate_mm": 0.0,
-    "grip_command": 0.0,
-    "policy_confidence": 0.25
+    "finger_target": {
+      "thumb": 0.0,
+      "index": 0.0,
+      "middle": 0.0,
+      "ring": 0.0,
+      "little": 0.0
+    }
   },
   {
-    "phase": 0.0556792873051225,
-    "stage": "boot",
+    "time_s": 1.248,
+    "stage": "code",
+    "stage_time_s": 0.048,
+    "code_events": [],
+    "expected_code": [
+      1,
+      3,
+      2
+    ],
+    "key_depth_mm": {
+      "1": 1.526,
+      "3": 1.4715,
+      "2": 1.417
+    },
+    "lid_position_mm": 0.0,
+    "lock_active": true,
     "palm_xyz": [
-      -0.1964883535220837,
-      -0.3008457216392167,
-      0.4595746003988442
+      -0.269874,
+      -0.319961,
+      0.442096
     ],
     "vial_xyz": [
-      0.35,
-      -0.09,
-      0.25990912000000005
+      0.180001,
+      0.080001,
+      0.179989
     ],
-    "dial_angle_deg": 0.0,
-    "latch_depth_mm": 17.30483999999799,
-    "touch": {
+    "touch_n": {
       "thumb": 0.0,
       "index": 0.0,
       "middle": 0.0,
       "ring": 0.0,
       "little": 0.0
     },
-    "servo_error_mm": [
-      28.34400689342454,
-      -8.100053755925915,
-      193.36958352913678
+    "contact_count": 0,
+    "adhesion_active": false,
+    "grasp_verified": false,
+    "slip_mm": 0.0,
+    "external_force_n": [
+      0.0,
+      0.0,
+      0.0
     ],
-    "residual_action_mm": [
-      17.622072046522433,
-      -5.041546759990908,
-      35.0
+    "hand_target": [
+      0.054018,
+      -0.098744,
+      0.024159
     ],
-    "slip_estimate_mm": 0.0,
-    "grip_command": 0.0,
-    "policy_confidence": 0.25
+    "finger_target": {
+      "thumb": 0.0,
+      "index": 0.0,
+      "middle": 0.0,
+      "ring": 0.0,
+      "little": 0.0
+    }
   },
   {
-    "phase": 0.066815144766147,
-    "stage": "boot",
+    "time_s": 1.488,
+    "stage": "code",
+    "stage_time_s": 0.288,
+    "code_events": [],
+    "expected_code": [
+      1,
+      3,
+      2
+    ],
+    "key_depth_mm": {
+      "1": 1.526,
+      "3": 1.4715,
+      "2": 1.417
+    },
+    "lid_position_mm": 0.0,
+    "lock_active": true,
     "palm_xyz": [
-      -0.1968023753141708,
-      -0.30071956309809184,
-      0.4595746316530808
+      -0.218675,
+      -0.303961,
+      0.402095
     ],
     "vial_xyz": [
-      0.35,
-      -0.09,
-      0.25990912000000005
+      0.180001,
+      0.080001,
+      0.179989
     ],
-    "dial_angle_deg": 0.0,
-    "latch_depth_mm": 17.30484000000002,
-    "touch": {
+    "touch_n": {
       "thumb": 0.0,
       "index": 0.0,
       "middle": 0.0,
       "ring": 0.0,
       "little": 0.0
     },
-    "servo_error_mm": [
-      27.330642732758815,
-      -7.684488592494107,
-      192.20598885039976
+    "contact_count": 0,
+    "adhesion_active": false,
+    "grasp_verified": false,
+    "slip_mm": 0.0,
+    "external_force_n": [
+      0.0,
+      0.0,
+      0.0
     ],
-    "residual_action_mm": [
-      17.07847027426232,
-      -4.819703178347828,
-      35.0
+    "hand_target": [
+      0.146389,
+      -0.069879,
+      -0.048005
     ],
-    "slip_estimate_mm": 0.0,
-    "grip_command": 0.0,
-    "policy_confidence": 0.25
+    "finger_target": {
+      "thumb": 0.0,
+      "index": 0.0,
+      "middle": 0.0,
+      "ring": 0.0,
+      "little": 0.0
+    }
   },
   {
-    "phase": 0.0779510022271715,
-    "stage": "boot",
+    "time_s": 1.728,
+    "stage": "code",
+    "stage_time_s": 0.528,
+    "code_events": [],
+    "expected_code": [
+      1,
+      3,
+      2
+    ],
+    "key_depth_mm": {
+      "1": 1.526,
+      "3": 1.4715,
+      "2": 1.417
+    },
+    "lid_position_mm": 0.0,
+    "lock_active": true,
     "palm_xyz": [
-      -0.19762324290405292,
-      -0.30037664085700294,
-      0.4595746709623892
+      -0.124432,
+      -0.274509,
+      0.328469
     ],
     "vial_xyz": [
-      0.35,
-      -0.09,
-      0.25990912000000005
+      0.180001,
+      0.080001,
+      0.179989
     ],
-    "dial_angle_deg": 0.0,
-    "latch_depth_mm": 17.30484000000002,
-    "touch": {
+    "touch_n": {
       "thumb": 0.0,
       "index": 0.0,
       "middle": 0.0,
       "ring": 0.0,
       "little": 0.0
     },
-    "servo_error_mm": [
-      25.581870418101843,
-      -6.937389616187869,
-      190.9629706421523
+    "contact_count": 0,
+    "adhesion_active": false,
+    "grasp_verified": false,
+    "slip_mm": 0.0,
+    "external_force_n": [
+      0.0,
+      0.0,
+      0.0
     ],
-    "residual_action_mm": [
-      16.062620030763092,
-      -4.388667151048617,
-      35.0
+    "hand_target": [
+      0.214654,
+      -0.048546,
+      -0.101338
     ],
-    "slip_estimate_mm": 0.0,
-    "grip_command": 0.0,
-    "policy_confidence": 0.25
+    "finger_target": {
+      "thumb": 0.0,
+      "index": 0.0,
+      "middle": 0.0,
+      "ring": 0.0,
+      "little": 0.0
+    }
   },
   {
-    "phase": 0.08908685968819599,
-    "stage": "boot",
+    "time_s": 1.968,
+    "stage": "code",
+    "stage_time_s": 0.768,
+    "code_events": [],
+    "expected_code": [
+      1,
+      3,
+      2
+    ],
+    "key_depth_mm": {
+      "1": 2.6678,
+      "3": 1.4715,
+      "2": 1.417
+    },
+    "lid_position_mm": 0.0,
+    "lock_active": true,
     "palm_xyz": [
-      -0.19885248165624256,
-      -0.299839427895498,
-      0.4595747219057904
+      -0.109359,
+      -0.269775,
+      0.312319
     ],
     "vial_xyz": [
-      0.35,
-      -0.09,
-      0.25990912000000005
+      0.180001,
+      0.080001,
+      0.179989
     ],
-    "dial_angle_deg": 0.0,
-    "latch_depth_mm": 17.30484000000002,
-    "touch": {
+    "touch_n": {
+      "thumb": 0.0,
+      "index": 0.35488,
+      "middle": 0.0,
+      "ring": 0.0,
+      "little": 0.0
+    },
+    "contact_count": 1,
+    "adhesion_active": false,
+    "grasp_verified": false,
+    "slip_mm": 0.0,
+    "external_force_n": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hand_target": [
+      0.209744,
+      -0.050084,
+      -0.109019
+    ],
+    "finger_target": {
+      "thumb": 0.0,
+      "index": 0.0,
+      "middle": 0.0,
+      "ring": 0.0,
+      "little": 0.0
+    }
+  },
+  {
+    "time_s": 2.208,
+    "stage": "code",
+    "stage_time_s": 1.008,
+    "code_events": [
+      1
+    ],
+    "expected_code": [
+      1,
+      3,
+      2
+    ],
+    "key_depth_mm": {
+      "1": 18.0601,
+      "3": 1.4715,
+      "2": 1.417
+    },
+    "lid_position_mm": 0.0,
+    "lock_active": true,
+    "palm_xyz": [
+      -0.109587,
+      -0.26984,
+      0.296861
+    ],
+    "vial_xyz": [
+      0.180001,
+      0.080001,
+      0.179989
+    ],
+    "touch_n": {
+      "thumb": 0.0,
+      "index": 3.16002,
+      "middle": 0.0,
+      "ring": 0.0,
+      "little": 0.0
+    },
+    "contact_count": 1,
+    "adhesion_active": false,
+    "grasp_verified": false,
+    "slip_mm": 0.0,
+    "external_force_n": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hand_target": [
+      0.209866,
+      -0.050052,
+      -0.128598
+    ],
+    "finger_target": {
+      "thumb": 0.0,
+      "index": 0.0,
+      "middle": 0.0,
+      "ring": 0.0,
+      "little": 0.0
+    }
+  },
+  {
+    "time_s": 2.448,
+    "stage": "code",
+    "stage_time_s": 1.248,
+    "code_events": [
+      1
+    ],
+    "expected_code": [
+      1,
+      3,
+      2
+    ],
+    "key_depth_mm": {
+      "1": 22.2947,
+      "3": 1.4715,
+      "2": 1.417
+    },
+    "lid_position_mm": 0.0,
+    "lock_active": true,
+    "palm_xyz": [
+      -0.109672,
+      -0.269883,
+      0.292613
+    ],
+    "vial_xyz": [
+      0.180001,
+      0.080001,
+      0.179989
+    ],
+    "touch_n": {
+      "thumb": 0.0,
+      "index": 3.52753,
+      "middle": 0.0,
+      "ring": 0.0,
+      "little": 0.0
+    },
+    "contact_count": 1,
+    "adhesion_active": false,
+    "grasp_verified": false,
+    "slip_mm": 0.0,
+    "external_force_n": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hand_target": [
+      0.209893,
+      -0.050038,
+      -0.116326
+    ],
+    "finger_target": {
+      "thumb": 0.0,
+      "index": 0.0,
+      "middle": 0.0,
+      "ring": 0.0,
+      "little": 0.0
+    }
+  },
+  {
+    "time_s": 2.688,
+    "stage": "code",
+    "stage_time_s": 1.488,
+    "code_events": [
+      1
+    ],
+    "expected_code": [
+      1,
+      3,
+      2
+    ],
+    "key_depth_mm": {
+      "1": 1.5433,
+      "3": 1.4715,
+      "2": 1.417
+    },
+    "lid_position_mm": 0.0,
+    "lock_active": true,
+    "palm_xyz": [
+      -0.109973,
+      -0.269991,
+      0.349578
+    ],
+    "vial_xyz": [
+      0.180001,
+      0.080001,
+      0.179989
+    ],
+    "touch_n": {
       "thumb": 0.0,
       "index": 0.0,
       "middle": 0.0,
       "ring": 0.0,
       "little": 0.0
     },
-    "servo_error_mm": [
-      23.30241290566538,
-      -5.90739906003083,
-      189.69596204464247
+    "contact_count": 0,
+    "adhesion_active": false,
+    "grasp_verified": false,
+    "slip_mm": 0.0,
+    "external_force_n": [
+      0.0,
+      0.0,
+      0.0
     ],
-    "residual_action_mm": [
-      14.694022729153787,
-      -3.776536205194505,
-      35.0
+    "hand_target": [
+      0.209981,
+      -0.050006,
+      -0.030515
     ],
-    "slip_estimate_mm": 0.0,
-    "grip_command": 0.0,
-    "policy_confidence": 0.25
+    "finger_target": {
+      "thumb": 0.0,
+      "index": 0.0,
+      "middle": 0.0,
+      "ring": 0.0,
+      "little": 0.0
+    }
   },
   {
-    "phase": 0.10022271714922049,
-    "stage": "scan",
+    "time_s": 2.928,
+    "stage": "code",
+    "stage_time_s": 0.176,
+    "code_events": [
+      1
+    ],
+    "expected_code": [
+      1,
+      3,
+      2
+    ],
+    "key_depth_mm": {
+      "1": 1.526,
+      "3": 1.4715,
+      "2": 1.417
+    },
+    "lid_position_mm": 0.0,
+    "lock_active": true,
     "palm_xyz": [
-      -0.2003445597994374,
-      -0.29914268613421385,
-      0.45957461816808376
+      0.107817,
+      -0.27,
+      0.391775
     ],
     "vial_xyz": [
-      0.35,
-      -0.09,
-      0.25990912000000005
+      0.180001,
+      0.080001,
+      0.179989
     ],
-    "dial_angle_deg": 0.0,
-    "latch_depth_mm": 17.30484000000002,
-    "touch": {
+    "touch_n": {
       "thumb": 0.0,
       "index": 0.0,
       "middle": 0.0,
       "ring": 0.0,
       "little": 0.0
     },
-    "servo_error_mm": [
-      20.764150292615945,
-      -4.660713245141643,
-      188.46072543417642
+    "contact_count": 0,
+    "adhesion_active": false,
+    "grasp_verified": false,
+    "slip_mm": 0.0,
+    "external_force_n": [
+      0.0,
+      0.0,
+      0.0
     ],
-    "residual_action_mm": [
-      13.135086824199151,
-      -3.022911681579761,
-      35.0
+    "hand_target": [
+      0.462,
+      -0.05,
+      -0.040828
     ],
-    "slip_estimate_mm": 0.0,
-    "grip_command": 0.0,
-    "policy_confidence": 0.25
+    "finger_target": {
+      "thumb": 0.0,
+      "index": 0.0,
+      "middle": 0.0,
+      "ring": 0.0,
+      "little": 0.0
+    }
   },
   {
-    "phase": 0.111358574610245,
-    "stage": "scan",
+    "time_s": 3.168,
+    "stage": "code",
+    "stage_time_s": 0.416,
+    "code_events": [
+      1
+    ],
+    "expected_code": [
+      1,
+      3,
+      2
+    ],
+    "key_depth_mm": {
+      "1": 1.526,
+      "3": 1.4715,
+      "2": 1.417
+    },
+    "lid_position_mm": 0.0,
+    "lock_active": true,
     "palm_xyz": [
-      -0.19677693637228294,
-      -0.2963869005812398,
-      0.4584668235562554
+      0.130614,
+      -0.27,
+      0.343932
     ],
     "vial_xyz": [
-      0.35,
-      -0.09,
-      0.25990912000000005
+      0.180001,
+      0.080001,
+      0.179989
     ],
-    "dial_angle_deg": 0.0,
-    "latch_depth_mm": 17.30484000000002,
-    "touch": {
+    "touch_n": {
       "thumb": 0.0,
       "index": 0.0,
       "middle": 0.0,
       "ring": 0.0,
       "little": 0.0
     },
-    "servo_error_mm": [
-      21.515993464875567,
-      -2.0519228321080476,
-      186.18105240568102
+    "contact_count": 0,
+    "adhesion_active": false,
+    "grasp_verified": false,
+    "slip_mm": 0.0,
+    "external_force_n": [
+      0.0,
+      0.0,
+      0.0
     ],
-    "residual_action_mm": [
-      13.553306189638999,
-      -1.4279913826601451,
-      35.0
+    "hand_target": [
+      0.449596,
+      -0.05,
+      -0.090733
     ],
-    "slip_estimate_mm": 0.0,
-    "grip_command": 0.0,
-    "policy_confidence": 0.25
+    "finger_target": {
+      "thumb": 0.0,
+      "index": 0.0,
+      "middle": 0.0,
+      "ring": 0.0,
+      "little": 0.0
+    }
   },
   {
-    "phase": 0.12249443207126949,
-    "stage": "scan",
+    "time_s": 3.408,
+    "stage": "code",
+    "stage_time_s": 0.656,
+    "code_events": [
+      1
+    ],
+    "expected_code": [
+      1,
+      3,
+      2
+    ],
+    "key_depth_mm": {
+      "1": 1.526,
+      "3": 1.4715,
+      "2": 1.417
+    },
+    "lid_position_mm": 0.0,
+    "lock_active": true,
     "palm_xyz": [
-      -0.17781980975370934,
-      -0.2877949883205166,
-      0.45375640628215347
+      0.129988,
+      -0.27,
+      0.316053
     ],
     "vial_xyz": [
-      0.35,
-      -0.09,
-      0.25990912000000005
+      0.180001,
+      0.080001,
+      0.179989
     ],
-    "dial_angle_deg": 0.0,
-    "latch_depth_mm": 17.30484000000002,
-    "touch": {
+    "touch_n": {
       "thumb": 0.0,
       "index": 0.0,
       "middle": 0.0,
       "ring": 0.0,
       "little": 0.0
     },
-    "servo_error_mm": [
-      21.62169390836405,
-      0.23233488407384306,
-      183.82654205286823
+    "contact_count": 0,
+    "adhesion_active": false,
+    "grasp_verified": false,
+    "slip_mm": 0.0,
+    "external_force_n": [
+      0.0,
+      0.0,
+      0.0
     ],
-    "residual_action_mm": [
-      14.512506151500359,
-      0.3414562895966074,
-      35.0
+    "hand_target": [
+      0.450012,
+      -0.05,
+      -0.100879
     ],
-    "slip_estimate_mm": 0.0,
-    "grip_command": 0.0,
-    "policy_confidence": 0.25
+    "finger_target": {
+      "thumb": 0.0,
+      "index": 0.0,
+      "middle": 0.0,
+      "ring": 0.0,
+      "little": 0.0
+    }
   },
   {
-    "phase": 0.133630289532294,
-    "stage": "scan",
+    "time_s": 3.648,
+    "stage": "code",
+    "stage_time_s": 0.896,
+    "code_events": [
+      1
+    ],
+    "expected_code": [
+      1,
+      3,
+      2
+    ],
+    "key_depth_mm": {
+      "1": 1.526,
+      "3": 11.0557,
+      "2": 1.417
+    },
+    "lid_position_mm": 0.0,
+    "lock_active": true,
     "palm_xyz": [
-      -0.14653117602054122,
-      -0.2746434406281569,
-      0.4456867540223659
+      0.130018,
+      -0.27,
+      0.304632
     ],
     "vial_xyz": [
-      0.35,
-      -0.09,
-      0.25990912000000005
+      0.180001,
+      0.080001,
+      0.179989
     ],
-    "dial_angle_deg": 0.0,
-    "latch_depth_mm": 17.30484000000002,
-    "touch": {
+    "touch_n": {
+      "thumb": 0.0,
+      "index": 2.0631,
+      "middle": 0.0,
+      "ring": 0.0,
+      "little": 0.0
+    },
+    "contact_count": 1,
+    "adhesion_active": false,
+    "grasp_verified": false,
+    "slip_mm": 0.0,
+    "external_force_n": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hand_target": [
+      0.449994,
+      -0.05,
+      -0.120353
+    ],
+    "finger_target": {
+      "thumb": 0.0,
+      "index": 0.0,
+      "middle": 0.0,
+      "ring": 0.0,
+      "little": 0.0
+    }
+  },
+  {
+    "time_s": 3.888,
+    "stage": "code",
+    "stage_time_s": 1.136,
+    "code_events": [
+      1,
+      3
+    ],
+    "expected_code": [
+      1,
+      3,
+      2
+    ],
+    "key_depth_mm": {
+      "1": 1.526,
+      "3": 23.6112,
+      "2": 1.417
+    },
+    "lid_position_mm": 0.0,
+    "lock_active": true,
+    "palm_xyz": [
+      0.130061,
+      -0.27,
+      0.291902
+    ],
+    "vial_xyz": [
+      0.180001,
+      0.080001,
+      0.179989
+    ],
+    "touch_n": {
+      "thumb": 0.0,
+      "index": 7.7207,
+      "middle": 0.0,
+      "ring": 0.0,
+      "little": 0.0
+    },
+    "contact_count": 1,
+    "adhesion_active": false,
+    "grasp_verified": false,
+    "slip_mm": 0.0,
+    "external_force_n": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hand_target": [
+      0.449982,
+      -0.05,
+      -0.13308
+    ],
+    "finger_target": {
+      "thumb": 0.0,
+      "index": 0.0,
+      "middle": 0.0,
+      "ring": 0.0,
+      "little": 0.0
+    }
+  },
+  {
+    "time_s": 4.128,
+    "stage": "code",
+    "stage_time_s": 1.376,
+    "code_events": [
+      1,
+      3
+    ],
+    "expected_code": [
+      1,
+      3,
+      2
+    ],
+    "key_depth_mm": {
+      "1": 1.526,
+      "3": 2.2237,
+      "2": 1.417
+    },
+    "lid_position_mm": 0.0,
+    "lock_active": true,
+    "palm_xyz": [
+      0.130042,
+      -0.27,
+      0.314148
+    ],
+    "vial_xyz": [
+      0.180001,
+      0.080001,
+      0.179989
+    ],
+    "touch_n": {
       "thumb": 0.0,
       "index": 0.0,
       "middle": 0.0,
       "ring": 0.0,
       "little": 0.0
     },
-    "servo_error_mm": [
-      21.85237589742212,
-      2.292138619817263,
-      181.92345369777556
+    "contact_count": 0,
+    "adhesion_active": false,
+    "grasp_verified": false,
+    "slip_mm": 0.0,
+    "external_force_n": [
+      0.0,
+      0.0,
+      0.0
     ],
-    "residual_action_mm": [
-      15.237494964999463,
-      1.8726854550140541,
-      35.0
+    "hand_target": [
+      0.449983,
+      -0.05,
+      -0.069123
     ],
-    "slip_estimate_mm": 0.0,
-    "grip_command": 0.0,
-    "policy_confidence": 0.25
+    "finger_target": {
+      "thumb": 0.0,
+      "index": 0.0,
+      "middle": 0.0,
+      "ring": 0.0,
+      "little": 0.0
+    }
   },
   {
-    "phase": 0.1447661469933185,
-    "stage": "scan",
+    "time_s": 4.368,
+    "stage": "code",
+    "stage_time_s": 0.064,
+    "code_events": [
+      1,
+      3
+    ],
+    "expected_code": [
+      1,
+      3,
+      2
+    ],
+    "key_depth_mm": {
+      "1": 1.526,
+      "3": 1.4713,
+      "2": 1.417
+    },
+    "lid_position_mm": 0.0,
+    "lock_active": true,
     "palm_xyz": [
-      -0.10545807440595552,
-      -0.25800586574380846,
-      0.4349842058364842
+      0.092189,
+      -0.27,
+      0.387848
     ],
     "vial_xyz": [
-      0.35,
-      -0.09,
-      0.25990912000000005
+      0.180001,
+      0.080001,
+      0.179989
     ],
-    "dial_angle_deg": 0.0,
-    "latch_depth_mm": 17.30484000000002,
-    "touch": {
+    "touch_n": {
       "thumb": 0.0,
       "index": 0.0,
       "middle": 0.0,
       "ring": 0.0,
       "little": 0.0
     },
-    "servo_error_mm": [
-      22.366339714720006,
-      4.027584284756371,
-      180.50690254968174
+    "contact_count": 0,
+    "adhesion_active": false,
+    "grasp_verified": false,
+    "slip_mm": 0.0,
+    "external_force_n": [
+      0.0,
+      0.0,
+      0.0
     ],
-    "residual_action_mm": [
-      16.000375981537267,
-      3.1655340040502287,
-      35.0
+    "hand_target": [
+      0.318,
+      -0.05,
+      -0.016966
     ],
-    "slip_estimate_mm": 0.0,
-    "grip_command": 0.0,
-    "policy_confidence": 0.25
+    "finger_target": {
+      "thumb": 0.0,
+      "index": 0.0,
+      "middle": 0.0,
+      "ring": 0.0,
+      "little": 0.0
+    }
   },
   {
-    "phase": 0.155902004454343,
-    "stage": "scan",
+    "time_s": 4.608,
+    "stage": "code",
+    "stage_time_s": 0.304,
+    "code_events": [
+      1,
+      3
+    ],
+    "expected_code": [
+      1,
+      3,
+      2
+    ],
+    "key_depth_mm": {
+      "1": 1.526,
+      "3": 1.4715,
+      "2": 1.417
+    },
+    "lid_position_mm": 0.0,
+    "lock_active": true,
     "palm_xyz": [
-      -0.057222359358472856,
-      -0.2389615743814299,
-      0.4223738976578537
+      0.006694,
+      -0.27,
+      0.368497
     ],
     "vial_xyz": [
-      0.35,
-      -0.09,
-      0.25990912000000005
+      0.180001,
+      0.080001,
+      0.179989
     ],
-    "dial_angle_deg": 0.0,
-    "latch_depth_mm": 17.30484000000002,
-    "touch": {
+    "touch_n": {
       "thumb": 0.0,
       "index": 0.0,
       "middle": 0.0,
       "ring": 0.0,
       "little": 0.0
     },
-    "servo_error_mm": [
-      23.256034266621974,
-      5.356952917995884,
-      179.6033743167573
+    "contact_count": 0,
+    "adhesion_active": false,
+    "grasp_verified": false,
+    "slip_mm": 0.0,
+    "external_force_n": [
+      0.0,
+      0.0,
+      0.0
     ],
-    "residual_action_mm": [
-      16.846882913613957,
-      4.160177562391997,
-      35.0
+    "hand_target": [
+      0.331183,
+      -0.05,
+      -0.069617
     ],
-    "slip_estimate_mm": 0.0,
-    "grip_command": 0.0,
-    "policy_confidence": 0.25
+    "finger_target": {
+      "thumb": 0.0,
+      "index": 0.0,
+      "middle": 0.0,
+      "ring": 0.0,
+      "little": 0.0
+    }
   },
   {
-    "phase": 0.16703786191536749,
-    "stage": "scan",
+    "time_s": 4.848,
+    "stage": "code",
+    "stage_time_s": 0.544,
+    "code_events": [
+      1,
+      3
+    ],
+    "expected_code": [
+      1,
+      3,
+      2
+    ],
+    "key_depth_mm": {
+      "1": 1.526,
+      "3": 1.4715,
+      "2": 1.417
+    },
+    "lid_position_mm": 0.0,
+    "lock_active": true,
     "palm_xyz": [
-      -0.004509653808009884,
-      -0.2185843828571389,
-      0.40858051539695656
+      0.010138,
+      -0.27,
+      0.322452
     ],
     "vial_xyz": [
-      0.35,
-      -0.09,
-      0.25990912000000005
+      0.180001,
+      0.080001,
+      0.179989
     ],
-    "dial_angle_deg": 0.0,
-    "latch_depth_mm": 17.30484000000002,
-    "touch": {
+    "touch_n": {
       "thumb": 0.0,
       "index": 0.0,
       "middle": 0.0,
       "ring": 0.0,
       "little": 0.0
     },
-    "servo_error_mm": [
-      24.514808473133044,
-      6.2142818474928765,
-      179.2287707391578
+    "contact_count": 0,
+    "adhesion_active": false,
+    "grasp_verified": false,
+    "slip_mm": 0.0,
+    "external_force_n": [
+      0.0,
+      0.0,
+      0.0
     ],
-    "residual_action_mm": [
-      17.786189041718956,
-      4.815078570110104,
-      35.0
+    "hand_target": [
+      0.329946,
+      -0.05,
+      -0.099897
     ],
-    "slip_estimate_mm": 0.0,
-    "grip_command": 0.0,
-    "policy_confidence": 0.25
+    "finger_target": {
+      "thumb": 0.0,
+      "index": 0.0,
+      "middle": 0.0,
+      "ring": 0.0,
+      "little": 0.0
+    }
   },
   {
-    "phase": 0.17817371937639198,
-    "stage": "scan",
+    "time_s": 5.088,
+    "stage": "code",
+    "stage_time_s": 0.784,
+    "code_events": [
+      1,
+      3
+    ],
+    "expected_code": [
+      1,
+      3,
+      2
+    ],
+    "key_depth_mm": {
+      "1": 1.526,
+      "3": 1.4715,
+      "2": 9.1713
+    },
+    "lid_position_mm": 0.0,
+    "lock_active": true,
     "palm_xyz": [
-      0.049931940709608824,
-      -0.19793749926132534,
-      0.39432874469042484
+      0.010029,
+      -0.27,
+      0.312707
     ],
     "vial_xyz": [
-      0.35,
-      -0.09,
-      0.25990912000000005
+      0.180001,
+      0.080001,
+      0.179989
     ],
-    "dial_angle_deg": 0.0,
-    "latch_depth_mm": 17.30484000000002,
-    "touch": {
+    "touch_n": {
+      "thumb": 0.0,
+      "index": 1.55836,
+      "middle": 0.0,
+      "ring": 0.0,
+      "little": 0.0
+    },
+    "contact_count": 1,
+    "adhesion_active": false,
+    "grasp_verified": false,
+    "slip_mm": 0.0,
+    "external_force_n": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hand_target": [
+      0.32999,
+      -0.05,
+      -0.11079
+    ],
+    "finger_target": {
+      "thumb": 0.0,
+      "index": 0.0,
+      "middle": 0.0,
+      "ring": 0.0,
+      "little": 0.0
+    }
+  },
+  {
+    "time_s": 5.328,
+    "stage": "code",
+    "stage_time_s": 1.024,
+    "code_events": [
+      1,
+      3,
+      2
+    ],
+    "expected_code": [
+      1,
+      3,
+      2
+    ],
+    "key_depth_mm": {
+      "1": 1.526,
+      "3": 1.4715,
+      "2": 23.6953
+    },
+    "lid_position_mm": 0.0,
+    "lock_active": true,
+    "palm_xyz": [
+      0.010018,
+      -0.27,
+      0.297728
+    ],
+    "vial_xyz": [
+      0.180001,
+      0.080001,
+      0.179989
+    ],
+    "touch_n": {
+      "thumb": 0.0,
+      "index": 8.45872,
+      "middle": 0.0,
+      "ring": 0.0,
+      "little": 0.0
+    },
+    "contact_count": 1,
+    "adhesion_active": false,
+    "grasp_verified": false,
+    "slip_mm": 0.0,
+    "external_force_n": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hand_target": [
+      0.329994,
+      -0.05,
+      -0.129976
+    ],
+    "finger_target": {
+      "thumb": 0.0,
+      "index": 0.0,
+      "middle": 0.0,
+      "ring": 0.0,
+      "little": 0.0
+    }
+  },
+  {
+    "time_s": 5.568,
+    "stage": "code",
+    "stage_time_s": 1.264,
+    "code_events": [
+      1,
+      3,
+      2
+    ],
+    "expected_code": [
+      1,
+      3,
+      2
+    ],
+    "key_depth_mm": {
+      "1": 1.526,
+      "3": 1.4715,
+      "2": 23.8771
+    },
+    "lid_position_mm": 0.0,
+    "lock_active": true,
+    "palm_xyz": [
+      0.010015,
+      -0.27,
+      0.297722
+    ],
+    "vial_xyz": [
+      0.180001,
+      0.080001,
+      0.179989
+    ],
+    "touch_n": {
+      "thumb": 0.0,
+      "index": 3.84413,
+      "middle": 0.0,
+      "ring": 0.0,
+      "little": 0.0
+    },
+    "contact_count": 1,
+    "adhesion_active": false,
+    "grasp_verified": false,
+    "slip_mm": 0.0,
+    "external_force_n": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hand_target": [
+      0.329995,
+      -0.05,
+      -0.112372
+    ],
+    "finger_target": {
+      "thumb": 0.0,
+      "index": 0.0,
+      "middle": 0.0,
+      "ring": 0.0,
+      "little": 0.0
+    }
+  },
+  {
+    "time_s": 5.808,
+    "stage": "code",
+    "stage_time_s": 1.504,
+    "code_events": [
+      1,
+      3,
+      2
+    ],
+    "expected_code": [
+      1,
+      3,
+      2
+    ],
+    "key_depth_mm": {
+      "1": 1.526,
+      "3": 1.4715,
+      "2": 1.4447
+    },
+    "lid_position_mm": 0.0,
+    "lock_active": true,
+    "palm_xyz": [
+      0.010001,
+      -0.27,
+      0.35529
+    ],
+    "vial_xyz": [
+      0.180001,
+      0.080001,
+      0.179989
+    ],
+    "touch_n": {
       "thumb": 0.0,
       "index": 0.0,
       "middle": 0.0,
       "ring": 0.0,
       "little": 0.0
     },
-    "servo_error_mm": [
-      26.03263673312182,
-      6.551632455459864,
-      179.3872505912407
+    "contact_count": 0,
+    "adhesion_active": false,
+    "grasp_verified": false,
+    "slip_mm": 0.0,
+    "external_force_n": [
+      0.0,
+      0.0,
+      0.0
     ],
-    "residual_action_mm": [
-      18.759824390094884,
-      5.098368610021215,
-      35.0
+    "hand_target": [
+      0.329999,
+      -0.05,
+      -0.026234
     ],
-    "slip_estimate_mm": 0.0,
-    "grip_command": 0.0,
-    "policy_confidence": 0.25
-  },
-  {
-    "phase": 0.18930957683741648,
-    "stage": "scan",
-    "palm_xyz": [
-      0.10329354272649233,
-      -0.17807187418983325,
-      0.3803432749992228
-    ],
-    "vial_xyz": [
-      0.35,
-      -0.09,
-      0.25990912000000005
-    ],
-    "dial_angle_deg": 0.0,
-    "latch_depth_mm": 17.30484000000002,
-    "touch": {
+    "finger_target": {
       "thumb": 0.0,
       "index": 0.0,
       "middle": 0.0,
       "ring": 0.0,
       "little": 0.0
-    },
-    "servo_error_mm": [
-      27.611004974669896,
-      6.342954474357693,
-      180.07104008178268
-    ],
-    "residual_action_mm": [
-      19.65305771376702,
-      4.991611933446617,
-      35.0
-    ],
-    "slip_estimate_mm": 0.0,
-    "grip_command": 0.0,
-    "policy_confidence": 0.25
+    }
   },
   {
-    "phase": 0.20044543429844097,
-    "stage": "scan",
-    "palm_xyz": [
-      0.1527167015210142,
-      -0.1600244477686811,
-      0.36734879713048557
-    ],
-    "vial_xyz": [
-      0.35,
-      -0.09,
-      0.25990912000000005
-    ],
-    "dial_angle_deg": 0.0,
-    "latch_depth_mm": 17.30484000000002,
-    "touch": {
-      "thumb": 0.0,
-      "index": 0.0,
-      "middle": 0.0,
-      "ring": 0.0,
-      "little": 0.0
-    },
-    "servo_error_mm": [
-      28.98589721550278,
-      5.585618831706975,
-      181.26078185105928
-    ],
-    "residual_action_mm": [
-      20.30778133857499,
-      4.490764405162989,
-      35.0
-    ],
-    "slip_estimate_mm": 0.0,
-    "grip_command": 0.0,
-    "policy_confidence": 0.25
-  },
-  {
-    "phase": 0.21158129175946547,
-    "stage": "scan",
-    "palm_xyz": [
-      0.1948646739156168,
-      -0.14588245554751042,
-      0.3558912190540948
-    ],
-    "vial_xyz": [
-      0.35746155760461074,
-      -0.06347926541287496,
-      0.2612015310789544
-    ],
-    "dial_angle_deg": 0.0,
-    "latch_depth_mm": 17.30484000000002,
-    "touch": {
-      "thumb": 0.0,
-      "index": 0.0,
-      "middle": 0.0,
-      "ring": 0.0,
-      "little": 0.0
-    },
-    "servo_error_mm": [
-      30.30429350940466,
-      5.365567245288963,
-      183.10518223900394
-    ],
-    "residual_action_mm": [
-      20.70725661281683,
-      3.920266899821741,
-      35.0
-    ],
-    "slip_estimate_mm": 0.0,
-    "grip_command": 0.0,
-    "policy_confidence": 0.25
-  },
-  {
-    "phase": 0.22271714922049,
-    "stage": "scan",
-    "palm_xyz": [
-      0.22740980648637446,
-      -0.13618412582267245,
-      0.34702770446721626
-    ],
-    "vial_xyz": [
-      0.35439552373031824,
-      -0.057030623169281223,
-      0.265698789081514
-    ],
-    "dial_angle_deg": 0.0,
-    "latch_depth_mm": 17.30484000000002,
-    "touch": {
-      "thumb": 0.0,
-      "index": 0.0,
-      "middle": 0.0,
-      "ring": 0.0,
-      "little": 0.0
-    },
-    "servo_error_mm": [
-      30.692502936811163,
-      5.256356084817738,
-      185.23231387773617
-    ],
-    "residual_action_mm": [
-      20.385923681672807,
-      3.8111461448381347,
-      35.0
-    ],
-    "slip_estimate_mm": 0.0,
-    "grip_command": 0.0,
-    "policy_confidence": 0.25
-  },
-  {
-    "phase": 0.23385300668151449,
-    "stage": "scan",
-    "palm_xyz": [
-      0.2513784198821553,
-      -0.13477539852795392,
-      0.33961650141998095
-    ],
-    "vial_xyz": [
-      0.30451515530473183,
-      -0.0585682976016885,
-      0.29252470951027965
-    ],
-    "dial_angle_deg": 0.0,
-    "latch_depth_mm": 17.30484000000002,
-    "touch": {
-      "thumb": 0.0,
-      "index": 0.0,
-      "middle": 0.0,
-      "ring": 0.0,
-      "little": 0.0
-    },
-    "servo_error_mm": [
-      25.968360979964437,
-      8.171832513288086,
-      189.46154647982618
-    ],
-    "residual_action_mm": [
-      18.08458950806259,
-      4.1625527652027445,
-      35.0
-    ],
-    "slip_estimate_mm": 0.0,
-    "grip_command": 0.0,
-    "policy_confidence": 0.25
-  },
-  {
-    "phase": 0.24498886414253898,
-    "stage": "decode",
-    "palm_xyz": [
-      0.24901097458317084,
-      -0.1388220276822038,
-      0.3439270376148167
-    ],
-    "vial_xyz": [
-      0.2992102975397779,
-      -0.06245277553256439,
-      0.3053101981393271
-    ],
-    "dial_angle_deg": 0.2090270188118941,
-    "latch_depth_mm": 17.30484000000002,
-    "touch": {
-      "thumb": 0.0,
-      "index": 0.0,
-      "middle": 0.0,
-      "ring": 0.0,
-      "little": 0.0
-    },
-    "servo_error_mm": [
-      26.698838578219046,
-      11.035069572679555,
-      196.76408225806352
-    ],
-    "residual_action_mm": [
-      15.254293230330397,
-      6.212150123618091,
-      35.0
-    ],
-    "slip_estimate_mm": 0.0,
-    "grip_command": 0.0,
-    "policy_confidence": 0.25
-  },
-  {
-    "phase": 0.2561247216035635,
-    "stage": "decode",
-    "palm_xyz": [
-      0.25154750626374034,
-      -0.14216448513842508,
-      0.3500586432778743
-    ],
-    "vial_xyz": [
-      0.3002263125514242,
-      -0.06742737444832364,
-      0.3040932745092982
-    ],
-    "dial_angle_deg": 3.6464400196148445,
-    "latch_depth_mm": 17.30484000000002,
-    "touch": {
-      "thumb": 0.0,
-      "index": 0.0,
-      "middle": 0.0,
-      "ring": 0.0,
-      "little": 0.0
-    },
-    "servo_error_mm": [
-      28.371693432211597,
-      12.095336211452484,
-      192.75047690107846
-    ],
-    "residual_action_mm": [
-      17.87112523593949,
-      7.198819430925257,
-      35.0
-    ],
-    "slip_estimate_mm": 0.0,
-    "grip_command": 0.0,
-    "policy_confidence": 0.25
-  },
-  {
-    "phase": 0.267260579064588,
-    "stage": "decode",
-    "palm_xyz": [
-      0.2553019513750323,
-      -0.1461656539685092,
-      0.35190475540374827
-    ],
-    "vial_xyz": [
-      0.29094013811518404,
-      -0.06105681754409908,
-      0.30138724321644106
-    ],
-    "dial_angle_deg": 11.988886274163955,
-    "latch_depth_mm": 17.30484000000002,
-    "touch": {
-      "thumb": 0.0,
-      "index": 0.0,
-      "middle": 0.0,
-      "ring": 0.0,
-      "little": 0.0
-    },
-    "servo_error_mm": [
-      27.560551424917808,
-      13.81882564144625,
-      192.1371636342807
-    ],
-    "residual_action_mm": [
-      17.324956610389485,
-      8.157202385502064,
-      35.0
-    ],
-    "slip_estimate_mm": 0.0,
-    "grip_command": 0.0,
-    "policy_confidence": 0.25
-  },
-  {
-    "phase": 0.27839643652561247,
-    "stage": "decode",
-    "palm_xyz": [
-      0.2576113661520727,
-      -0.15001495786363214,
-      0.3534811476476758
-    ],
-    "vial_xyz": [
-      0.29645565502118043,
-      -0.06607556522739993,
-      0.29714816660846477
-    ],
-    "dial_angle_deg": 24.062149260785066,
-    "latch_depth_mm": 17.30484000000002,
-    "touch": {
-      "thumb": 0.0,
-      "index": 0.0,
-      "middle": 0.0,
-      "ring": 0.0,
-      "little": 0.0
-    },
-    "servo_error_mm": [
-      26.768879976446755,
-      15.543562014197192,
-      190.85316982844643
-    ],
-    "residual_action_mm": [
-      16.834082754799702,
-      9.293072760453075,
-      35.0
-    ],
-    "slip_estimate_mm": 0.0,
-    "grip_command": 0.0,
-    "policy_confidence": 0.25
-  },
-  {
-    "phase": 0.289532293986637,
-    "stage": "decode",
-    "palm_xyz": [
-      0.25952933672954515,
-      -0.15324030056841192,
-      0.35436869398680015
-    ],
-    "vial_xyz": [
-      0.30728933229543687,
-      -0.07041429064090472,
-      0.28023165703934033
-    ],
-    "dial_angle_deg": 37.88385076119794,
-    "latch_depth_mm": 17.30484000000002,
-    "touch": {
-      "thumb": 0.0,
-      "index": 0.0,
-      "middle": 0.0,
-      "ring": 0.0,
-      "little": 0.0
-    },
-    "servo_error_mm": [
-      24.94528101118785,
-      16.936060202772055,
-      189.32666896273318
-    ],
-    "residual_action_mm": [
-      15.82330020078885,
-      10.128519362289454,
-      35.0
-    ],
-    "slip_estimate_mm": 0.0,
-    "grip_command": 0.0,
-    "policy_confidence": 0.25
-  },
-  {
-    "phase": 0.30066815144766146,
-    "stage": "decode",
-    "palm_xyz": [
-      0.26070842223275675,
-      -0.15570970677358265,
-      0.3542838088076883
-    ],
-    "vial_xyz": [
-      0.3213985565600797,
-      -0.07346476855998318,
-      0.2680473907922578
-    ],
-    "dial_angle_deg": 51.26143019778137,
-    "latch_depth_mm": 17.30484000000002,
-    "touch": {
-      "thumb": 0.0,
-      "index": 0.0,
-      "middle": 0.0,
-      "ring": 0.0,
-      "little": 0.0
-    },
-    "servo_error_mm": [
-      22.587918785899895,
-      17.98392342105714,
-      187.91256865593903
-    ],
-    "residual_action_mm": [
-      14.389975824745525,
-      10.900023862397243,
-      35.0
-    ],
-    "slip_estimate_mm": 0.0,
-    "grip_command": 0.0,
-    "policy_confidence": 0.25
-  },
-  {
-    "phase": 0.311804008908686,
-    "stage": "decode",
-    "palm_xyz": [
-      0.2607109115464722,
-      -0.1573234129445247,
-      0.35257323303916727
-    ],
-    "vial_xyz": [
-      0.3493967303139292,
-      -0.07284762277053988,
-      0.2697211873635825
-    ],
-    "dial_angle_deg": 61.947878119294536,
-    "latch_depth_mm": 17.30484000000002,
-    "touch": {
-      "thumb": 0.0,
-      "index": 0.0,
-      "middle": 0.0,
-      "ring": 0.0,
-      "little": 0.0
-    },
-    "servo_error_mm": [
-      20.40448631896214,
-      18.680132504981554,
-      187.39150285220015
-    ],
-    "residual_action_mm": [
-      12.912274329982997,
-      11.45975698070062,
-      35.0
-    ],
-    "slip_estimate_mm": 0.0,
-    "grip_command": 0.0,
-    "policy_confidence": 0.25
-  },
-  {
-    "phase": 0.32293986636971045,
-    "stage": "decode",
-    "palm_xyz": [
-      0.26032038781588795,
-      -0.15824185137279698,
-      0.3502883155716461
-    ],
-    "vial_xyz": [
-      0.351317787231788,
-      -0.07578408565051992,
-      0.2674495344297302
-    ],
-    "dial_angle_deg": 67.65512295377313,
-    "latch_depth_mm": 17.30484000000002,
-    "touch": {
-      "thumb": 0.0,
-      "index": 0.0,
-      "middle": 0.0,
-      "ring": 0.0,
-      "little": 0.0
-    },
-    "servo_error_mm": [
-      17.95948682429214,
-      19.244979131715986,
-      186.88557231029625
-    ],
-    "residual_action_mm": [
-      11.433172157481126,
-      11.793336738795281,
-      35.0
-    ],
-    "slip_estimate_mm": 0.0,
-    "grip_command": 0.0,
-    "policy_confidence": 0.25
-  },
-  {
-    "phase": 0.33407572383073497,
-    "stage": "decode",
-    "palm_xyz": [
-      0.2590698660902698,
-      -0.158577320488806,
-      0.3478781412225928
-    ],
-    "vial_xyz": [
-      0.3536419147592293,
-      -0.07428811145244187,
-      0.26310142264108827
-    ],
-    "dial_angle_deg": 65.46890898864851,
-    "latch_depth_mm": 17.30484000000002,
-    "touch": {
-      "thumb": 0.0,
-      "index": 0.0,
-      "middle": 0.0,
-      "ring": 0.0,
-      "little": 0.0
-    },
-    "servo_error_mm": [
-      16.09858081669445,
-      19.813830783652982,
-      186.1522322763375
-    ],
-    "residual_action_mm": [
-      10.136528649971932,
-      12.205226594906259,
-      35.0
-    ],
-    "slip_estimate_mm": 0.0,
-    "grip_command": 0.0,
-    "policy_confidence": 0.25
-  },
-  {
-    "phase": 0.34521158129175944,
-    "stage": "decode",
-    "palm_xyz": [
-      0.2569895616651371,
-      -0.15809574653813951,
-      0.34506230484808575
-    ],
-    "vial_xyz": [
-      0.3585909807451144,
-      -0.07308271644377867,
-      0.2580020180475103
-    ],
-    "dial_angle_deg": 54.680084143142984,
-    "latch_depth_mm": 17.30484000000002,
-    "touch": {
-      "thumb": 0.0,
-      "index": 0.0,
-      "middle": 0.0,
-      "ring": 0.0,
-      "little": 0.0
-    },
-    "servo_error_mm": [
-      15.153005297127548,
-      20.1373873526285,
-      185.69647950772756
-    ],
-    "residual_action_mm": [
-      9.368205540409809,
-      12.478986436301087,
-      35.0
-    ],
-    "slip_estimate_mm": 0.0,
-    "grip_command": 0.0,
-    "policy_confidence": 0.25
-  },
-  {
-    "phase": 0.35634743875278396,
-    "stage": "decode",
-    "palm_xyz": [
-      0.25458350648863426,
-      -0.15690658120254128,
-      0.3418394318196365
-    ],
-    "vial_xyz": [
-      0.3572295340869911,
-      -0.06994363413390065,
-      0.2562509006173134
-    ],
-    "dial_angle_deg": 37.50868060504898,
-    "latch_depth_mm": 17.30484000000002,
-    "touch": {
-      "thumb": 0.0,
-      "index": 0.0,
-      "middle": 0.0,
-      "ring": 0.0,
-      "little": 0.0
-    },
-    "servo_error_mm": [
-      14.920711516207959,
-      20.272572159342936,
-      185.7463229158045
-    ],
-    "residual_action_mm": [
-      9.136490700255663,
-      12.624531621989941,
-      35.0
-    ],
-    "slip_estimate_mm": 0.0,
-    "grip_command": 0.0,
-    "policy_confidence": 0.25
-  },
-  {
-    "phase": 0.3674832962138085,
-    "stage": "decode",
-    "palm_xyz": [
-      0.2518590860849486,
-      -0.1550782333758514,
-      0.3385601177541172
-    ],
-    "vial_xyz": [
-      0.3563284087081001,
-      -0.0639695825741851,
-      0.2582343549785709
-    ],
-    "dial_angle_deg": 17.046546646392848,
-    "latch_depth_mm": 17.30484000000002,
-    "touch": {
-      "thumb": 0.0,
-      "index": 0.0,
-      "middle": 0.0,
-      "ring": 0.0,
-      "little": 0.0
-    },
-    "servo_error_mm": [
-      15.605104947478539,
-      20.201390786960584,
-      186.16400439844767
-    ],
-    "residual_action_mm": [
-      9.419106626772523,
-      12.636181642376977,
-      35.0
-    ],
-    "slip_estimate_mm": 0.0,
-    "grip_command": 0.0,
-    "policy_confidence": 0.25
-  },
-  {
-    "phase": 0.37861915367483295,
-    "stage": "decode",
-    "palm_xyz": [
-      0.24904957762333413,
-      -0.15266148051644118,
-      0.33548079992854907
-    ],
-    "vial_xyz": [
-      0.35530114113503053,
-      -0.0577392615489146,
-      0.262941583280564
-    ],
-    "dial_angle_deg": -3.387084313233675,
-    "latch_depth_mm": 17.30484000000002,
-    "touch": {
-      "thumb": 0.0,
-      "index": 0.0,
-      "middle": 0.0,
-      "ring": 0.0,
-      "little": 0.0
-    },
-    "servo_error_mm": [
-      17.074772397593417,
-      19.859979562168707,
-      186.8775708330573
-    ],
-    "residual_action_mm": [
-      10.225631871861134,
-      12.50024923132215,
-      35.0
-    ],
-    "slip_estimate_mm": 0.0,
-    "grip_command": 0.0,
-    "policy_confidence": 0.25
-  },
-  {
-    "phase": 0.3897550111358575,
-    "stage": "decode",
-    "palm_xyz": [
-      0.24629516889136105,
-      -0.14965980550107477,
-      0.33300907354909254
-    ],
-    "vial_xyz": [
-      0.35690779062036243,
-      -0.05999210054432511,
-      0.2693279273786426
-    ],
-    "dial_angle_deg": -20.413284018474258,
-    "latch_depth_mm": 17.30484000000002,
-    "touch": {
-      "thumb": 0.0,
-      "index": 0.0,
-      "middle": 0.0,
-      "ring": 0.0,
-      "little": 0.0
-    },
-    "servo_error_mm": [
-      19.180302318498825,
-      19.11642183083304,
-      187.62329285198678
-    ],
-    "residual_action_mm": [
-      11.46002456394805,
-      12.12289997013234,
-      35.0
-    ],
-    "slip_estimate_mm": 0.0,
-    "grip_command": 0.0,
-    "policy_confidence": 0.25
-  },
-  {
-    "phase": 0.40089086859688194,
-    "stage": "decode",
-    "palm_xyz": [
-      0.24380172603608846,
-      -0.14617592958215833,
-      0.33128849907207836
-    ],
-    "vial_xyz": [
-      0.358265812553809,
-      -0.060592904027743845,
-      0.27309890268970205
-    ],
-    "dial_angle_deg": -30.6347985202625,
-    "latch_depth_mm": 17.30484000000002,
-    "touch": {
-      "thumb": 0.0,
-      "index": 0.0,
-      "middle": 0.0,
-      "ring": 0.0,
-      "little": 0.0
-    },
-    "servo_error_mm": [
-      21.608485415838587,
-      17.926114657442298,
-      188.35171786042397
-    ],
-    "residual_action_mm": [
-      12.944488050381729,
-      11.469351673769115,
-      35.0
-    ],
-    "slip_estimate_mm": 0.0,
-    "grip_command": 0.0,
-    "policy_confidence": 0.25
-  },
-  {
-    "phase": 0.41202672605790647,
-    "stage": "decode",
-    "palm_xyz": [
-      0.24170142830015365,
-      -0.14231977682935903,
-      0.33051070628381063
-    ],
-    "vial_xyz": [
-      0.358466800289531,
-      -0.05956747771910187,
-      0.2745632893183426
-    ],
-    "dial_angle_deg": -30.138615769224046,
-    "latch_depth_mm": 18.38680029296977,
-    "touch": {
-      "thumb": 0.0,
-      "index": 0.0,
-      "middle": 0.0,
-      "ring": 0.0,
-      "little": 0.0
-    },
-    "servo_error_mm": [
-      24.04740363236495,
-      16.249344997924315,
-      188.91015258043038
-    ],
-    "residual_action_mm": [
-      14.492968743970863,
-      10.512549406960476,
-      35.0
-    ],
-    "slip_estimate_mm": 0.0,
-    "grip_command": 0.0,
-    "policy_confidence": 0.25
-  },
-  {
-    "phase": 0.42316258351893093,
-    "stage": "decode",
-    "palm_xyz": [
-      0.24019128011978935,
-      -0.13825370540920348,
-      0.33069626727998885
-    ],
-    "vial_xyz": [
-      0.357756721057301,
-      -0.05904688425446984,
-      0.2772313070537631
-    ],
-    "dial_angle_deg": -17.326653545270265,
-    "latch_depth_mm": 18.531759359042727,
-    "touch": {
-      "thumb": 0.0,
-      "index": 0.0,
-      "middle": 0.0,
-      "ring": 0.0,
-      "little": 0.0
-    },
-    "servo_error_mm": [
-      26.082434764512037,
-      14.106283610450369,
-      189.2604307697039
-    ],
-    "residual_action_mm": [
-      15.839858396684402,
-      9.250169244613943,
-      35.0
-    ],
-    "slip_estimate_mm": 0.0,
-    "grip_command": 0.0,
-    "policy_confidence": 0.25
-  },
-  {
-    "phase": 0.43429844097995546,
-    "stage": "decode",
-    "palm_xyz": [
-      0.23955718393365208,
-      -0.134551777844786,
-      0.33217559613732617
-    ],
-    "vial_xyz": [
-      0.35275461225253524,
-      -0.05947480003346859,
-      0.279463857741167
-    ],
-    "dial_angle_deg": 5.052385614429405,
-    "latch_depth_mm": 17.303799736850284,
-    "touch": {
-      "thumb": 0.0,
-      "index": 0.0,
-      "middle": 0.0,
-      "ring": 0.0,
-      "little": 0.0
-    },
-    "servo_error_mm": [
-      27.21047167053652,
-      11.945531912340813,
-      189.00074216005606
-    ],
-    "residual_action_mm": [
-      16.708770807799766,
-      7.869492491192495,
-      35.0
-    ],
-    "slip_estimate_mm": 0.0,
-    "grip_command": 0.0,
-    "policy_confidence": 0.25
-  },
-  {
-    "phase": 0.44543429844098,
-    "stage": "decode",
-    "palm_xyz": [
-      0.23993388906069005,
-      -0.13139396792296437,
-      0.33445415558333735
-    ],
-    "vial_xyz": [
-      0.3416152528542997,
-      -0.05891385420484582,
-      0.2816487460021324
-    ],
-    "dial_angle_deg": 32.81012530603836,
-    "latch_depth_mm": 17.304824663525352,
-    "touch": {
-      "thumb": 0.0,
-      "index": 0.0,
-      "middle": 0.0,
-      "ring": 0.0,
-      "little": 0.0
-    },
-    "servo_error_mm": [
-      27.116626848240767,
-      9.846514226283663,
-      188.50698258819662
-    ],
-    "residual_action_mm": [
-      16.892368246038632,
-      6.516652133870204,
-      35.0
-    ],
-    "slip_estimate_mm": 0.0,
-    "grip_command": 0.0,
-    "policy_confidence": 0.25
-  },
-  {
-    "phase": 0.45657015590200445,
-    "stage": "decode",
-    "palm_xyz": [
-      0.23958258821368275,
-      -0.13089245552304707,
-      0.3347828832669552
-    ],
-    "vial_xyz": [
-      0.3302106081756289,
-      -0.05705196436074638,
-      0.2840346752821459
-    ],
-    "dial_angle_deg": 61.38275586282721,
-    "latch_depth_mm": 17.304840003916688,
-    "touch": {
-      "thumb": 0.0,
-      "index": 0.0,
-      "middle": 0.0,
-      "ring": 0.0,
-      "little": 0.0
-    },
-    "servo_error_mm": [
-      27.426543173321708,
-      9.852332661619286,
-      190.37218081966867
-    ],
-    "residual_action_mm": [
-      16.976687408128026,
-      6.172027260247294,
-      35.0
-    ],
-    "slip_estimate_mm": 0.0,
-    "grip_command": 0.0,
-    "policy_confidence": 0.25
-  },
-  {
-    "phase": 0.46770601336302897,
-    "stage": "decode",
-    "palm_xyz": [
-      0.24012480483245943,
-      -0.1303665852467561,
-      0.3361300353105845
-    ],
-    "vial_xyz": [
-      0.31885426867291344,
-      -0.05644213619069204,
-      0.28826640950734383
-    ],
-    "dial_angle_deg": 86.1090839133806,
-    "latch_depth_mm": 17.304840000186623,
-    "touch": {
-      "thumb": 0.0,
-      "index": 0.0,
-      "middle": 0.0,
-      "ring": 0.0,
-      "little": 0.0
-    },
-    "servo_error_mm": [
-      26.491524438957875,
-      9.249232519232807,
-      191.44704103919304
-    ],
-    "residual_action_mm": [
-      16.7611762515492,
-      5.805925051545949,
-      35.0
-    ],
-    "slip_estimate_mm": 0.0,
-    "grip_command": 0.0,
-    "policy_confidence": 0.25
-  },
-  {
-    "phase": 0.47884187082405344,
-    "stage": "decode",
-    "palm_xyz": [
-      0.24295454313278572,
-      -0.12948029997022353,
-      0.34273884062634363
-    ],
-    "vial_xyz": [
-      0.30953866210588676,
-      -0.05595567550053276,
-      0.2762575165298134
-    ],
-    "dial_angle_deg": 102.30444981853512,
-    "latch_depth_mm": 17.304840000000063,
-    "touch": {
-      "thumb": 0.0,
-      "index": 0.0,
-      "middle": 0.0,
-      "ring": 0.0,
-      "little": 0.0
-    },
-    "servo_error_mm": [
-      22.981867576240337,
-      7.7061953096027,
-      187.29626977222634
-    ],
-    "residual_action_mm": [
-      15.062685639063316,
-      4.972173917582792,
-      35.0
-    ],
-    "slip_estimate_mm": 0.0,
-    "grip_command": 0.0,
-    "policy_confidence": 0.25
-  },
-  {
-    "phase": 0.48997772828507796,
+    "time_s": 6.048,
     "stage": "unlock",
+    "stage_time_s": 0.192,
+    "code_events": [
+      1,
+      3,
+      2
+    ],
+    "expected_code": [
+      1,
+      3,
+      2
+    ],
+    "key_depth_mm": {
+      "1": 1.526,
+      "3": 1.4715,
+      "2": 1.417
+    },
+    "lid_position_mm": 0.0,
+    "lock_active": false,
     "palm_xyz": [
-      0.2566018033424605,
-      -0.1354049299888339,
-      0.33559558051934046
+      -0.190234,
+      -0.239151,
+      0.403693
     ],
     "vial_xyz": [
-      0.30693722581253063,
-      -0.058517682915701696,
-      0.2972111629773518
+      0.180001,
+      0.080001,
+      0.179989
     ],
-    "dial_angle_deg": 108.01013357753737,
-    "latch_depth_mm": 17.304840000000006,
-    "touch": {
+    "touch_n": {
       "thumb": 0.0,
       "index": 0.0,
       "middle": 0.0,
       "ring": 0.0,
       "little": 0.0
     },
-    "servo_error_mm": [
-      22.361492616870237,
-      12.437399166837821,
-      184.5018109858829
+    "contact_count": 0,
+    "adhesion_active": false,
+    "grasp_verified": false,
+    "slip_mm": 0.0,
+    "external_force_n": [
+      0.0,
+      0.0,
+      0.0
     ],
-    "residual_action_mm": [
-      15.072268027253859,
-      7.191411752054524,
-      35.0
+    "hand_target": [
+      0.113173,
+      -0.01985,
+      -0.012991
     ],
-    "slip_estimate_mm": 0.0,
-    "grip_command": 0.0,
-    "policy_confidence": 0.25
+    "finger_target": {
+      "thumb": 0.0,
+      "index": 0.0,
+      "middle": 0.0,
+      "ring": 0.0,
+      "little": 0.0
+    }
   },
   {
-    "phase": 0.5011135857461024,
+    "time_s": 6.288,
     "stage": "unlock",
+    "stage_time_s": 0.432,
+    "code_events": [
+      1,
+      3,
+      2
+    ],
+    "expected_code": [
+      1,
+      3,
+      2
+    ],
+    "key_depth_mm": {
+      "1": 1.526,
+      "3": 1.4715,
+      "2": 1.417
+    },
+    "lid_position_mm": 0.0,
+    "lock_active": false,
     "palm_xyz": [
-      0.26183173849357977,
-      -0.13448019443591908,
-      0.3264453081062515
+      -0.200153,
+      -0.240071,
+      0.402113
     ],
     "vial_xyz": [
-      0.3193564106922471,
-      -0.056458973691606074,
-      0.28697496339939854
+      0.180001,
+      0.080001,
+      0.179989
     ],
-    "dial_angle_deg": 109.49408120345912,
-    "latch_depth_mm": 17.317516022970782,
-    "touch": {
+    "touch_n": {
       "thumb": 0.0,
       "index": 0.0,
       "middle": 0.0,
       "ring": 0.0,
       "little": 0.0
     },
-    "servo_error_mm": [
-      22.7688013830428,
-      9.860424786779394,
-      181.19760571186706
+    "contact_count": 0,
+    "adhesion_active": false,
+    "grasp_verified": false,
+    "slip_mm": 0.0,
+    "external_force_n": [
+      0.0,
+      0.0,
+      0.0
     ],
-    "residual_action_mm": [
-      14.458923116956022,
-      6.425688032516878,
-      35.0
+    "hand_target": [
+      0.120194,
+      -0.019991,
+      -0.012681
     ],
-    "slip_estimate_mm": 0.0,
-    "grip_command": 0.0,
-    "policy_confidence": 0.25
+    "finger_target": {
+      "thumb": 0.0,
+      "index": 0.0,
+      "middle": 0.0,
+      "ring": 0.0,
+      "little": 0.0
+    }
   },
   {
-    "phase": 0.512249443207127,
+    "time_s": 6.528,
     "stage": "unlock",
+    "stage_time_s": 0.672,
+    "code_events": [
+      1,
+      3,
+      2
+    ],
+    "expected_code": [
+      1,
+      3,
+      2
+    ],
+    "key_depth_mm": {
+      "1": 1.526,
+      "3": 1.4715,
+      "2": 1.417
+    },
+    "lid_position_mm": 0.0,
+    "lock_active": false,
     "palm_xyz": [
-      0.27122254121595274,
-      -0.1338435449168795,
-      0.310162200058638
+      -0.200004,
+      -0.239996,
+      0.402198
     ],
     "vial_xyz": [
-      0.34874185916135886,
-      -0.05681079775945132,
-      0.2680728574257003
+      0.180001,
+      0.080001,
+      0.179989
     ],
-    "dial_angle_deg": 109.87981200422306,
-    "latch_depth_mm": 19.583726422024416,
-    "touch": {
+    "touch_n": {
       "thumb": 0.0,
       "index": 0.0,
       "middle": 0.0,
       "ring": 0.0,
       "little": 0.0
     },
-    "servo_error_mm": [
-      23.6960443492519,
-      7.220519213610414,
-      178.8520123611574
+    "contact_count": 0,
+    "adhesion_active": false,
+    "grasp_verified": false,
+    "slip_mm": 0.0,
+    "external_force_n": [
+      0.0,
+      0.0,
+      0.0
     ],
-    "residual_action_mm": [
-      14.87807166876359,
-      4.9910231748842815,
-      35.0
+    "hand_target": [
+      0.119996,
+      -0.020001,
+      -0.012703
     ],
-    "slip_estimate_mm": 0.0,
-    "grip_command": 0.0,
-    "policy_confidence": 0.25
+    "finger_target": {
+      "thumb": 0.0,
+      "index": 0.0,
+      "middle": 0.0,
+      "ring": 0.0,
+      "little": 0.0
+    }
   },
   {
-    "phase": 0.5233853006681515,
+    "time_s": 6.768,
     "stage": "unlock",
+    "stage_time_s": 0.912,
+    "code_events": [
+      1,
+      3,
+      2
+    ],
+    "expected_code": [
+      1,
+      3,
+      2
+    ],
+    "key_depth_mm": {
+      "1": 1.526,
+      "3": 1.4715,
+      "2": 1.417
+    },
+    "lid_position_mm": 0.0,
+    "lock_active": false,
     "palm_xyz": [
-      0.2882358624464655,
-      -0.13408550372917136,
-      0.2911965926140999
+      -0.199999,
+      -0.24,
+      0.402194
     ],
     "vial_xyz": [
-      0.3599117544478215,
-      -0.05608685692343607,
-      0.27496103378651965
+      0.180001,
+      0.080001,
+      0.179989
     ],
-    "dial_angle_deg": 109.9800768241232,
-    "latch_depth_mm": 25.192262422602706,
-    "touch": {
+    "touch_n": {
       "thumb": 0.0,
       "index": 0.0,
       "middle": 0.0,
       "ring": 0.0,
       "little": 0.0
     },
-    "servo_error_mm": [
-      20.54941646040579,
-      5.238901265048623,
-      175.11987053118995
+    "contact_count": 0,
+    "adhesion_active": false,
+    "grasp_verified": false,
+    "slip_mm": 0.0,
+    "external_force_n": [
+      0.0,
+      0.0,
+      0.0
     ],
-    "residual_action_mm": [
-      14.044046309680848,
-      3.430554236477816,
-      35.0
+    "hand_target": [
+      0.12,
+      -0.02,
+      -0.012702
     ],
-    "slip_estimate_mm": 0.0,
-    "grip_command": 0.0,
-    "policy_confidence": 0.25
+    "finger_target": {
+      "thumb": 0.0,
+      "index": 0.0,
+      "middle": 0.0,
+      "ring": 0.0,
+      "little": 0.0
+    }
   },
   {
-    "phase": 0.534521158129176,
-    "stage": "unlock",
+    "time_s": 7.008,
+    "stage": "open",
+    "stage_time_s": 0.152,
+    "code_events": [
+      1,
+      3,
+      2
+    ],
+    "expected_code": [
+      1,
+      3,
+      2
+    ],
+    "key_depth_mm": {
+      "1": 1.526,
+      "3": 1.4715,
+      "2": 1.417
+    },
+    "lid_position_mm": 0.0,
+    "lock_active": false,
     "palm_xyz": [
-      0.30746569193945095,
-      -0.13446813774945232,
-      0.26596786569862674
+      -0.176642,
+      0.006037,
+      0.420829
     ],
     "vial_xyz": [
-      0.3292877544446976,
-      -0.056714412504017514,
-      0.2800183337152299
+      0.180001,
+      0.080001,
+      0.179989
     ],
-    "dial_angle_deg": 110.00613910686076,
-    "latch_depth_mm": 32.187347341980676,
-    "touch": {
+    "touch_n": {
       "thumb": 0.0,
       "index": 0.0,
       "middle": 0.0,
       "ring": 0.0,
       "little": 0.0
     },
-    "servo_error_mm": [
-      17.574217904353166,
-      3.322708511325265,
-      175.67560272681632
+    "contact_count": 0,
+    "adhesion_active": false,
+    "grasp_verified": false,
+    "slip_mm": 0.0,
+    "external_force_n": [
+      0.0,
+      0.0,
+      0.0
     ],
-    "residual_action_mm": [
-      12.60860767941547,
-      2.3806225203155233,
-      35.0
+    "hand_target": [
+      0.146257,
+      0.292,
+      0.008322
     ],
-    "slip_estimate_mm": 0.0,
-    "grip_command": 0.0,
-    "policy_confidence": 0.25
+    "finger_target": {
+      "thumb": 0.0,
+      "index": 0.0,
+      "middle": 0.0,
+      "ring": 0.0,
+      "little": 0.0
+    }
   },
   {
-    "phase": 0.5456570155902004,
-    "stage": "unlock",
+    "time_s": 7.248,
+    "stage": "open",
+    "stage_time_s": 0.392,
+    "code_events": [
+      1,
+      3,
+      2
+    ],
+    "expected_code": [
+      1,
+      3,
+      2
+    ],
+    "key_depth_mm": {
+      "1": 1.526,
+      "3": 1.4715,
+      "2": 1.417
+    },
+    "lid_position_mm": 4.8375,
+    "lock_active": false,
     "palm_xyz": [
-      0.32358947332521015,
-      -0.13525397173441994,
-      0.23813121408395135
+      -0.174991,
+      0.061838,
+      0.422207
     ],
     "vial_xyz": [
-      0.34315903434360007,
-      -0.05730181854037897,
-      0.28450957020414375
+      0.180001,
+      0.080001,
+      0.179989
     ],
-    "dial_angle_deg": 110.01291359092835,
-    "latch_depth_mm": 38.6051731265365,
-    "touch": {
+    "touch_n": {
       "thumb": 0.0,
       "index": 0.0,
       "middle": 0.0,
       "ring": 0.0,
       "little": 0.0
     },
-    "servo_error_mm": [
-      18.849721264962795,
-      1.8844458674043165,
-      178.9474565616242
+    "contact_count": 0,
+    "adhesion_active": false,
+    "grasp_verified": false,
+    "slip_mm": 0.0,
+    "external_force_n": [
+      0.0,
+      0.0,
+      0.0
     ],
-    "residual_action_mm": [
-      12.360391428561586,
-      1.1285482786207612,
-      35.0
+    "hand_target": [
+      0.144989,
+      0.279177,
+      0.007275
     ],
-    "slip_estimate_mm": 0.0,
-    "grip_command": 0.0,
-    "policy_confidence": 0.25
+    "finger_target": {
+      "thumb": 0.0,
+      "index": 0.0,
+      "middle": 0.0,
+      "ring": 0.0,
+      "little": 0.0
+    }
   },
   {
-    "phase": 0.5567928730512249,
-    "stage": "unlock",
+    "time_s": 7.488,
+    "stage": "open",
+    "stage_time_s": 0.632,
+    "code_events": [
+      1,
+      3,
+      2
+    ],
+    "expected_code": [
+      1,
+      3,
+      2
+    ],
+    "key_depth_mm": {
+      "1": 1.526,
+      "3": 1.4715,
+      "2": 1.417
+    },
+    "lid_position_mm": 4.8375,
+    "lock_active": false,
     "palm_xyz": [
-      0.34143241062415564,
-      -0.13780957445531103,
-      0.2124250159230962
+      -0.174999,
+      0.059936,
+      0.422195
     ],
     "vial_xyz": [
-      0.34785811880571715,
-      -0.05798508239214773,
-      0.30196269375396556
+      0.180001,
+      0.080001,
+      0.179989
     ],
-    "dial_angle_deg": 110.01467451233711,
-    "latch_depth_mm": 42.48175349452845,
-    "touch": {
+    "touch_n": {
       "thumb": 0.0,
       "index": 0.0,
       "middle": 0.0,
       "ring": 0.0,
       "little": 0.0
     },
-    "servo_error_mm": [
-      18.180590279465036,
-      2.4357867153494737,
-      182.27161163793042
+    "contact_count": 0,
+    "adhesion_active": false,
+    "grasp_verified": false,
+    "slip_mm": 0.0,
+    "external_force_n": [
+      0.0,
+      0.0,
+      0.0
     ],
-    "residual_action_mm": [
-      12.406439175646922,
-      0.6369158760924569,
-      35.0
+    "hand_target": [
+      0.145,
+      0.280032,
+      0.007298
     ],
-    "slip_estimate_mm": 0.0,
-    "grip_command": 0.0,
-    "policy_confidence": 0.25
+    "finger_target": {
+      "thumb": 0.0,
+      "index": 0.0,
+      "middle": 0.0,
+      "ring": 0.0,
+      "little": 0.0
+    }
   },
   {
-    "phase": 0.5679287305122495,
-    "stage": "unlock",
+    "time_s": 7.728,
+    "stage": "open",
+    "stage_time_s": 0.872,
+    "code_events": [
+      1,
+      3,
+      2
+    ],
+    "expected_code": [
+      1,
+      3,
+      2
+    ],
+    "key_depth_mm": {
+      "1": 1.526,
+      "3": 1.4715,
+      "2": 1.417
+    },
+    "lid_position_mm": 4.8375,
+    "lock_active": false,
     "palm_xyz": [
-      0.357684147126216,
-      -0.13940912831988597,
-      0.194855129611487
+      -0.174939,
+      0.060002,
+      0.422194
     ],
     "vial_xyz": [
-      0.35114275899459974,
-      -0.06508510893607852,
-      0.27949810918422285
+      0.180001,
+      0.080001,
+      0.179989
     ],
-    "dial_angle_deg": 110.0151322363687,
-    "latch_depth_mm": 42.905472168388926,
-    "touch": {
+    "touch_n": {
       "thumb": 0.0,
       "index": 0.0,
       "middle": 0.0,
       "ring": 0.0,
       "little": 0.0
     },
-    "servo_error_mm": [
-      17.350893365211444,
-      2.3816756048585104,
-      181.7097543547074
+    "contact_count": 0,
+    "adhesion_active": false,
+    "grasp_verified": false,
+    "slip_mm": 0.0,
+    "external_force_n": [
+      0.0,
+      0.0,
+      0.0
     ],
-    "residual_action_mm": [
-      11.477899714833946,
-      1.453865431069312,
-      35.0
+    "hand_target": [
+      0.145885,
+      0.279999,
+      0.007298
     ],
-    "slip_estimate_mm": 0.0,
-    "grip_command": 0.0,
-    "policy_confidence": 0.25
-  },
-  {
-    "phase": 0.579064587973274,
-    "stage": "unlock",
-    "palm_xyz": [
-      0.3689415937507125,
-      -0.13916612839821857,
-      0.177228402449564
-    ],
-    "vial_xyz": [
-      0.35099667526562023,
-      -0.06988350407440022,
-      0.27723827441048293
-    ],
-    "dial_angle_deg": 110.01525121458499,
-    "latch_depth_mm": 42.90484485839556,
-    "touch": {
+    "finger_target": {
       "thumb": 0.0,
       "index": 0.0,
       "middle": 0.0,
       "ring": 0.0,
       "little": 0.0
-    },
-    "servo_error_mm": [
-      18.070392869555032,
-      0.9434960895937285,
-      187.51775369128126
-    ],
-    "residual_action_mm": [
-      11.704292061990513,
-      0.9073845169347508,
-      35.0
-    ],
-    "slip_estimate_mm": 0.0,
-    "grip_command": 0.0,
-    "policy_confidence": 0.25
+    }
   },
   {
-    "phase": 0.5902004454342984,
+    "time_s": 7.968,
+    "stage": "open",
+    "stage_time_s": 1.112,
+    "code_events": [
+      1,
+      3,
+      2
+    ],
+    "expected_code": [
+      1,
+      3,
+      2
+    ],
+    "key_depth_mm": {
+      "1": 1.526,
+      "3": 1.4715,
+      "2": 1.417
+    },
+    "lid_position_mm": 5.4422,
+    "lock_active": false,
+    "palm_xyz": [
+      -0.167838,
+      0.06,
+      0.422194
+    ],
+    "vial_xyz": [
+      0.180001,
+      0.080001,
+      0.179989
+    ],
+    "touch_n": {
+      "thumb": 0.0,
+      "index": 1.02503,
+      "middle": 0.0,
+      "ring": 0.0,
+      "little": 0.0
+    },
+    "contact_count": 1,
+    "adhesion_active": false,
+    "grasp_verified": false,
+    "slip_mm": 0.0,
+    "external_force_n": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hand_target": [
+      0.159875,
+      0.28,
+      0.007298
+    ],
+    "finger_target": {
+      "thumb": 0.0,
+      "index": 0.0,
+      "middle": 0.0,
+      "ring": 0.0,
+      "little": 0.0
+    }
+  },
+  {
+    "time_s": 8.208,
+    "stage": "open",
+    "stage_time_s": 1.352,
+    "code_events": [
+      1,
+      3,
+      2
+    ],
+    "expected_code": [
+      1,
+      3,
+      2
+    ],
+    "key_depth_mm": {
+      "1": 1.526,
+      "3": 1.4715,
+      "2": 1.417
+    },
+    "lid_position_mm": 22.7385,
+    "lock_active": false,
+    "palm_xyz": [
+      -0.147486,
+      0.06,
+      0.422194
+    ],
+    "vial_xyz": [
+      0.180001,
+      0.080001,
+      0.179989
+    ],
+    "touch_n": {
+      "thumb": 0.0,
+      "index": 1.29445,
+      "middle": 0.0,
+      "ring": 0.0,
+      "little": 0.0
+    },
+    "contact_count": 1,
+    "adhesion_active": false,
+    "grasp_verified": false,
+    "slip_mm": 0.0,
+    "external_force_n": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hand_target": [
+      0.186863,
+      0.28,
+      0.007298
+    ],
+    "finger_target": {
+      "thumb": 0.0,
+      "index": 0.0,
+      "middle": 0.0,
+      "ring": 0.0,
+      "little": 0.0
+    }
+  },
+  {
+    "time_s": 8.448,
+    "stage": "open",
+    "stage_time_s": 1.592,
+    "code_events": [
+      1,
+      3,
+      2
+    ],
+    "expected_code": [
+      1,
+      3,
+      2
+    ],
+    "key_depth_mm": {
+      "1": 1.526,
+      "3": 1.4715,
+      "2": 1.417
+    },
+    "lid_position_mm": 54.8782,
+    "lock_active": false,
+    "palm_xyz": [
+      -0.115052,
+      0.06,
+      0.422194
+    ],
+    "vial_xyz": [
+      0.180001,
+      0.080001,
+      0.179989
+    ],
+    "touch_n": {
+      "thumb": 0.0,
+      "index": 1.34017,
+      "middle": 0.0,
+      "ring": 0.0,
+      "little": 0.0
+    },
+    "contact_count": 1,
+    "adhesion_active": false,
+    "grasp_verified": false,
+    "slip_mm": 0.0,
+    "external_force_n": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hand_target": [
+      0.223061,
+      0.28,
+      0.007298
+    ],
+    "finger_target": {
+      "thumb": 0.0,
+      "index": 0.0,
+      "middle": 0.0,
+      "ring": 0.0,
+      "little": 0.0
+    }
+  },
+  {
+    "time_s": 8.688,
+    "stage": "open",
+    "stage_time_s": 1.832,
+    "code_events": [
+      1,
+      3,
+      2
+    ],
+    "expected_code": [
+      1,
+      3,
+      2
+    ],
+    "key_depth_mm": {
+      "1": 1.526,
+      "3": 1.4715,
+      "2": 1.417
+    },
+    "lid_position_mm": 94.7359,
+    "lock_active": false,
+    "palm_xyz": [
+      -0.074855,
+      0.06,
+      0.422194
+    ],
+    "vial_xyz": [
+      0.180001,
+      0.080001,
+      0.179989
+    ],
+    "touch_n": {
+      "thumb": 0.0,
+      "index": 1.42315,
+      "middle": 0.0,
+      "ring": 0.0,
+      "little": 0.0
+    },
+    "contact_count": 1,
+    "adhesion_active": false,
+    "grasp_verified": false,
+    "slip_mm": 0.0,
+    "external_force_n": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hand_target": [
+      0.26596,
+      0.28,
+      0.007298
+    ],
+    "finger_target": {
+      "thumb": 0.0,
+      "index": 0.0,
+      "middle": 0.0,
+      "ring": 0.0,
+      "little": 0.0
+    }
+  },
+  {
+    "time_s": 8.928,
+    "stage": "open",
+    "stage_time_s": 2.072,
+    "code_events": [
+      1,
+      3,
+      2
+    ],
+    "expected_code": [
+      1,
+      3,
+      2
+    ],
+    "key_depth_mm": {
+      "1": 1.526,
+      "3": 1.4715,
+      "2": 1.417
+    },
+    "lid_position_mm": 139.8261,
+    "lock_active": false,
+    "palm_xyz": [
+      -0.029643,
+      0.06,
+      0.422194
+    ],
+    "vial_xyz": [
+      0.180001,
+      0.080001,
+      0.179989
+    ],
+    "touch_n": {
+      "thumb": 0.0,
+      "index": 1.42827,
+      "middle": 0.0,
+      "ring": 0.0,
+      "little": 0.0
+    },
+    "contact_count": 1,
+    "adhesion_active": false,
+    "grasp_verified": false,
+    "slip_mm": 0.0,
+    "external_force_n": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hand_target": [
+      0.312489,
+      0.28,
+      0.007298
+    ],
+    "finger_target": {
+      "thumb": 0.0,
+      "index": 0.0,
+      "middle": 0.0,
+      "ring": 0.0,
+      "little": 0.0
+    }
+  },
+  {
+    "time_s": 9.168,
+    "stage": "open",
+    "stage_time_s": 2.312,
+    "code_events": [
+      1,
+      3,
+      2
+    ],
+    "expected_code": [
+      1,
+      3,
+      2
+    ],
+    "key_depth_mm": {
+      "1": 1.526,
+      "3": 1.4715,
+      "2": 1.417
+    },
+    "lid_position_mm": 187.1832,
+    "lock_active": false,
+    "palm_xyz": [
+      0.017581,
+      0.06,
+      0.422194
+    ],
+    "vial_xyz": [
+      0.180001,
+      0.080001,
+      0.179989
+    ],
+    "touch_n": {
+      "thumb": 0.0,
+      "index": 1.37112,
+      "middle": 0.0,
+      "ring": 0.0,
+      "little": 0.0
+    },
+    "contact_count": 1,
+    "adhesion_active": false,
+    "grasp_verified": false,
+    "slip_mm": 0.0,
+    "external_force_n": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hand_target": [
+      0.359658,
+      0.28,
+      0.007298
+    ],
+    "finger_target": {
+      "thumb": 0.0,
+      "index": 0.0,
+      "middle": 0.0,
+      "ring": 0.0,
+      "little": 0.0
+    }
+  },
+  {
+    "time_s": 9.408,
+    "stage": "open",
+    "stage_time_s": 2.552,
+    "code_events": [
+      1,
+      3,
+      2
+    ],
+    "expected_code": [
+      1,
+      3,
+      2
+    ],
+    "key_depth_mm": {
+      "1": 1.526,
+      "3": 1.4715,
+      "2": 1.417
+    },
+    "lid_position_mm": 233.7944,
+    "lock_active": false,
+    "palm_xyz": [
+      0.063821,
+      0.06,
+      0.422194
+    ],
+    "vial_xyz": [
+      0.180001,
+      0.08,
+      0.179989
+    ],
+    "touch_n": {
+      "thumb": 0.0,
+      "index": 1.25212,
+      "middle": 0.0,
+      "ring": 0.0,
+      "little": 0.0
+    },
+    "contact_count": 1,
+    "adhesion_active": false,
+    "grasp_verified": false,
+    "slip_mm": 0.0,
+    "external_force_n": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hand_target": [
+      0.404475,
+      0.28,
+      0.007298
+    ],
+    "finger_target": {
+      "thumb": 0.0,
+      "index": 0.0,
+      "middle": 0.0,
+      "ring": 0.0,
+      "little": 0.0
+    }
+  },
+  {
+    "time_s": 9.648,
+    "stage": "open",
+    "stage_time_s": 2.792,
+    "code_events": [
+      1,
+      3,
+      2
+    ],
+    "expected_code": [
+      1,
+      3,
+      2
+    ],
+    "key_depth_mm": {
+      "1": 1.526,
+      "3": 1.4715,
+      "2": 1.417
+    },
+    "lid_position_mm": 276.6711,
+    "lock_active": false,
+    "palm_xyz": [
+      0.106086,
+      0.06,
+      0.422194
+    ],
+    "vial_xyz": [
+      0.180001,
+      0.08,
+      0.179989
+    ],
+    "touch_n": {
+      "thumb": 0.0,
+      "index": 1.07068,
+      "middle": 0.0,
+      "ring": 0.0,
+      "little": 0.0
+    },
+    "contact_count": 1,
+    "adhesion_active": false,
+    "grasp_verified": false,
+    "slip_mm": 0.0,
+    "external_force_n": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hand_target": [
+      0.44395,
+      0.28,
+      0.007298
+    ],
+    "finger_target": {
+      "thumb": 0.0,
+      "index": 0.0,
+      "middle": 0.0,
+      "ring": 0.0,
+      "little": 0.0
+    }
+  },
+  {
+    "time_s": 9.888,
     "stage": "grasp",
+    "stage_time_s": 0.188,
+    "code_events": [
+      1,
+      3,
+      2
+    ],
+    "expected_code": [
+      1,
+      3,
+      2
+    ],
+    "key_depth_mm": {
+      "1": 1.526,
+      "3": 1.4715,
+      "2": 1.417
+    },
+    "lid_position_mm": 356.5294,
+    "lock_active": false,
     "palm_xyz": [
-      0.3755133640659064,
-      -0.13359586028312834,
-      0.16418188833402786
+      0.179923,
+      0.0682,
+      0.402805
     ],
     "vial_xyz": [
-      0.36102446168545005,
-      -0.07701694112461953,
-      0.3519500323682489
+      0.209371,
+      0.081767,
+      0.188055
     ],
-    "dial_angle_deg": 110.01528214111487,
-    "latch_depth_mm": 41.74468344840042,
-    "touch": {
+    "touch_n": {
+      "thumb": 0.0,
+      "index": 47.72678,
+      "middle": 0.0,
+      "ring": 0.0,
+      "little": 0.0
+    },
+    "contact_count": 1,
+    "adhesion_active": false,
+    "grasp_verified": false,
+    "slip_mm": 0.0,
+    "external_force_n": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hand_target": [
+      0.501356,
+      0.304106,
+      -0.086247
+    ],
+    "finger_target": {
       "thumb": 0.0,
       "index": 0.0,
       "middle": 0.0,
       "ring": 0.0,
       "little": 0.0
-    },
-    "servo_error_mm": [
-      18.179592236775896,
-      -5.285632776092907,
-      197.11714778776687
-    ],
-    "residual_action_mm": [
-      11.650041152453722,
-      -1.4990080468835199,
-      35.0
-    ],
-    "slip_estimate_mm": 0.0,
-    "grip_command": 0.0,
-    "policy_confidence": 0.25
+    }
   },
   {
-    "phase": 0.6013363028953229,
+    "time_s": 10.128,
     "stage": "grasp",
+    "stage_time_s": 0.428,
+    "code_events": [
+      1,
+      3,
+      2
+    ],
+    "expected_code": [
+      1,
+      3,
+      2
+    ],
+    "key_depth_mm": {
+      "1": 1.526,
+      "3": 1.4715,
+      "2": 1.417
+    },
+    "lid_position_mm": 420.5368,
+    "lock_active": false,
     "palm_xyz": [
-      0.37990952624824537,
-      -0.13192394438415614,
-      0.16118309672189327
+      0.204077,
+      0.077726,
+      0.387337
     ],
     "vial_xyz": [
-      0.3473316058203863,
-      -0.0751495144947595,
-      0.33687723811016507
+      0.22211,
+      0.085918,
+      0.187388
     ],
-    "dial_angle_deg": 110.01529017998354,
-    "latch_depth_mm": 38.654816787669176,
-    "touch": {
+    "touch_n": {
+      "thumb": 0.0,
+      "index": 42.2112,
+      "middle": 0.0,
+      "ring": 0.0,
+      "little": 0.0
+    },
+    "contact_count": 1,
+    "adhesion_active": false,
+    "grasp_verified": false,
+    "slip_mm": 0.0,
+    "external_force_n": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hand_target": [
+      0.492344,
+      0.300755,
+      -0.080658
+    ],
+    "finger_target": {
       "thumb": 0.0,
       "index": 0.0,
       "middle": 0.0,
       "ring": 0.0,
       "little": 0.0
-    },
-    "servo_error_mm": [
-      15.677113009716155,
-      -7.46641742291628,
-      201.31712164747847
-    ],
-    "residual_action_mm": [
-      11.791581696102448,
-      -4.979809927566433,
-      35.0
-    ],
-    "slip_estimate_mm": 0.0,
-    "grip_command": 0.0005309391417471505,
-    "policy_confidence": 0.25
+    }
   },
   {
-    "phase": 0.6124721603563474,
+    "time_s": 10.368,
     "stage": "grasp",
+    "stage_time_s": 0.668,
+    "code_events": [
+      1,
+      3,
+      2
+    ],
+    "expected_code": [
+      1,
+      3,
+      2
+    ],
+    "key_depth_mm": {
+      "1": 1.526,
+      "3": 1.4715,
+      "2": 1.417
+    },
+    "lid_position_mm": 420.0045,
+    "lock_active": false,
     "palm_xyz": [
-      0.38430361629762283,
-      -0.13400321623586414,
-      0.16120263876536406
+      0.203485,
+      0.077922,
+      0.384651
     ],
     "vial_xyz": [
-      0.34336573052318253,
-      -0.0704647568969729,
-      0.3195327929428694
+      0.219239,
+      0.085239,
+      0.187191
     ],
-    "dial_angle_deg": 110.0152922695619,
-    "latch_depth_mm": 32.16699729161131,
-    "touch": {
+    "touch_n": {
+      "thumb": 0.0,
+      "index": 39.97116,
+      "middle": 0.0,
+      "ring": 0.0,
+      "little": 0.0
+    },
+    "contact_count": 1,
+    "adhesion_active": false,
+    "grasp_verified": false,
+    "slip_mm": 0.0,
+    "external_force_n": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hand_target": [
+      0.492475,
+      0.300674,
+      -0.079755
+    ],
+    "finger_target": {
       "thumb": 0.0,
       "index": 0.0,
       "middle": 0.0,
       "ring": 0.0,
       "little": 0.0
-    },
-    "servo_error_mm": [
-      10.197967039978565,
-      -6.0383620448819695,
-      202.38725239315946
-    ],
-    "residual_action_mm": [
-      6.161602278361155,
-      -3.909103707742791,
-      35.0
-    ],
-    "slip_estimate_mm": 0.0,
-    "grip_command": 0.042786226766979935,
-    "policy_confidence": 0.25
+    }
   },
   {
-    "phase": 0.623608017817372,
+    "time_s": 10.608,
     "stage": "grasp",
+    "stage_time_s": 0.908,
+    "code_events": [
+      1,
+      3,
+      2
+    ],
+    "expected_code": [
+      1,
+      3,
+      2
+    ],
+    "key_depth_mm": {
+      "1": 1.526,
+      "3": 1.4715,
+      "2": 1.417
+    },
+    "lid_position_mm": 420.0002,
+    "lock_active": false,
     "palm_xyz": [
-      0.37816689181157825,
-      -0.1359914429504819,
-      0.16075932611122107
+      0.203355,
+      0.078276,
+      0.381584
     ],
     "vial_xyz": [
-      0.3355994750164969,
-      -0.06624914440481736,
-      0.33357324004361655
+      0.216752,
+      0.084799,
+      0.186873
     ],
-    "dial_angle_deg": 110.01529281271515,
-    "latch_depth_mm": 26.131301984119755,
-    "touch": {
+    "touch_n": {
+      "thumb": 0.0,
+      "index": 39.23434,
+      "middle": 0.0,
+      "ring": 0.0,
+      "little": 0.0
+    },
+    "contact_count": 1,
+    "adhesion_active": false,
+    "grasp_verified": false,
+    "slip_mm": 0.0,
+    "external_force_n": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hand_target": [
+      0.492541,
+      0.300558,
+      -0.082411
+    ],
+    "finger_target": {
       "thumb": 0.0,
       "index": 0.0,
       "middle": 0.0,
       "ring": 0.0,
       "little": 0.0
-    },
-    "servo_error_mm": [
-      12.463675269381179,
-      -4.725815851840009,
-      203.7601290940353
-    ],
-    "residual_action_mm": [
-      7.2183962521674285,
-      -3.2581657553714276,
-      35.0
-    ],
-    "slip_estimate_mm": 0.0,
-    "grip_command": 0.14088623685438215,
-    "policy_confidence": 0.25
+    }
   },
   {
-    "phase": 0.6347438752783965,
+    "time_s": 10.848,
     "stage": "grasp",
+    "stage_time_s": 1.148,
+    "code_events": [
+      1,
+      3,
+      2
+    ],
+    "expected_code": [
+      1,
+      3,
+      2
+    ],
+    "key_depth_mm": {
+      "1": 1.526,
+      "3": 1.4715,
+      "2": 1.417
+    },
+    "lid_position_mm": 420.0,
+    "lock_active": false,
     "palm_xyz": [
-      0.37047420177247137,
-      -0.1378336646653168,
-      0.1603720215658959
+      0.21037,
+      0.078187,
+      0.370021
     ],
     "vial_xyz": [
-      0.33133179701436993,
-      -0.06150282734233824,
-      0.31630129357257364
+      0.219777,
+      0.084247,
+      0.184764
     ],
-    "dial_angle_deg": 110.01529295389938,
-    "latch_depth_mm": 20.912716799562133,
-    "touch": {
+    "touch_n": {
+      "thumb": 0.0,
+      "index": 48.88146,
+      "middle": 0.0,
+      "ring": 0.0,
+      "little": 0.0
+    },
+    "contact_count": 1,
+    "adhesion_active": false,
+    "grasp_verified": false,
+    "slip_mm": 0.0,
+    "external_force_n": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hand_target": [
+      0.490574,
+      0.300574,
+      -0.10791
+    ],
+    "finger_target": {
       "thumb": 0.0,
       "index": 0.0,
       "middle": 0.0,
       "ring": 0.0,
       "little": 0.0
-    },
-    "servo_error_mm": [
-      13.714997186995413,
-      -3.50184522833657,
-      204.87543049160774
-    ],
-    "residual_action_mm": [
-      7.931583092850022,
-      -2.402229268766499,
-      35.0
-    ],
-    "slip_estimate_mm": 0.0,
-    "grip_command": 0.27825983514218233,
-    "policy_confidence": 0.25
+    }
   },
   {
-    "phase": 0.6458797327394209,
+    "time_s": 11.088,
     "stage": "grasp",
+    "stage_time_s": 1.388,
+    "code_events": [
+      1,
+      3,
+      2
+    ],
+    "expected_code": [
+      1,
+      3,
+      2
+    ],
+    "key_depth_mm": {
+      "1": 1.526,
+      "3": 1.4715,
+      "2": 1.417
+    },
+    "lid_position_mm": 420.0,
+    "lock_active": false,
     "palm_xyz": [
-      0.36076150018872777,
-      -0.13971951829046542,
-      0.1611404111200404
+      0.22621,
+      0.077917,
+      0.339617
     ],
     "vial_xyz": [
-      0.33095973402331585,
-      -0.057440868140170465,
-      0.31469790059261105
+      0.229858,
+      0.083739,
+      0.176717
     ],
-    "dial_angle_deg": 110.01529299059797,
-    "latch_depth_mm": 17.748342914821187,
-    "touch": {
+    "touch_n": {
+      "thumb": 0.0,
+      "index": 55.80033,
+      "middle": 0.0,
+      "ring": 0.0,
+      "little": 0.0
+    },
+    "contact_count": 1,
+    "adhesion_active": false,
+    "grasp_verified": false,
+    "slip_mm": 0.0,
+    "external_force_n": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hand_target": [
+      0.488,
+      0.300662,
+      -0.140386
+    ],
+    "finger_target": {
       "thumb": 0.0,
       "index": 0.0,
       "middle": 0.0,
       "ring": 0.0,
       "little": 0.0
-    },
-    "servo_error_mm": [
-      14.709074413161474,
-      -2.1264109659824473,
-      204.6010020173903
-    ],
-    "residual_action_mm": [
-      8.496775525905266,
-      -1.639252027473131,
-      35.0
-    ],
-    "slip_estimate_mm": 0.0,
-    "grip_command": 0.4383358873686076,
-    "policy_confidence": 0.25
+    }
   },
   {
-    "phase": 0.6570155902004454,
+    "time_s": 11.328,
     "stage": "grasp",
+    "stage_time_s": 1.628,
+    "code_events": [
+      1,
+      3,
+      2
+    ],
+    "expected_code": [
+      1,
+      3,
+      2
+    ],
+    "key_depth_mm": {
+      "1": 1.526,
+      "3": 1.4715,
+      "2": 1.417
+    },
+    "lid_position_mm": 420.0,
+    "lock_active": false,
     "palm_xyz": [
-      0.34984386130887957,
-      -0.14182202442537414,
-      0.16139021403103757
+      0.237798,
+      0.077935,
+      0.293974
     ],
     "vial_xyz": [
-      0.3321870323681916,
-      -0.055439824922026974,
-      0.30731059864478183
+      0.23838,
+      0.083588,
+      0.160891
     ],
-    "dial_angle_deg": 110.01529300013726,
-    "latch_depth_mm": 17.303506979009864,
-    "touch": {
+    "touch_n": {
+      "thumb": 0.0,
+      "index": 51.68679,
+      "middle": 0.0,
+      "ring": 0.0,
+      "little": 0.0
+    },
+    "contact_count": 1,
+    "adhesion_active": false,
+    "grasp_verified": false,
+    "slip_mm": 0.0,
+    "external_force_n": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hand_target": [
+      0.488,
+      0.300664,
+      -0.160726
+    ],
+    "finger_target": {
       "thumb": 0.0,
       "index": 0.0,
       "middle": 0.0,
       "ring": 0.0,
       "little": 0.0
-    },
-    "servo_error_mm": [
-      15.04692982673926,
-      -0.4010277780209593,
-      204.58909380532177
-    ],
-    "residual_action_mm": [
-      8.720002679691016,
-      -0.5863858560696024,
-      35.0
-    ],
-    "slip_estimate_mm": 0.0,
-    "grip_command": 0.6045432592718897,
-    "policy_confidence": 0.25
+    }
   },
   {
-    "phase": 0.6681514476614699,
+    "time_s": 11.568,
     "stage": "grasp",
+    "stage_time_s": 1.868,
+    "code_events": [
+      1,
+      3,
+      2
+    ],
+    "expected_code": [
+      1,
+      3,
+      2
+    ],
+    "key_depth_mm": {
+      "1": 1.526,
+      "3": 1.4715,
+      "2": 1.417
+    },
+    "lid_position_mm": 420.0,
+    "lock_active": false,
     "palm_xyz": [
-      0.33815660078720294,
-      -0.1440603070669019,
-      0.16123991374837113
+      0.232557,
+      0.084963,
+      0.279293
     ],
     "vial_xyz": [
-      0.3395846451669169,
-      -0.056469631818430246,
-      0.30641251431117816
+      0.232234,
+      0.091305,
+      0.155105
     ],
-    "dial_angle_deg": 110.01529300261681,
-    "latch_depth_mm": 17.304835508035605,
-    "touch": {
+    "touch_n": {
       "thumb": 0.0,
-      "index": 0.0,
+      "index": 63.95582,
       "middle": 0.0,
-      "ring": 0.0,
+      "ring": 25.13336,
       "little": 0.0
     },
-    "servo_error_mm": [
-      14.863347517297624,
-      1.602135958327556,
-      204.71061232906877
+    "contact_count": 2,
+    "adhesion_active": true,
+    "grasp_verified": false,
+    "slip_mm": 0.0,
+    "external_force_n": [
+      0.0,
+      0.0,
+      0.0
     ],
-    "residual_action_mm": [
-      8.643045582112347,
-      0.5729016877218015,
-      35.0
+    "hand_target": [
+      0.488,
+      0.298493,
+      -0.164996
     ],
-    "slip_estimate_mm": 0.0,
-    "grip_command": 0.7603108165902557,
-    "policy_confidence": 0.25
+    "finger_target": {
+      "thumb": 0.002528,
+      "index": 0.001528,
+      "middle": 0.000528,
+      "ring": 0.0,
+      "little": 0.0
+    }
   },
   {
-    "phase": 0.6792873051224945,
+    "time_s": 11.808,
     "stage": "grasp",
+    "stage_time_s": 2.108,
+    "code_events": [
+      1,
+      3,
+      2
+    ],
+    "expected_code": [
+      1,
+      3,
+      2
+    ],
+    "key_depth_mm": {
+      "1": 1.526,
+      "3": 1.4715,
+      "2": 1.417
+    },
+    "lid_position_mm": 420.0,
+    "lock_active": false,
     "palm_xyz": [
-      0.32618459547105244,
-      -0.14580498603783965,
-      0.1621713944441069
+      0.225463,
+      0.086006,
+      0.274131
     ],
     "vial_xyz": [
-      0.3481675972793519,
-      -0.05756613920475903,
-      0.2897325822488471
+      0.224166,
+      0.092012,
+      0.153346
     ],
-    "dial_angle_deg": 110.01529300326135,
-    "latch_depth_mm": 17.304840013512855,
-    "touch": {
+    "touch_n": {
       "thumb": 0.0,
-      "index": 0.0,
+      "index": 61.99305,
       "middle": 0.0,
-      "ring": 0.0,
+      "ring": 26.4701,
       "little": 0.0
     },
-    "servo_error_mm": [
-      14.410383000524993,
-      3.2549244449195527,
-      203.48495707978026
+    "contact_count": 2,
+    "adhesion_active": true,
+    "grasp_verified": false,
+    "slip_mm": 0.0,
+    "external_force_n": [
+      0.0,
+      0.0,
+      0.0
     ],
-    "residual_action_mm": [
-      8.380052451371068,
-      1.7572047949492704,
-      35.0
+    "hand_target": [
+      0.488,
+      0.298076,
+      -0.163208
     ],
-    "slip_estimate_mm": 0.0,
-    "grip_command": 0.8890674250619346,
-    "policy_confidence": 0.25
+    "finger_target": {
+      "thumb": 0.009886,
+      "index": 0.008886,
+      "middle": 0.007886,
+      "ring": 0.006886,
+      "little": 0.005886
+    }
   },
   {
-    "phase": 0.6904231625835189,
+    "time_s": 12.048,
     "stage": "grasp",
+    "stage_time_s": 2.348,
+    "code_events": [
+      1,
+      3,
+      2
+    ],
+    "expected_code": [
+      1,
+      3,
+      2
+    ],
+    "key_depth_mm": {
+      "1": 1.526,
+      "3": 1.4715,
+      "2": 1.417
+    },
+    "lid_position_mm": 420.0,
+    "lock_active": false,
     "palm_xyz": [
-      0.31447987722432424,
-      -0.1472478631694239,
-      0.163399058186568
+      0.219229,
+      0.085735,
+      0.271665
     ],
     "vial_xyz": [
-      0.3626639803733942,
-      -0.05802845270083961,
-      0.27441018441439896
+      0.216814,
+      0.090928,
+      0.15271
     ],
-    "dial_angle_deg": 110.01529300342891,
-    "latch_depth_mm": 17.304840000061592,
-    "touch": {
+    "touch_n": {
       "thumb": 0.0,
-      "index": 0.0,
+      "index": 59.78515,
       "middle": 0.0,
-      "ring": 0.0,
-      "little": 0.0
+      "ring": 25.46736,
+      "little": 18.28196
     },
-    "servo_error_mm": [
-      14.032914441549023,
-      4.752642682059119,
-      201.71084614117706
+    "contact_count": 3,
+    "adhesion_active": true,
+    "grasp_verified": false,
+    "slip_mm": 0.0,
+    "external_force_n": [
+      0.0,
+      0.0,
+      0.0
     ],
-    "residual_action_mm": [
-      8.231327783183547,
-      2.6689587527303957,
-      35.0
+    "hand_target": [
+      0.488,
+      0.298145,
+      -0.162368
     ],
-    "slip_estimate_mm": 0.0,
-    "grip_command": 0.9742419504251539,
-    "policy_confidence": 0.25
+    "finger_target": {
+      "thumb": 0.020009,
+      "index": 0.019009,
+      "middle": 0.018009,
+      "ring": 0.017009,
+      "little": 0.016009
+    }
   },
   {
-    "phase": 0.7015590200445434,
+    "time_s": 12.288,
     "stage": "grasp",
+    "stage_time_s": 2.588,
+    "code_events": [
+      1,
+      3,
+      2
+    ],
+    "expected_code": [
+      1,
+      3,
+      2
+    ],
+    "key_depth_mm": {
+      "1": 1.526,
+      "3": 1.4715,
+      "2": 1.417
+    },
+    "lid_position_mm": 420.0,
+    "lock_active": false,
     "palm_xyz": [
-      0.3063367416340448,
-      -0.14822413836802387,
-      0.16291520270684096
+      0.213662,
+      0.084482,
+      0.270493
     ],
     "vial_xyz": [
-      0.3365899023979591,
-      -0.05762825491791377,
-      0.2876011242135958
+      0.209864,
+      0.088785,
+      0.15252
     ],
-    "dial_angle_deg": 110.01529300347244,
-    "latch_depth_mm": 17.304839999999874,
-    "touch": {
+    "touch_n": {
       "thumb": 0.0,
-      "index": 0.0,
+      "index": 57.57864,
       "middle": 0.0,
-      "ring": 0.0,
-      "little": 0.0
+      "ring": 25.50249,
+      "little": 20.36076
     },
-    "servo_error_mm": [
-      11.467802870517643,
-      5.945885899124217,
-      201.4203532657384
+    "contact_count": 3,
+    "adhesion_active": true,
+    "grasp_verified": false,
+    "slip_mm": 0.0,
+    "external_force_n": [
+      0.0,
+      0.0,
+      0.0
     ],
-    "residual_action_mm": [
-      7.129906264448561,
-      3.5080509862480063,
-      35.0
+    "hand_target": [
+      0.489107,
+      0.298537,
+      -0.161987
     ],
-    "slip_estimate_mm": 0.0,
-    "grip_command": 1.0,
-    "policy_confidence": 0.25
+    "finger_target": {
+      "thumb": 0.030805,
+      "index": 0.029805,
+      "middle": 0.028805,
+      "ring": 0.027805,
+      "little": 0.026805
+    }
   },
   {
-    "phase": 0.7126948775055679,
+    "time_s": 12.528,
     "stage": "grasp",
+    "stage_time_s": 2.828,
+    "code_events": [
+      1,
+      3,
+      2
+    ],
+    "expected_code": [
+      1,
+      3,
+      2
+    ],
+    "key_depth_mm": {
+      "1": 1.526,
+      "3": 1.4715,
+      "2": 1.417
+    },
+    "lid_position_mm": 420.0,
+    "lock_active": false,
     "palm_xyz": [
-      0.3016301137235713,
-      -0.14848502968945587,
-      0.1609715687082617
+      0.209366,
+      0.083488,
+      0.269299
     ],
     "vial_xyz": [
-      0.2929573867352862,
-      -0.05584419008407122,
-      0.3089903062517821
+      0.204051,
+      0.087195,
+      0.152101
     ],
-    "dial_angle_deg": 110.01529300348373,
-    "latch_depth_mm": 17.30484000000003,
-    "touch": {
+    "touch_n": {
       "thumb": 0.0,
-      "index": 0.0,
-      "middle": 0.0,
-      "ring": 0.0,
-      "little": 0.0
+      "index": 54.59943,
+      "middle": 19.9045,
+      "ring": 28.34816,
+      "little": 24.82754
     },
-    "servo_error_mm": [
-      7.963955334699289,
-      6.621997124385484,
-      202.3962735997864
+    "contact_count": 4,
+    "adhesion_active": true,
+    "grasp_verified": false,
+    "slip_mm": 0.0,
+    "external_force_n": [
+      0.0,
+      0.0,
+      0.0
     ],
-    "residual_action_mm": [
-      5.125076799200318,
-      4.076455998270927,
-      35.0
+    "hand_target": [
+      0.490498,
+      0.298865,
+      -0.161607
     ],
-    "slip_estimate_mm": 0.0,
-    "grip_command": 1.0,
-    "policy_confidence": 0.25
+    "finger_target": {
+      "thumb": 0.040178,
+      "index": 0.039178,
+      "middle": 0.038178,
+      "ring": 0.037178,
+      "little": 0.036178
+    }
   },
   {
-    "phase": 0.7238307349665924,
+    "time_s": 12.768,
     "stage": "carry",
+    "stage_time_s": 0.088,
+    "code_events": [
+      1,
+      3,
+      2
+    ],
+    "expected_code": [
+      1,
+      3,
+      2
+    ],
+    "key_depth_mm": {
+      "1": 1.526,
+      "3": 1.4715,
+      "2": 1.417
+    },
+    "lid_position_mm": 420.0,
+    "lock_active": false,
     "palm_xyz": [
-      0.29853555375216,
-      -0.14729489833151876,
-      0.16047290167850736
+      0.205536,
+      0.082866,
+      0.268244
     ],
     "vial_xyz": [
-      0.2508998118155116,
-      -0.062121605016683734,
-      0.3236753592917475
+      0.199165,
+      0.085987,
+      0.151505
     ],
-    "dial_angle_deg": 110.01529300348669,
-    "latch_depth_mm": 17.30484000000003,
-    "touch": {
-      "thumb": 0.0,
-      "index": 0.0,
-      "middle": 0.0,
-      "ring": 0.0,
-      "little": 0.0
+    "touch_n": {
+      "thumb": 20.03758,
+      "index": 51.5637,
+      "middle": 21.10664,
+      "ring": 32.09893,
+      "little": 29.82357
     },
-    "servo_error_mm": [
-      5.346524473453135,
-      6.016370582590146,
-      201.72344257820222
+    "contact_count": 5,
+    "adhesion_active": true,
+    "grasp_verified": true,
+    "slip_mm": 0.3651,
+    "external_force_n": [
+      0.0,
+      0.0,
+      0.0
     ],
-    "residual_action_mm": [
-      3.5962117156968936,
-      3.844650212649009,
-      35.0
+    "hand_target": [
+      0.491735,
+      0.299068,
+      -0.158829
     ],
-    "slip_estimate_mm": 0.0,
-    "grip_command": 1.0,
-    "policy_confidence": 0.25
+    "finger_target": {
+      "thumb": 0.044428,
+      "index": 0.043428,
+      "middle": 0.043,
+      "ring": 0.043,
+      "little": 0.043
+    }
   },
   {
-    "phase": 0.734966592427617,
+    "time_s": 13.008,
     "stage": "carry",
+    "stage_time_s": 0.328,
+    "code_events": [
+      1,
+      3,
+      2
+    ],
+    "expected_code": [
+      1,
+      3,
+      2
+    ],
+    "key_depth_mm": {
+      "1": 1.526,
+      "3": 1.4715,
+      "2": 1.417
+    },
+    "lid_position_mm": 420.0,
+    "lock_active": false,
     "palm_xyz": [
-      0.2858120174357645,
-      -0.1457756370734821,
-      0.15985738033811087
+      0.184747,
+      0.080405,
+      0.271296
     ],
     "vial_xyz": [
-      0.23879853683842997,
-      -0.10319587648423395,
-      0.3155264396944463
+      0.176689,
+      0.083133,
+      0.154555
     ],
-    "dial_angle_deg": 110.01529300348734,
-    "latch_depth_mm": 17.30484000000003,
-    "touch": {
-      "thumb": 0.0,
-      "index": 0.0,
-      "middle": 0.0,
-      "ring": 0.0,
-      "little": 0.0
+    "touch_n": {
+      "thumb": 21.42545,
+      "index": 44.24966,
+      "middle": 22.31606,
+      "ring": 25.631,
+      "little": 25.40166
     },
-    "servo_error_mm": [
-      2.1222414821070976,
-      4.184989127375556,
-      200.39063968009592
+    "contact_count": 5,
+    "adhesion_active": true,
+    "grasp_verified": true,
+    "slip_mm": 2.0633,
+    "external_force_n": [
+      0.0,
+      0.0,
+      0.0
     ],
-    "residual_action_mm": [
-      0.8872262367658086,
-      2.900511493491347,
-      35.0
+    "hand_target": [
+      0.497577,
+      0.299777,
+      -0.131172
     ],
-    "slip_estimate_mm": 0.0,
-    "grip_command": 1.0,
-    "policy_confidence": 0.25
+    "finger_target": {
+      "thumb": 0.044428,
+      "index": 0.043428,
+      "middle": 0.043,
+      "ring": 0.043,
+      "little": 0.043
+    }
   },
   {
-    "phase": 0.7461024498886414,
+    "time_s": 13.248,
     "stage": "carry",
+    "stage_time_s": 0.568,
+    "code_events": [
+      1,
+      3,
+      2
+    ],
+    "expected_code": [
+      1,
+      3,
+      2
+    ],
+    "key_depth_mm": {
+      "1": 1.526,
+      "3": 1.4715,
+      "2": 1.417
+    },
+    "lid_position_mm": 420.0,
+    "lock_active": false,
     "palm_xyz": [
-      0.26287027448186157,
-      -0.14724915226531718,
-      0.16052109149552873
+      0.179837,
+      0.079987,
+      0.303174
     ],
     "vial_xyz": [
-      0.16522072941760046,
-      -0.10733207543551254,
-      0.269516244329635
+      0.169934,
+      0.082335,
+      0.18624
     ],
-    "dial_angle_deg": 110.01529300348734,
-    "latch_depth_mm": 17.30484000000003,
-    "touch": {
-      "thumb": 0.0,
-      "index": 0.0,
-      "middle": 0.0,
-      "ring": 0.0,
-      "little": 0.0
+    "touch_n": {
+      "thumb": 20.91433,
+      "index": 37.83612,
+      "middle": 21.63177,
+      "ring": 27.85246,
+      "little": 27.78711
     },
-    "servo_error_mm": [
-      -3.085603567003171,
-      4.185032503919231,
-      196.96677419634827
+    "contact_count": 5,
+    "adhesion_active": true,
+    "grasp_verified": true,
+    "slip_mm": 3.9403,
+    "external_force_n": [
+      0.0,
+      0.0,
+      0.0
     ],
-    "residual_action_mm": [
-      -2.546027736112942,
-      2.5111426243828,
-      35.0
+    "hand_target": [
+      0.500098,
+      0.300009,
+      -0.093496
     ],
-    "slip_estimate_mm": 0.0,
-    "grip_command": 1.0,
-    "policy_confidence": 0.25
+    "finger_target": {
+      "thumb": 0.044428,
+      "index": 0.043428,
+      "middle": 0.043,
+      "ring": 0.043,
+      "little": 0.043
+    }
   },
   {
-    "phase": 0.7572383073496659,
+    "time_s": 13.488,
     "stage": "carry",
+    "stage_time_s": 0.808,
+    "code_events": [
+      1,
+      3,
+      2
+    ],
+    "expected_code": [
+      1,
+      3,
+      2
+    ],
+    "key_depth_mm": {
+      "1": 1.526,
+      "3": 1.4715,
+      "2": 1.417
+    },
+    "lid_position_mm": 420.0,
+    "lock_active": false,
     "palm_xyz": [
-      0.22641724146535067,
-      -0.1491913391205367,
-      0.1604752558907662
+      0.180003,
+      0.08,
+      0.341718
     ],
     "vial_xyz": [
-      0.12946240697302241,
-      -0.11480127140557134,
-      0.2558378430361358
+      0.168689,
+      0.082043,
+      0.224596
     ],
-    "dial_angle_deg": 110.01529300348734,
-    "latch_depth_mm": 17.30484000000003,
-    "touch": {
-      "thumb": 0.0,
-      "index": 0.0,
-      "middle": 0.0,
-      "ring": 0.0,
-      "little": 0.0
+    "touch_n": {
+      "thumb": 20.59134,
+      "index": 32.90394,
+      "middle": 21.19055,
+      "ring": 29.54365,
+      "little": 29.58025
     },
-    "servo_error_mm": [
-      -4.746575345772628,
-      3.600575138223318,
-      193.61066862178612
+    "contact_count": 5,
+    "adhesion_active": true,
+    "grasp_verified": true,
+    "slip_mm": 5.3884,
+    "external_force_n": [
+      0.0,
+      0.0,
+      0.0
     ],
-    "residual_action_mm": [
-      -4.751276625468401,
-      2.212769900837283,
-      35.0
+    "hand_target": [
+      0.499997,
+      0.3,
+      -0.056059
     ],
-    "slip_estimate_mm": 0.0,
-    "grip_command": 1.0,
-    "policy_confidence": 0.25
+    "finger_target": {
+      "thumb": 0.044428,
+      "index": 0.043428,
+      "middle": 0.043,
+      "ring": 0.043,
+      "little": 0.043
+    }
   },
   {
-    "phase": 0.7683741648106904,
+    "time_s": 13.728,
     "stage": "carry",
+    "stage_time_s": 1.048,
+    "code_events": [
+      1,
+      3,
+      2
+    ],
+    "expected_code": [
+      1,
+      3,
+      2
+    ],
+    "key_depth_mm": {
+      "1": 1.526,
+      "3": 1.4715,
+      "2": 1.417
+    },
+    "lid_position_mm": 420.0,
+    "lock_active": false,
     "palm_xyz": [
-      0.18192906748461227,
-      -0.15227484638206218,
-      0.15829233670368115
+      0.179999,
+      0.08,
+      0.373464
     ],
     "vial_xyz": [
-      0.08379594162112435,
-      -0.12259451558719556,
-      0.2494728636343506
+      0.167643,
+      0.081796,
+      0.256162
     ],
-    "dial_angle_deg": 110.01529300348734,
-    "latch_depth_mm": 17.30484000000003,
-    "touch": {
-      "thumb": 0.0,
-      "index": 0.0,
-      "middle": 0.0,
-      "ring": 0.0,
-      "little": 0.0
+    "touch_n": {
+      "thumb": 20.35697,
+      "index": 29.21457,
+      "middle": 20.86002,
+      "ring": 30.85517,
+      "little": 30.94435
     },
-    "servo_error_mm": [
-      -3.762146951739976,
-      1.4390717536670827,
-      193.2770701092053
+    "contact_count": 5,
+    "adhesion_active": true,
+    "grasp_verified": true,
+    "slip_mm": 6.4675,
+    "external_force_n": [
+      0.0,
+      0.0,
+      0.0
     ],
-    "residual_action_mm": [
-      -3.7675982139935584,
-      0.2226429465538685,
-      35.0
+    "hand_target": [
+      0.5,
+      0.3,
+      -0.03071
     ],
-    "slip_estimate_mm": 1.8974355519837365,
-    "grip_command": 1.0,
-    "policy_confidence": 0.25
+    "finger_target": {
+      "thumb": 0.044428,
+      "index": 0.043428,
+      "middle": 0.043,
+      "ring": 0.043,
+      "little": 0.043
+    }
   },
   {
-    "phase": 0.779510022271715,
+    "time_s": 13.968,
     "stage": "carry",
+    "stage_time_s": 1.288,
+    "code_events": [
+      1,
+      3,
+      2
+    ],
+    "expected_code": [
+      1,
+      3,
+      2
+    ],
+    "key_depth_mm": {
+      "1": 1.526,
+      "3": 1.4715,
+      "2": 1.417
+    },
+    "lid_position_mm": 420.0,
+    "lock_active": false,
     "palm_xyz": [
-      0.13532396429061053,
-      -0.15946666716139038,
-      0.1553710566814471
+      0.179747,
+      0.079975,
+      0.386199
     ],
     "vial_xyz": [
-      0.034687723582212004,
-      -0.13180457854260094,
-      0.2482502844864171
+      0.16648,
+      0.081564,
+      0.268715
     ],
-    "dial_angle_deg": 110.01529300348734,
-    "latch_depth_mm": 17.30484000000003,
-    "touch": {
-      "thumb": 0.0,
-      "index": 0.0,
-      "middle": 0.0,
-      "ring": 0.0,
-      "little": 0.0
+    "touch_n": {
+      "thumb": 20.36992,
+      "index": 28.91957,
+      "middle": 20.78007,
+      "ring": 31.01137,
+      "little": 31.07508
     },
-    "servo_error_mm": [
-      -1.002382917355757,
-      -1.430155890486221,
-      196.44054421384627
+    "contact_count": 5,
+    "adhesion_active": true,
+    "grasp_verified": true,
+    "slip_mm": 7.4119,
+    "external_force_n": [
+      0.0,
+      0.0,
+      0.0
     ],
-    "residual_action_mm": [
-      3.4868927632588766,
-      -5.94127462882788,
-      35.0
+    "hand_target": [
+      0.497347,
+      0.299739,
+      -0.027318
     ],
-    "slip_estimate_mm": 10.875239864863257,
-    "grip_command": 1.0,
-    "policy_confidence": 0.25
+    "finger_target": {
+      "thumb": 0.044428,
+      "index": 0.043428,
+      "middle": 0.043,
+      "ring": 0.043,
+      "little": 0.043
+    }
   },
   {
-    "phase": 0.7906458797327395,
+    "time_s": 14.208,
     "stage": "carry",
+    "stage_time_s": 1.528,
+    "code_events": [
+      1,
+      3,
+      2
+    ],
+    "expected_code": [
+      1,
+      3,
+      2
+    ],
+    "key_depth_mm": {
+      "1": 1.526,
+      "3": 1.4715,
+      "2": 1.417
+    },
+    "lid_position_mm": 420.0,
+    "lock_active": false,
     "palm_xyz": [
-      0.08624617329341581,
-      -0.16894437525066777,
-      0.1517495850731911
+      0.163059,
+      0.078333,
+      0.3859
     ],
     "vial_xyz": [
-      -0.01417632698686304,
-      -0.14158220038131772,
-      0.24275293600670061
+      0.14887,
+      0.079744,
+      0.268283
     ],
-    "dial_angle_deg": 110.01529300348734,
-    "latch_depth_mm": 17.30484000000003,
-    "touch": {
-      "thumb": 0.0,
-      "index": 0.0,
-      "middle": 0.0,
-      "ring": 0.0,
-      "little": 0.0
+    "touch_n": {
+      "thumb": 20.37873,
+      "index": 28.6555,
+      "middle": 20.70964,
+      "ring": 31.11305,
+      "little": 31.15412
     },
-    "servo_error_mm": [
-      0.2789511635265321,
-      -2.721350341324693,
-      200.2966434035749
+    "contact_count": 5,
+    "adhesion_active": true,
+    "grasp_verified": true,
+    "slip_mm": 8.3586,
+    "external_force_n": [
+      0.0,
+      0.0,
+      0.0
     ],
-    "residual_action_mm": [
-      11.437596723426848,
-      -12.243123291582531,
-      35.0
+    "hand_target": [
+      0.467687,
+      0.296822,
+      -0.02729
     ],
-    "slip_estimate_mm": 22.303837320456417,
-    "grip_command": 1.0,
-    "policy_confidence": 0.25
+    "finger_target": {
+      "thumb": 0.044428,
+      "index": 0.043428,
+      "middle": 0.043,
+      "ring": 0.043,
+      "little": 0.043
+    }
   },
   {
-    "phase": 0.8017817371937639,
+    "time_s": 14.448,
     "stage": "carry",
+    "stage_time_s": 1.768,
+    "code_events": [
+      1,
+      3,
+      2
+    ],
+    "expected_code": [
+      1,
+      3,
+      2
+    ],
+    "key_depth_mm": {
+      "1": 1.526,
+      "3": 1.4715,
+      "2": 1.417
+    },
+    "lid_position_mm": 420.0,
+    "lock_active": false,
     "palm_xyz": [
-      0.030963360821121378,
-      -0.17662278210868448,
-      0.14804198942402125
+      0.118939,
+      0.073994,
+      0.385921
     ],
     "vial_xyz": [
-      -0.07030906900350894,
-      -0.14957800581230682,
-      0.24234302349706913
+      0.103855,
+      0.075251,
+      0.268183
     ],
-    "dial_angle_deg": 110.01529300348734,
-    "latch_depth_mm": 17.30484000000003,
-    "touch": {
-      "thumb": 0.0,
-      "index": 0.0,
-      "middle": 0.0,
-      "ring": 0.0,
-      "little": 0.0
+    "touch_n": {
+      "thumb": 20.40025,
+      "index": 28.41815,
+      "middle": 20.66662,
+      "ring": 31.21116,
+      "little": 31.23464
     },
-    "servo_error_mm": [
-      -0.12720199560572326,
-      -2.251179936842906,
-      201.35162182928113
+    "contact_count": 5,
+    "adhesion_active": true,
+    "grasp_verified": true,
+    "slip_mm": 9.2722,
+    "external_force_n": [
+      0.0,
+      0.0,
+      0.0
     ],
-    "residual_action_mm": [
-      15.213885499031264,
-      -15.034469310226557,
-      35.0
+    "hand_target": [
+      0.41389,
+      0.29153,
+      -0.027295
     ],
-    "slip_estimate_mm": 28.81289608282588,
-    "grip_command": 1.0,
-    "policy_confidence": 0.25
+    "finger_target": {
+      "thumb": 0.044428,
+      "index": 0.043428,
+      "middle": 0.043,
+      "ring": 0.043,
+      "little": 0.043
+    }
   },
   {
-    "phase": 0.8129175946547884,
+    "time_s": 14.688,
     "stage": "carry",
+    "stage_time_s": 2.008,
+    "code_events": [
+      1,
+      3,
+      2
+    ],
+    "expected_code": [
+      1,
+      3,
+      2
+    ],
+    "key_depth_mm": {
+      "1": 1.526,
+      "3": 1.4715,
+      "2": 1.417
+    },
+    "lid_position_mm": 420.0,
+    "lock_active": false,
     "palm_xyz": [
-      -0.03106426894355549,
-      -0.18079697358610203,
-      0.14463990502893226
+      0.054348,
+      0.067641,
+      0.38592
     ],
     "vial_xyz": [
-      -0.12905077719322594,
-      -0.15672559939822067,
-      0.23934756884982464
+      0.038398,
+      0.068767,
+      0.268068
     ],
-    "dial_angle_deg": 110.01529300348734,
-    "latch_depth_mm": 17.30484000000003,
-    "touch": {
-      "thumb": 0.0,
-      "index": 0.0,
-      "middle": 0.0,
-      "ring": 0.0,
-      "little": 0.0
+    "touch_n": {
+      "thumb": 20.4166,
+      "index": 28.18854,
+      "middle": 20.62836,
+      "ring": 31.30433,
+      "little": 31.31274
     },
-    "servo_error_mm": [
-      2.1058063340331152,
-      -3.1374231613882104,
-      200.59348366248713
+    "contact_count": 5,
+    "adhesion_active": true,
+    "grasp_verified": true,
+    "slip_mm": 10.1538,
+    "external_force_n": [
+      0.0,
+      0.0,
+      0.0
     ],
-    "residual_action_mm": [
-      16.368793549065906,
-      -15.564324083894375,
-      35.0
+    "hand_target": [
+      0.342353,
+      0.284494,
+      -0.027294
     ],
-    "slip_estimate_mm": 29.655511591200547,
-    "grip_command": 1.0,
-    "policy_confidence": 0.25
+    "finger_target": {
+      "thumb": 0.044428,
+      "index": 0.043428,
+      "middle": 0.043,
+      "ring": 0.043,
+      "little": 0.043
+    }
   },
   {
-    "phase": 0.8240534521158129,
+    "time_s": 14.928,
     "stage": "carry",
+    "stage_time_s": 2.248,
+    "code_events": [
+      1,
+      3,
+      2
+    ],
+    "expected_code": [
+      1,
+      3,
+      2
+    ],
+    "key_depth_mm": {
+      "1": 1.526,
+      "3": 1.4715,
+      "2": 1.417
+    },
+    "lid_position_mm": 420.0,
+    "lock_active": false,
     "palm_xyz": [
-      -0.09092723033199455,
-      -0.18452370279775118,
-      0.14177908220668062
+      0.04094,
+      0.065344,
+      0.38761
     ],
     "vial_xyz": [
-      -0.18993175083512268,
-      -0.1637991932636455,
-      0.24219404760220317
+      0.027724,
+      0.066593,
+      0.269851
     ],
-    "dial_angle_deg": 110.01529300348734,
-    "latch_depth_mm": 17.30484000000003,
-    "touch": {
-      "thumb": 0.0,
-      "index": 0.0,
-      "middle": 0.0,
-      "ring": 0.0,
-      "little": 0.0
+    "touch_n": {
+      "thumb": 15.18924,
+      "index": 30.0217,
+      "middle": 16.33753,
+      "ring": 60.49963,
+      "little": 55.6004
     },
-    "servo_error_mm": [
-      2.5920277148849467,
-      -4.304919874408061,
-      199.5822924562456
+    "contact_count": 5,
+    "adhesion_active": true,
+    "grasp_verified": true,
+    "slip_mm": 7.4736,
+    "external_force_n": [
+      2.4,
+      -1.6,
+      1.0
     ],
-    "residual_action_mm": [
-      17.472853232053367,
-      -16.299731445023934,
-      35.0
+    "hand_target": [
+      0.256288,
+      0.274757,
+      -0.027773
     ],
-    "slip_estimate_mm": 29.725750131097893,
-    "grip_command": 1.0,
-    "policy_confidence": 0.25
+    "finger_target": {
+      "thumb": 0.044428,
+      "index": 0.043428,
+      "middle": 0.043,
+      "ring": 0.043,
+      "little": 0.043
+    }
   },
   {
-    "phase": 0.8351893095768375,
+    "time_s": 15.168,
     "stage": "carry",
+    "stage_time_s": 2.488,
+    "code_events": [
+      1,
+      3,
+      2
+    ],
+    "expected_code": [
+      1,
+      3,
+      2
+    ],
+    "key_depth_mm": {
+      "1": 1.526,
+      "3": 1.4715,
+      "2": 1.417
+    },
+    "lid_position_mm": 420.0,
+    "lock_active": false,
     "palm_xyz": [
-      -0.1460327147161163,
-      -0.18795265573968156,
-      0.14181387781762606
+      0.033718,
+      0.062891,
+      0.39089
     ],
     "vial_xyz": [
-      -0.24713084903296317,
-      -0.1699159815385966,
-      0.24260001123251485
+      0.025864,
+      0.064609,
+      0.273682
     ],
-    "dial_angle_deg": 110.01529300348734,
-    "latch_depth_mm": 17.30484000000003,
-    "touch": {
-      "thumb": 0.0,
-      "index": 0.0,
-      "middle": 0.0,
-      "ring": 0.0,
-      "little": 0.0
+    "touch_n": {
+      "thumb": 13.13062,
+      "index": 54.1262,
+      "middle": 15.29273,
+      "ring": 79.2387,
+      "little": 68.86675
     },
-    "servo_error_mm": [
-      0.22684209440503728,
-      -5.379217522242838,
-      196.08616956508047
+    "contact_count": 5,
+    "adhesion_active": true,
+    "grasp_verified": true,
+    "slip_mm": 2.3749,
+    "external_force_n": [
+      0.0,
+      0.0,
+      0.0
     ],
-    "residual_action_mm": [
-      16.05960013273051,
-      -16.985396169081014,
-      35.0
+    "hand_target": [
+      0.169096,
+      0.264214,
+      -0.028796
     ],
-    "slip_estimate_mm": 29.731605058330867,
-    "grip_command": 1.0,
-    "policy_confidence": 0.25
+    "finger_target": {
+      "thumb": 0.044428,
+      "index": 0.043428,
+      "middle": 0.043,
+      "ring": 0.043,
+      "little": 0.043
+    }
   },
   {
-    "phase": 0.8463251670378619,
+    "time_s": 15.408,
     "stage": "carry",
+    "stage_time_s": 2.728,
+    "code_events": [
+      1,
+      3,
+      2
+    ],
+    "expected_code": [
+      1,
+      3,
+      2
+    ],
+    "key_depth_mm": {
+      "1": 1.526,
+      "3": 1.4715,
+      "2": 1.417
+    },
+    "lid_position_mm": 420.0,
+    "lock_active": false,
     "palm_xyz": [
-      -0.19838480242569886,
-      -0.19098466922671584,
-      0.1416765416462219
+      0.024254,
+      0.059917,
+      0.395202
     ],
     "vial_xyz": [
-      -0.3003767099720297,
-      -0.17480942604345265,
-      0.24301409191369253
+      0.023199,
+      0.062231,
+      0.278855
     ],
-    "dial_angle_deg": 110.01529300348734,
-    "latch_depth_mm": 17.30484000000003,
-    "touch": {
-      "thumb": 0.0,
-      "index": 0.0,
-      "middle": 9.765883759383657,
-      "ring": 0.0,
-      "little": 0.0
+    "touch_n": {
+      "thumb": 12.4825,
+      "index": 84.87122,
+      "middle": 13.40481,
+      "ring": 91.51887,
+      "little": 79.15163
     },
-    "servo_error_mm": [
-      -2.3975697680266204,
-      -5.549835954989611,
-      192.75589925787324
+    "contact_count": 5,
+    "adhesion_active": true,
+    "grasp_verified": true,
+    "slip_mm": 5.1285,
+    "external_force_n": [
+      0.0,
+      0.0,
+      0.0
     ],
-    "residual_action_mm": [
-      14.609330410551344,
-      -16.937033103604463,
-      35.0
+    "hand_target": [
+      0.08293,
+      0.253944,
+      -0.030151
     ],
-    "slip_estimate_mm": 29.067656409892212,
-    "grip_command": 1.0,
-    "policy_confidence": 0.25
+    "finger_target": {
+      "thumb": 0.044428,
+      "index": 0.043428,
+      "middle": 0.043,
+      "ring": 0.043,
+      "little": 0.043
+    }
   },
   {
-    "phase": 0.8574610244988864,
+    "time_s": 15.648,
     "stage": "carry",
+    "stage_time_s": 2.968,
+    "code_events": [
+      1,
+      3,
+      2
+    ],
+    "expected_code": [
+      1,
+      3,
+      2
+    ],
+    "key_depth_mm": {
+      "1": 1.526,
+      "3": 1.4715,
+      "2": 1.417
+    },
+    "lid_position_mm": 420.0,
+    "lock_active": false,
     "palm_xyz": [
-      -0.24702354213142072,
-      -0.19215785916891281,
-      0.1415142021842197
+      0.007192,
+      0.053164,
+      0.401738
     ],
     "vial_xyz": [
-      -0.34822262076037186,
-      -0.17756608842820035,
-      0.24830784069972456
+      0.019818,
+      0.05915,
+      0.286348
     ],
-    "dial_angle_deg": 110.01529300348734,
-    "latch_depth_mm": 17.30484000000003,
-    "touch": {
+    "touch_n": {
       "thumb": 0.0,
-      "index": 0.0,
-      "middle": 6.840810833053769,
-      "ring": 0.0,
-      "little": 0.0
+      "index": 142.59669,
+      "middle": 9.75634,
+      "ring": 30.21636,
+      "little": 58.93199
     },
-    "servo_error_mm": [
-      -7.844778905060176,
-      -3.7178830770819293,
-      187.7574666361921
+    "contact_count": 4,
+    "adhesion_active": true,
+    "grasp_verified": true,
+    "slip_mm": 18.9529,
+    "external_force_n": [
+      0.0,
+      0.0,
+      0.0
     ],
-    "residual_action_mm": [
-      8.258857119017652,
-      -13.411041622366799,
-      35.0
+    "hand_target": [
+      0.004264,
+      0.245704,
+      -0.032156
     ],
-    "slip_estimate_mm": 23.67639666124659,
-    "grip_command": 1.0,
-    "policy_confidence": 0.25
+    "finger_target": {
+      "thumb": 0.044428,
+      "index": 0.043428,
+      "middle": 0.043,
+      "ring": 0.043,
+      "little": 0.043
+    }
   },
   {
-    "phase": 0.8685968819599109,
+    "time_s": 15.888,
     "stage": "carry",
+    "stage_time_s": 3.208,
+    "code_events": [
+      1,
+      3,
+      2
+    ],
+    "expected_code": [
+      1,
+      3,
+      2
+    ],
+    "key_depth_mm": {
+      "1": 1.526,
+      "3": 1.4715,
+      "2": 1.417
+    },
+    "lid_position_mm": 420.0,
+    "lock_active": false,
     "palm_xyz": [
-      -0.2928601792131673,
-      -0.19126537541177258,
-      0.14174292126957036
+      -0.243193,
+      0.030479,
+      0.392699
     ],
     "vial_xyz": [
-      -0.35048769362177823,
-      -0.1398168614098986,
-      0.3718044278971158
+      -0.232814,
+      0.040498,
+      0.277775
     ],
-    "dial_angle_deg": 110.01529300348734,
-    "latch_depth_mm": 17.30484000000003,
-    "touch": {
+    "touch_n": {
       "thumb": 0.0,
-      "index": 0.0,
-      "middle": 0.0,
-      "ring": 0.0,
-      "little": 0.0
+      "index": 109.94287,
+      "middle": 41.69265,
+      "ring": 29.64225,
+      "little": 1.09675
     },
-    "servo_error_mm": [
-      -11.117937528899125,
-      -1.591142679690024,
-      181.99866731063574
+    "contact_count": 4,
+    "adhesion_active": true,
+    "grasp_verified": true,
+    "slip_mm": 17.8934,
+    "external_force_n": [
+      0.0,
+      0.0,
+      0.0
     ],
-    "residual_action_mm": [
-      -0.04020098699621978,
-      -7.921246449899584,
-      35.0
+    "hand_target": [
+      -0.060423,
+      0.243965,
+      -0.030517
     ],
-    "slip_estimate_mm": 14.664603834173555,
-    "grip_command": 1.0,
-    "policy_confidence": 0.25
+    "finger_target": {
+      "thumb": 0.044428,
+      "index": 0.043428,
+      "middle": 0.043,
+      "ring": 0.043,
+      "little": 0.043
+    }
   },
   {
-    "phase": 0.8797327394209354,
+    "time_s": 16.128,
     "stage": "carry",
+    "stage_time_s": 3.448,
+    "code_events": [
+      1,
+      3,
+      2
+    ],
+    "expected_code": [
+      1,
+      3,
+      2
+    ],
+    "key_depth_mm": {
+      "1": 1.526,
+      "3": 1.4715,
+      "2": 1.417
+    },
+    "lid_position_mm": 420.0,
+    "lock_active": false,
     "palm_xyz": [
-      -0.31286325700561607,
-      -0.19132400737178168,
-      0.14101982654989104
+      -0.405164,
+      0.022783,
+      0.385672
     ],
     "vial_xyz": [
-      -0.42056394882353393,
-      -0.12868928385937806,
-      0.3308451350370159
+      -0.405336,
+      0.031768,
+      0.269521
     ],
-    "dial_angle_deg": 110.01529300348734,
-    "latch_depth_mm": 17.30484000000003,
-    "touch": {
-      "thumb": 0.0,
-      "index": 5.5278640341070995,
-      "middle": 17.125208444059588,
-      "ring": 0.0,
-      "little": 0.0
+    "touch_n": {
+      "thumb": 23.72931,
+      "index": 82.55722,
+      "middle": 22.6845,
+      "ring": 58.53063,
+      "little": 18.11453
     },
-    "servo_error_mm": [
-      -30.346923151161448,
-      1.8367873715615235,
-      178.4909042285278
+    "contact_count": 5,
+    "adhesion_active": true,
+    "grasp_verified": true,
+    "slip_mm": 8.2574,
+    "external_force_n": [
+      0.0,
+      0.0,
+      0.0
     ],
-    "residual_action_mm": [
-      -12.158967130766252,
-      -2.014363584869202,
-      35.0
+    "hand_target": [
+      -0.095031,
+      0.241371,
+      -0.027159
     ],
-    "slip_estimate_mm": 5.723920024516825,
-    "grip_command": 1.0,
-    "policy_confidence": 0.25
+    "finger_target": {
+      "thumb": 0.044428,
+      "index": 0.043428,
+      "middle": 0.043,
+      "ring": 0.043,
+      "little": 0.043
+    }
   },
   {
-    "phase": 0.89086859688196,
+    "time_s": 16.368,
     "stage": "carry",
+    "stage_time_s": 3.688,
+    "code_events": [
+      1,
+      3,
+      2
+    ],
+    "expected_code": [
+      1,
+      3,
+      2
+    ],
+    "key_depth_mm": {
+      "1": 1.526,
+      "3": 1.4715,
+      "2": 1.417
+    },
+    "lid_position_mm": 420.0,
+    "lock_active": false,
     "palm_xyz": [
-      -0.3174974621452039,
-      -0.1924014998037945,
-      0.14073685773473546
+      -0.427613,
+      0.020219,
+      0.385926
     ],
     "vial_xyz": [
-      -0.4379717976450199,
-      -0.14532134250461273,
-      0.3096721329144739
+      -0.430335,
+      0.027704,
+      0.268714
     ],
-    "dial_angle_deg": 110.01529300348734,
-    "latch_depth_mm": 17.30484000000003,
-    "touch": {
-      "thumb": 0.0,
-      "index": 10.97634312538667,
-      "middle": 18.387825301458108,
-      "ring": 0.0,
-      "little": 0.0
+    "touch_n": {
+      "thumb": 22.3277,
+      "index": 71.34308,
+      "middle": 21.39756,
+      "ring": 61.43492,
+      "little": 23.72853
     },
-    "servo_error_mm": [
-      -50.02268792693822,
-      4.599644029594901,
-      177.49142360978428
+    "contact_count": 5,
+    "adhesion_active": true,
+    "grasp_verified": true,
+    "slip_mm": 5.4054,
+    "external_force_n": [
+      0.0,
+      0.0,
+      0.0
     ],
-    "residual_action_mm": [
-      -28.57654096564597,
-      2.11082141843894,
-      35.0
+    "hand_target": [
+      -0.110976,
+      0.239909,
+      -0.027299
     ],
-    "slip_estimate_mm": 0.7644112171704155,
-    "grip_command": 1.0,
-    "policy_confidence": 0.25
+    "finger_target": {
+      "thumb": 0.044428,
+      "index": 0.043428,
+      "middle": 0.043,
+      "ring": 0.043,
+      "little": 0.043
+    }
   },
   {
-    "phase": 0.9020044543429844,
+    "time_s": 16.608,
+    "stage": "carry",
+    "stage_time_s": 3.928,
+    "code_events": [
+      1,
+      3,
+      2
+    ],
+    "expected_code": [
+      1,
+      3,
+      2
+    ],
+    "key_depth_mm": {
+      "1": 1.526,
+      "3": 1.4715,
+      "2": 1.417
+    },
+    "lid_position_mm": 420.0,
+    "lock_active": false,
+    "palm_xyz": [
+      -0.430094,
+      0.019992,
+      0.385919
+    ],
+    "vial_xyz": [
+      -0.43434,
+      0.025868,
+      0.267946
+    ],
+    "touch_n": {
+      "thumb": 21.92714,
+      "index": 64.31507,
+      "middle": 20.60113,
+      "ring": 61.46693,
+      "little": 27.42177
+    },
+    "contact_count": 5,
+    "adhesion_active": true,
+    "grasp_verified": true,
+    "slip_mm": 3.3714,
+    "external_force_n": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hand_target": [
+      -0.109952,
+      0.240004,
+      -0.027294
+    ],
+    "finger_target": {
+      "thumb": 0.044428,
+      "index": 0.043428,
+      "middle": 0.043,
+      "ring": 0.043,
+      "little": 0.043
+    }
+  },
+  {
+    "time_s": 16.848,
+    "stage": "carry",
+    "stage_time_s": 4.168,
+    "code_events": [
+      1,
+      3,
+      2
+    ],
+    "expected_code": [
+      1,
+      3,
+      2
+    ],
+    "key_depth_mm": {
+      "1": 1.526,
+      "3": 1.4715,
+      "2": 1.417
+    },
+    "lid_position_mm": 420.0,
+    "lock_active": false,
+    "palm_xyz": [
+      -0.429998,
+      0.020001,
+      0.38592
+    ],
+    "vial_xyz": [
+      -0.435391,
+      0.024211,
+      0.267356
+    ],
+    "touch_n": {
+      "thumb": 22.02136,
+      "index": 59.05906,
+      "middle": 20.11194,
+      "ring": 59.87603,
+      "little": 30.39902
+    },
+    "contact_count": 5,
+    "adhesion_active": true,
+    "grasp_verified": true,
+    "slip_mm": 2.039,
+    "external_force_n": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hand_target": [
+      -0.110002,
+      0.24,
+      -0.027294
+    ],
+    "finger_target": {
+      "thumb": 0.044428,
+      "index": 0.043428,
+      "middle": 0.043,
+      "ring": 0.043,
+      "little": 0.043
+    }
+  },
+  {
+    "time_s": 17.088,
     "stage": "place",
+    "stage_time_s": 0.204,
+    "code_events": [
+      1,
+      3,
+      2
+    ],
+    "expected_code": [
+      1,
+      3,
+      2
+    ],
+    "key_depth_mm": {
+      "1": 1.526,
+      "3": 1.4715,
+      "2": 1.417
+    },
+    "lid_position_mm": 420.0,
+    "lock_active": false,
     "palm_xyz": [
-      -0.32033208664562546,
-      -0.19399706525505217,
-      0.14062358820357634
+      -0.43,
+      0.02,
+      0.382906
     ],
     "vial_xyz": [
-      -0.4430216277491746,
-      -0.1428619660190465,
-      0.3194228811682725
+      -0.436504,
+      0.0225,
+      0.263851
     ],
-    "dial_angle_deg": 110.01529300348734,
-    "latch_depth_mm": 17.30484000000003,
-    "touch": {
-      "thumb": 0.0,
-      "index": 10.869367151033313,
-      "middle": 21.10020326181285,
-      "ring": 0.0,
-      "little": 0.0
+    "touch_n": {
+      "thumb": 22.35802,
+      "index": 54.14344,
+      "middle": 19.81659,
+      "ring": 56.67647,
+      "little": 33.19483
     },
-    "servo_error_mm": [
-      -55.68481397487841,
-      7.122340437184845,
-      178.9275936762863
+    "contact_count": 5,
+    "adhesion_active": true,
+    "grasp_verified": true,
+    "slip_mm": 2.3284,
+    "external_force_n": [
+      0.0,
+      0.0,
+      0.0
     ],
-    "residual_action_mm": [
-      -34.1388433350022,
-      3.905944703455915,
-      35.0
+    "hand_target": [
+      -0.11,
+      0.24,
+      -0.036274
     ],
-    "slip_estimate_mm": 0.06371960549214997,
-    "grip_command": 0.9981480980690554,
-    "policy_confidence": 0.25
+    "finger_target": {
+      "thumb": 0.044428,
+      "index": 0.043428,
+      "middle": 0.043,
+      "ring": 0.043,
+      "little": 0.043
+    }
   },
   {
-    "phase": 0.9131403118040089,
+    "time_s": 17.328,
     "stage": "place",
+    "stage_time_s": 0.444,
+    "code_events": [
+      1,
+      3,
+      2
+    ],
+    "expected_code": [
+      1,
+      3,
+      2
+    ],
+    "key_depth_mm": {
+      "1": 1.526,
+      "3": 1.4715,
+      "2": 1.417
+    },
+    "lid_position_mm": 420.0,
+    "lock_active": false,
     "palm_xyz": [
-      -0.3281452962749271,
-      -0.19718118337532334,
-      0.14491464443913338
+      -0.43,
+      0.02,
+      0.362929
     ],
     "vial_xyz": [
-      -0.4349144257816512,
-      -0.12242102774989362,
-      0.3451064619862293
+      -0.437791,
+      0.020806,
+      0.243462
     ],
-    "dial_angle_deg": 110.01529300348734,
-    "latch_depth_mm": 17.30484000000003,
-    "touch": {
-      "thumb": 0.0,
-      "index": 7.2008080148066815,
-      "middle": 17.216362981212505,
-      "ring": 0.0,
-      "little": 0.0
+    "touch_n": {
+      "thumb": 22.72023,
+      "index": 48.69157,
+      "middle": 19.6872,
+      "ring": 51.24537,
+      "little": 35.40832
     },
-    "servo_error_mm": [
-      -40.43519091006613,
-      6.510500808871073,
-      191.1070690549678
+    "contact_count": 5,
+    "adhesion_active": true,
+    "grasp_verified": true,
+    "slip_mm": 3.9456,
+    "external_force_n": [
+      0.0,
+      0.0,
+      0.0
     ],
-    "residual_action_mm": [
-      -28.330907066138266,
-      4.030950082672389,
-      35.0
+    "hand_target": [
+      -0.11,
+      0.24,
+      -0.06312
     ],
-    "slip_estimate_mm": 0.005311523474373693,
-    "grip_command": 0.9279248958551166,
-    "policy_confidence": 0.25
+    "finger_target": {
+      "thumb": 0.044428,
+      "index": 0.043428,
+      "middle": 0.043,
+      "ring": 0.043,
+      "little": 0.043
+    }
   },
   {
-    "phase": 0.9242761692650334,
+    "time_s": 17.568,
     "stage": "place",
+    "stage_time_s": 0.684,
+    "code_events": [
+      1,
+      3,
+      2
+    ],
+    "expected_code": [
+      1,
+      3,
+      2
+    ],
+    "key_depth_mm": {
+      "1": 1.526,
+      "3": 1.4715,
+      "2": 1.417
+    },
+    "lid_position_mm": 420.0,
+    "lock_active": false,
     "palm_xyz": [
-      -0.3474033911407976,
-      -0.20384176965961529,
-      0.15479055828751617
+      -0.430001,
+      0.019998,
+      0.32924
     ],
     "vial_xyz": [
-      -0.46767334776138536,
-      -0.07133718727004615,
-      0.33738995784257747
+      -0.439288,
+      0.019366,
+      0.209449
     ],
-    "dial_angle_deg": 110.01529300348734,
-    "latch_depth_mm": 17.30484000000003,
-    "touch": {
+    "touch_n": {
+      "thumb": 22.78415,
+      "index": 42.63344,
+      "middle": 19.68214,
+      "ring": 42.94007,
+      "little": 35.5575
+    },
+    "contact_count": 5,
+    "adhesion_active": true,
+    "grasp_verified": true,
+    "slip_mm": 5.8159,
+    "external_force_n": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hand_target": [
+      -0.11,
+      0.240001,
+      -0.100899
+    ],
+    "finger_target": {
+      "thumb": 0.044428,
+      "index": 0.043428,
+      "middle": 0.043,
+      "ring": 0.043,
+      "little": 0.043
+    }
+  },
+  {
+    "time_s": 17.808,
+    "stage": "place",
+    "stage_time_s": 0.924,
+    "code_events": [
+      1,
+      3,
+      2
+    ],
+    "expected_code": [
+      1,
+      3,
+      2
+    ],
+    "key_depth_mm": {
+      "1": 1.526,
+      "3": 1.4715,
+      "2": 1.417
+    },
+    "lid_position_mm": 420.0,
+    "lock_active": false,
+    "palm_xyz": [
+      -0.430002,
+      0.019995,
+      0.288071
+    ],
+    "vial_xyz": [
+      -0.44077,
+      0.018593,
+      0.16803
+    ],
+    "touch_n": {
+      "thumb": 22.32425,
+      "index": 36.89667,
+      "middle": 19.6726,
+      "ring": 34.15719,
+      "little": 32.7328
+    },
+    "contact_count": 5,
+    "adhesion_active": true,
+    "grasp_verified": true,
+    "slip_mm": 7.3237,
+    "external_force_n": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hand_target": [
+      -0.109999,
+      0.240002,
+      -0.143551
+    ],
+    "finger_target": {
+      "thumb": 0.044428,
+      "index": 0.043428,
+      "middle": 0.043,
+      "ring": 0.043,
+      "little": 0.043
+    }
+  },
+  {
+    "time_s": 18.048,
+    "stage": "place",
+    "stage_time_s": 1.164,
+    "code_events": [
+      1,
+      3,
+      2
+    ],
+    "expected_code": [
+      1,
+      3,
+      2
+    ],
+    "key_depth_mm": {
+      "1": 1.526,
+      "3": 1.4715,
+      "2": 1.417
+    },
+    "lid_position_mm": 420.0,
+    "lock_active": false,
+    "palm_xyz": [
+      -0.429847,
+      0.020045,
+      0.249334
+    ],
+    "vial_xyz": [
+      -0.441818,
+      0.018536,
+      0.129372
+    ],
+    "touch_n": {
+      "thumb": 21.70952,
+      "index": 31.98111,
+      "middle": 19.55585,
+      "ring": 31.98632,
+      "little": 31.11592
+    },
+    "contact_count": 5,
+    "adhesion_active": true,
+    "grasp_verified": true,
+    "slip_mm": 8.1802,
+    "external_force_n": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hand_target": [
+      -0.110025,
+      0.239994,
+      -0.185521
+    ],
+    "finger_target": {
+      "thumb": 0.044428,
+      "index": 0.043428,
+      "middle": 0.043,
+      "ring": 0.043,
+      "little": 0.043
+    }
+  },
+  {
+    "time_s": 18.288,
+    "stage": "place",
+    "stage_time_s": 1.404,
+    "code_events": [
+      1,
+      3,
+      2
+    ],
+    "expected_code": [
+      1,
+      3,
+      2
+    ],
+    "key_depth_mm": {
+      "1": 1.526,
+      "3": 1.4715,
+      "2": 1.417
+    },
+    "lid_position_mm": 420.0,
+    "lock_active": false,
+    "palm_xyz": [
+      -0.42853,
+      0.020299,
+      0.245017
+    ],
+    "vial_xyz": [
+      -0.441299,
+      0.018985,
+      0.126813
+    ],
+    "touch_n": {
+      "thumb": 21.382,
+      "index": 29.14634,
+      "middle": 19.43639,
+      "ring": 32.00274,
+      "little": 30.91582
+    },
+    "contact_count": 5,
+    "adhesion_active": true,
+    "grasp_verified": true,
+    "slip_mm": 8.2137,
+    "external_force_n": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hand_target": [
+      -0.110438,
+      0.239903,
+      -0.230194
+    ],
+    "finger_target": {
+      "thumb": 0.044428,
+      "index": 0.043428,
+      "middle": 0.043,
+      "ring": 0.043,
+      "little": 0.043
+    }
+  },
+  {
+    "time_s": 18.528,
+    "stage": "place",
+    "stage_time_s": 1.644,
+    "code_events": [
+      1,
+      3,
+      2
+    ],
+    "expected_code": [
+      1,
+      3,
+      2
+    ],
+    "key_depth_mm": {
+      "1": 1.526,
+      "3": 1.4715,
+      "2": 1.417
+    },
+    "lid_position_mm": 420.0,
+    "lock_active": false,
+    "palm_xyz": [
+      -0.428118,
+      0.020073,
+      0.241262
+    ],
+    "vial_xyz": [
+      -0.441609,
+      0.018949,
+      0.126674
+    ],
+    "touch_n": {
+      "thumb": 21.31093,
+      "index": 29.12627,
+      "middle": 19.50845,
+      "ring": 32.14521,
+      "little": 31.14705
+    },
+    "contact_count": 5,
+    "adhesion_active": true,
+    "grasp_verified": true,
+    "slip_mm": 8.9202,
+    "external_force_n": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hand_target": [
+      -0.110595,
+      0.239972,
+      -0.257435
+    ],
+    "finger_target": {
+      "thumb": 0.044428,
+      "index": 0.043428,
+      "middle": 0.043,
+      "ring": 0.043,
+      "little": 0.043
+    }
+  },
+  {
+    "time_s": 18.768,
+    "stage": "place",
+    "stage_time_s": 1.884,
+    "code_events": [
+      1,
+      3,
+      2
+    ],
+    "expected_code": [
+      1,
+      3,
+      2
+    ],
+    "key_depth_mm": {
+      "1": 1.526,
+      "3": 1.4715,
+      "2": 1.417
+    },
+    "lid_position_mm": 420.0,
+    "lock_active": false,
+    "palm_xyz": [
+      -0.427761,
+      0.019918,
+      0.237014
+    ],
+    "vial_xyz": [
+      -0.442035,
+      0.018942,
+      0.126661
+    ],
+    "touch_n": {
+      "thumb": 4.1478,
+      "index": 10.863,
+      "middle": 2.96019,
+      "ring": 18.57188,
+      "little": 17.92434
+    },
+    "contact_count": 5,
+    "adhesion_active": false,
+    "grasp_verified": true,
+    "slip_mm": 0.0,
+    "external_force_n": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hand_target": [
+      -0.110699,
+      0.240021,
+      -0.262
+    ],
+    "finger_target": {
+      "thumb": 0.042659,
+      "index": 0.042659,
+      "middle": 0.042659,
+      "ring": 0.042659,
+      "little": 0.042659
+    }
+  },
+  {
+    "time_s": 19.008,
+    "stage": "place",
+    "stage_time_s": 2.124,
+    "code_events": [
+      1,
+      3,
+      2
+    ],
+    "expected_code": [
+      1,
+      3,
+      2
+    ],
+    "key_depth_mm": {
+      "1": 1.526,
+      "3": 1.4715,
+      "2": 1.417
+    },
+    "lid_position_mm": 420.0,
+    "lock_active": false,
+    "palm_xyz": [
+      -0.427515,
+      0.019437,
+      0.234685
+    ],
+    "vial_xyz": [
+      -0.442591,
+      0.018547,
+      0.127274
+    ],
+    "touch_n": {
+      "thumb": 10.57974,
+      "index": 6.48613,
+      "middle": 12.60564,
+      "ring": 29.82103,
+      "little": 19.62962
+    },
+    "contact_count": 5,
+    "adhesion_active": false,
+    "grasp_verified": true,
+    "slip_mm": 0.0,
+    "external_force_n": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hand_target": [
+      -0.110792,
+      0.240178,
+      -0.262
+    ],
+    "finger_target": {
+      "thumb": 0.026519,
+      "index": 0.026519,
+      "middle": 0.026519,
+      "ring": 0.026519,
+      "little": 0.026519
+    }
+  },
+  {
+    "time_s": 19.248,
+    "stage": "place",
+    "stage_time_s": 2.364,
+    "code_events": [
+      1,
+      3,
+      2
+    ],
+    "expected_code": [
+      1,
+      3,
+      2
+    ],
+    "key_depth_mm": {
+      "1": 1.526,
+      "3": 1.4715,
+      "2": 1.417
+    },
+    "lid_position_mm": 420.0,
+    "lock_active": false,
+    "palm_xyz": [
+      -0.427644,
+      0.019352,
+      0.234695
+    ],
+    "vial_xyz": [
+      -0.443037,
+      0.018473,
+      0.12735
+    ],
+    "touch_n": {
+      "thumb": 10.05478,
+      "index": 0.91414,
+      "middle": 18.1481,
+      "ring": 23.11729,
+      "little": 13.28811
+    },
+    "contact_count": 5,
+    "adhesion_active": false,
+    "grasp_verified": true,
+    "slip_mm": 0.0,
+    "external_force_n": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hand_target": [
+      -0.110761,
+      0.240205,
+      -0.262
+    ],
+    "finger_target": {
+      "thumb": 0.00486,
+      "index": 0.00486,
+      "middle": 0.00486,
+      "ring": 0.00486,
+      "little": 0.00486
+    }
+  },
+  {
+    "time_s": 19.488,
+    "stage": "place",
+    "stage_time_s": 2.604,
+    "code_events": [
+      1,
+      3,
+      2
+    ],
+    "expected_code": [
+      1,
+      3,
+      2
+    ],
+    "key_depth_mm": {
+      "1": 1.526,
+      "3": 1.4715,
+      "2": 1.417
+    },
+    "lid_position_mm": 420.0,
+    "lock_active": false,
+    "palm_xyz": [
+      -0.428138,
+      0.019314,
+      0.23465
+    ],
+    "vial_xyz": [
+      -0.443362,
+      0.018339,
+      0.127322
+    ],
+    "touch_n": {
+      "thumb": 11.77293,
+      "index": 0.0,
+      "middle": 11.77293,
+      "ring": 22.97566,
+      "little": 12.92515
+    },
+    "contact_count": 4,
+    "adhesion_active": false,
+    "grasp_verified": true,
+    "slip_mm": 0.0,
+    "external_force_n": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hand_target": [
+      -0.11061,
+      0.24022,
+      -0.262
+    ],
+    "finger_target": {
       "thumb": 0.0,
       "index": 0.0,
-      "middle": 7.251917481472001,
+      "middle": 0.0,
       "ring": 0.0,
       "little": 0.0
-    },
-    "servo_error_mm": [
-      0.018669779418117524,
-      3.119231542093146,
-      215.78337818466085
-    ],
-    "residual_action_mm": [
-      -6.966304181922032,
-      2.031545429858981,
-      35.0
-    ],
-    "slip_estimate_mm": 0.0004427566900472798,
-    "grip_command": 0.7796361158298643,
-    "policy_confidence": 0.25
+    }
   },
   {
-    "phase": 0.9354120267260579,
+    "time_s": 19.728,
     "stage": "place",
+    "stage_time_s": 2.844,
+    "code_events": [
+      1,
+      3,
+      2
+    ],
+    "expected_code": [
+      1,
+      3,
+      2
+    ],
+    "key_depth_mm": {
+      "1": 1.526,
+      "3": 1.4715,
+      "2": 1.417
+    },
+    "lid_position_mm": 420.0,
+    "lock_active": false,
     "palm_xyz": [
-      -0.3310510794600299,
-      -0.21799030663520802,
-      0.1988105957633683
+      -0.428694,
+      0.019308,
+      0.234634
     ],
     "vial_xyz": [
-      -0.3812251717254878,
-      -0.07505312216971102,
-      0.19665253855439324
+      -0.443677,
+      0.01824,
+      0.127334
     ],
-    "dial_angle_deg": 110.01529300348734,
-    "latch_depth_mm": 17.30484000000003,
-    "touch": {
+    "touch_n": {
+      "thumb": 12.35479,
+      "index": 0.0,
+      "middle": 12.35479,
+      "ring": 20.78909,
+      "little": 13.00752
+    },
+    "contact_count": 4,
+    "adhesion_active": false,
+    "grasp_verified": true,
+    "slip_mm": 0.0,
+    "external_force_n": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hand_target": [
+      -0.110431,
+      0.240221,
+      -0.262
+    ],
+    "finger_target": {
+      "thumb": 0.0,
+      "index": 0.0,
+      "middle": 0.0,
+      "ring": 0.0,
+      "little": 0.0
+    }
+  },
+  {
+    "time_s": 19.968,
+    "stage": "place",
+    "stage_time_s": 3.084,
+    "code_events": [
+      1,
+      3,
+      2
+    ],
+    "expected_code": [
+      1,
+      3,
+      2
+    ],
+    "key_depth_mm": {
+      "1": 1.526,
+      "3": 1.4715,
+      "2": 1.417
+    },
+    "lid_position_mm": 420.0,
+    "lock_active": false,
+    "palm_xyz": [
+      -0.429203,
+      0.01927,
+      0.23456
+    ],
+    "vial_xyz": [
+      -0.443951,
+      0.018169,
+      0.127316
+    ],
+    "touch_n": {
+      "thumb": 15.2821,
+      "index": 0.0,
+      "middle": 15.2821,
+      "ring": 11.05965,
+      "little": 15.50668
+    },
+    "contact_count": 4,
+    "adhesion_active": false,
+    "grasp_verified": true,
+    "slip_mm": 0.0,
+    "external_force_n": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hand_target": [
+      -0.110267,
+      0.240232,
+      -0.262
+    ],
+    "finger_target": {
+      "thumb": 0.0,
+      "index": 0.0,
+      "middle": 0.0,
+      "ring": 0.0,
+      "little": 0.0
+    }
+  },
+  {
+    "time_s": 20.208,
+    "stage": "complete",
+    "stage_time_s": 0.024,
+    "code_events": [
+      1,
+      3,
+      2
+    ],
+    "expected_code": [
+      1,
+      3,
+      2
+    ],
+    "key_depth_mm": {
+      "1": 1.526,
+      "3": 1.4715,
+      "2": 1.417
+    },
+    "lid_position_mm": 420.0,
+    "lock_active": false,
+    "palm_xyz": [
+      -0.429777,
+      0.019238,
+      0.24312
+    ],
+    "vial_xyz": [
+      -0.444051,
+      0.018036,
+      0.127337
+    ],
+    "touch_n": {
       "thumb": 0.0,
       "index": 0.0,
       "middle": 0.0,
       "ring": 0.0,
       "little": 0.0
     },
-    "servo_error_mm": [
-      14.954811176824725,
-      2.814218414347957,
-      218.87314721787317
+    "contact_count": 0,
+    "adhesion_active": false,
+    "grasp_verified": true,
+    "slip_mm": 0.0,
+    "external_force_n": [
+      0.0,
+      0.0,
+      0.0
     ],
-    "residual_action_mm": [
-      9.80754515729171,
-      0.8282831856088524,
-      35.0
+    "hand_target": [
+      -0.110097,
+      0.240248,
+      0.032
     ],
-    "slip_estimate_mm": 3.690720516014253e-05,
-    "grip_command": 0.5856472545983207,
-    "policy_confidence": 0.25
+    "finger_target": {
+      "thumb": 0.0,
+      "index": 0.0,
+      "middle": 0.0,
+      "ring": 0.0,
+      "little": 0.0
+    }
   },
   {
-    "phase": 0.9465478841870824,
-    "stage": "place",
+    "time_s": 20.448,
+    "stage": "complete",
+    "stage_time_s": 0.264,
+    "code_events": [
+      1,
+      3,
+      2
+    ],
+    "expected_code": [
+      1,
+      3,
+      2
+    ],
+    "key_depth_mm": {
+      "1": 1.526,
+      "3": 1.4715,
+      "2": 1.417
+    },
+    "lid_position_mm": 420.0,
+    "lock_active": false,
     "palm_xyz": [
-      -0.2884970772244717,
-      -0.23104874164007386,
-      0.25375472131061627
+      -0.429994,
+      0.020038,
+      0.443906
     ],
     "vial_xyz": [
-      -0.39124931957581954,
-      -0.1779723858699087,
-      0.12350698733834693
+      -0.444085,
+      0.017389,
+      0.127337
     ],
-    "dial_angle_deg": 110.01529300348734,
-    "latch_depth_mm": 17.30484000000003,
-    "touch": {
+    "touch_n": {
       "thumb": 0.0,
       "index": 0.0,
       "middle": 0.0,
       "ring": 0.0,
       "little": 0.0
     },
-    "servo_error_mm": [
-      10.053591041305753,
-      -1.140902967282806,
-      218.0756306778577
+    "contact_count": 0,
+    "adhesion_active": false,
+    "grasp_verified": true,
+    "slip_mm": 0.0,
+    "external_force_n": [
+      0.0,
+      0.0,
+      0.0
     ],
-    "residual_action_mm": [
-      8.47687326697368,
-      -0.6864631323749437,
-      35.0
+    "hand_target": [
+      -0.110001,
+      0.239987,
+      0.027784
     ],
-    "slip_estimate_mm": 3.076501887723921e-06,
-    "grip_command": 0.37832380876551,
-    "policy_confidence": 0.25
-  },
-  {
-    "phase": 0.9576837416481069,
-    "stage": "place",
-    "palm_xyz": [
-      -0.24965653504960136,
-      -0.250368427884351,
-      0.30793655467986514
-    ],
-    "vial_xyz": [
-      -0.38,
-      -0.18,
-      0.1223619475320868
-    ],
-    "dial_angle_deg": 110.01529300348734,
-    "latch_depth_mm": 17.30484000000003,
-    "touch": {
+    "finger_target": {
       "thumb": 0.0,
       "index": 0.0,
       "middle": 0.0,
       "ring": 0.0,
       "little": 0.0
-    },
-    "servo_error_mm": [
-      11.391209679399509,
-      0.44397454877573683,
-      219.5620874553424
-    ],
-    "residual_action_mm": [
-      9.216253003618286,
-      -1.0490857108019493,
-      35.0
-    ],
-    "slip_estimate_mm": 2.564503008044161e-07,
-    "grip_command": 0.19003127493645033,
-    "policy_confidence": 0.25
-  },
-  {
-    "phase": 0.9688195991091314,
-    "stage": "place",
-    "palm_xyz": [
-      -0.20988066882310977,
-      -0.2686420875841,
-      0.3607233797930087
-    ],
-    "vial_xyz": [
-      -0.38,
-      -0.18,
-      0.098011501093706
-    ],
-    "dial_angle_deg": 110.01529300348734,
-    "latch_depth_mm": 17.30484000000003,
-    "touch": {
-      "thumb": 0.0,
-      "index": 0.0,
-      "middle": 0.0,
-      "ring": 0.0,
-      "little": 0.0
-    },
-    "servo_error_mm": [
-      10.333490624326137,
-      2.10716488732067,
-      218.4578523972089
-    ],
-    "residual_action_mm": [
-      8.519858742317403,
-      0.17627583171991817,
-      35.0
-    ],
-    "slip_estimate_mm": 2.137712219358706e-08,
-    "grip_command": 0.05313514971616562,
-    "policy_confidence": 0.25
-  },
-  {
-    "phase": 0.9799554565701559,
-    "stage": "place",
-    "palm_xyz": [
-      -0.17621595252035338,
-      -0.2839922812376169,
-      0.4063555294263824
-    ],
-    "vial_xyz": [
-      -0.38000065322902604,
-      -0.18000133860327655,
-      0.09882412773387227
-    ],
-    "dial_angle_deg": 110.01529300348734,
-    "latch_depth_mm": 17.30484000000003,
-    "touch": {
-      "thumb": 0.0,
-      "index": 0.0,
-      "middle": 0.0,
-      "ring": 0.0,
-      "little": 0.0
-    },
-    "servo_error_mm": [
-      9.776502508471724,
-      3.8329840077377715,
-      215.024686867819
-    ],
-    "residual_action_mm": [
-      7.81042776424476,
-      1.3824502640325578,
-      35.0
-    ],
-    "slip_estimate_mm": 1.7819489852268602e-09,
-    "grip_command": 9.297096784655068e-07,
-    "policy_confidence": 0.25
-  },
-  {
-    "phase": 0.9910913140311804,
-    "stage": "place",
-    "palm_xyz": [
-      -0.1523821459812239,
-      -0.294532026865911,
-      0.43916269635546074
-    ],
-    "vial_xyz": [
-      -0.3800001877666317,
-      -0.1800001326996367,
-      0.0988241051610171
-    ],
-    "dial_angle_deg": 110.01529300348734,
-    "latch_depth_mm": 17.30484000000003,
-    "touch": {
-      "thumb": 0.0,
-      "index": 0.0,
-      "middle": 0.0,
-      "ring": 0.0,
-      "little": 0.0
-    },
-    "servo_error_mm": [
-      9.125486150930032,
-      5.620640573286652,
-      209.44578024827132
-    ],
-    "residual_action_mm": [
-      6.865722209376773,
-      2.7568183881341435,
-      35.0
-    ],
-    "slip_estimate_mm": 1.485392728354994e-10,
-    "grip_command": 0.0,
-    "policy_confidence": 0.25
-  },
-  {
-    "phase": 1.0,
-    "stage": "place",
-    "palm_xyz": [
-      -0.14327449628495306,
-      -0.2981831982463386,
-      0.45261122703818396
-    ],
-    "vial_xyz": [
-      -0.3800001877666317,
-      -0.1800001326996367,
-      0.0988241051610171
-    ],
-    "dial_angle_deg": 110.01529300348734,
-    "latch_depth_mm": 17.30484000000003,
-    "touch": {
-      "thumb": 0.0,
-      "index": 0.0,
-      "middle": 0.0,
-      "ring": 0.0,
-      "little": 0.0
-    },
-    "servo_error_mm": [
-      8.426044541076278,
-      7.065438269424447,
-      203.3210006709361
-    ],
-    "residual_action_mm": [
-      5.861669468941663,
-      3.9381569988975946,
-      35.0
-    ],
-    "slip_estimate_mm": 2.0351579232274093e-11,
-    "grip_command": 0.0,
-    "policy_confidence": 0.25
+    }
   }
 ]

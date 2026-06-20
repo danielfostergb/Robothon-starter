@@ -1,9 +1,9 @@
 {
-  "project": "Tactile Vault",
+  "project": "Tactile Vault v2",
   "entrypoint": "python3 submissions/tactile_vault/run_demo.py",
   "quick_check": "python3 submissions/tactile_vault/run_demo.py --quick",
   "headless_check": "python3 submissions/tactile_vault/run_demo.py --no-video",
-  "validator": "python3 submissions/tactile_vault/validate_submission.py",
+  "physics_validator": "python3 submissions/tactile_vault/validate_submission.py",
   "scene": "scene.xml",
   "generated_artifacts": [
     "artifacts/demo.mp4",
@@ -13,12 +13,7 @@
     "artifacts/evaluation.json",
     "artifacts/narration.srt"
   ],
-  "rubric_navigation": [
-    "JUDGE_BRIEF.md",
-    "PR_DESCRIPTION.md",
-    "rubric_scorecard.json",
-    "README.md"
-  ],
   "deterministic_seed": 20260619,
-  "network_required_at_runtime": false
+  "network_required_at_runtime": false,
+  "external_assets": false
 }

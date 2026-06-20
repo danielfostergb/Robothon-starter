@@ -1,68 +1,41 @@
 Registration UUID: 1475c5ac-4357-44bb-9f56-2aa775114462
 
-## Project Summary
+## Tactile Vault v2
 
-- **Project name:** Tactile Vault
-- **Robot platform:** Procedural MuJoCo five-finger hand with a six-axis gantry/wrist, thumb opposition, 19 actuators, and 13 sensors.
-- **Task goal:** Retrieve emergency medicine from a tactile combination vault when smoke or darkness makes vision unreliable.
-- **Technical approach:** A deterministic seven-stage task planner combined with closed-loop palm-position, dial-angle, and slip residual control.
-- **Core features:** Tactile dial scanning, three-direction code entry, spring-latch confirmation, phased five-finger grasping, slip-aware transport, verified delivery, trajectory export, and fixed-seed baseline evaluation.
-- **Highlights:** 6.18 mm final delivery error and 32/32 successful residual-controller stress cases versus 10/32 for the no-residual baseline.
-- **Honest scope:** The high-level stages and post-contact vial attachment are deterministic for reproducibility. Gantry, wrist, fingers, dial, and latch use MuJoCo actuators and sensor feedback.
-- **Future improvements:** Replace the kinematic grasp attachment with a dynamically activated weld constraint and train a tactile policy from the exported trajectories.
+A five-digit MuJoCo hand retrieves emergency medicine without vision by physically entering a raised-shape code, releasing a mechanical lid lock, pushing the unactuated lid, establishing five tactile contacts, rejecting an external force, and delivering the free vial.
 
-## How to Run
+### Why this submission is technically deep
 
-```bash
-python3 -m pip install -r submissions/tactile_vault/requirements.txt
-python3 submissions/tactile_vault/run_demo.py
-```
+- Every stage is mechanically dependent; timing alone cannot complete the task.
+- Keys, lid, and vial have no position actuators.
+- Five independent touch channels gate five independent adhesion channels.
+- The grasp has no equality, mocap attachment, or free-joint write.
+- A 250 Hz sensor-gated state machine exposes its observations and actions in `trajectory.json`.
+- 48 paired randomized MuJoCo contact-physics rollouts compare an open-loop grip with the tactile reflex.
+- The included validator independently executes the end-to-end physics task.
 
-Quick smoke test:
+### Run
 
 ```bash
-python3 submissions/tactile_vault/run_demo.py --quick
+python3 -m venv .venv
+.venv/bin/python -m pip install -r submissions/tactile_vault/requirements.txt
+.venv/bin/python submissions/tactile_vault/run_demo.py
 ```
 
-Headless physics and evidence generation:
+Fast headless verification:
 
 ```bash
-python3 submissions/tactile_vault/run_demo.py --no-video
+.venv/bin/python submissions/tactile_vault/validate_submission.py
 ```
 
-Submission validation:
+### Evidence
 
-```bash
-python3 submissions/tactile_vault/validate_submission.py
-```
+- `artifacts/demo.mp4` — generated end-to-end demo with automatic camera switching and live causal telemetry
+- `artifacts/report.json` — eleven passing task gates and simulator invariants
+- `artifacts/evaluation.json` — paired open-loop/tactile contact-physics ablation
+- `artifacts/trajectory.json` — key, lock, lid, touch, adhesion, force, slip, and action trace
+- `artifacts/policy_card.json` — controller and grasp disclosure
 
-## Demo and Evidence
+### Honest scope
 
-- [x] Generated demo: `submissions/tactile_vault/artifacts/demo.mp4`
-- [x] Final metrics: `submissions/tactile_vault/artifacts/report.json`
-- [x] Baseline/residual evaluation: `submissions/tactile_vault/artifacts/evaluation.json`
-- [x] Controller policy card: `submissions/tactile_vault/artifacts/policy_card.json`
-- [x] Sensor/action trajectory: `submissions/tactile_vault/artifacts/trajectory.json`
-- [x] Accessible captions: `submissions/tactile_vault/artifacts/narration.srt`
-- [x] Judge brief: `submissions/tactile_vault/JUDGE_BRIEF.md`
-- [x] Rubric scorecard: `submissions/tactile_vault/rubric_scorecard.json`
-- [x] Machine-readable manifest: `submissions/tactile_vault/submission_manifest.json`
-
-## Rubric Coverage
-
-- **Runnability:** One deterministic command plus quick, headless, and validation modes.
-- **MuJoCo depth:** Collision/contact physics, five-finger articulation, 19 actuators, 13 sensors, and free/hinge/slide joints.
-- **Task design:** Seven dependent, measurable stages in a safety-relevant medicine-retrieval scenario.
-- **Control:** Stage planning, closed-loop dial tracking, pose residuals, slip observation, and structured data collection.
-- **Dexterous manipulation:** Independent five-finger control, thumb opposition, tactile dial posture, and phased grasping.
-- **Engineering quality:** Compact source, configuration, validation, structured artifacts, and documented limitations.
-- **Presentation:** Generated 30-second video with stage, progress, and controller telemetry overlays.
-- **Innovation:** Tactile emergency access and recovery under degraded visibility.
-
-## Checklist
-
-- [x] `PR_DESCRIPTION.md` and `registration.json` contain the same platform-issued UUID.
-- [x] Project source and MJCF scene are included.
-- [x] Run instructions are documented and verified.
-- [x] Demo video was generated by the submitted code.
-- [x] Structured controller and evaluation evidence is included.
+The high-level target locations are analytic rather than learned. Adhesion models controllable fingertip material and activates only at measured contacts. The only equality models the lid lock and never constrains the vial or hand.

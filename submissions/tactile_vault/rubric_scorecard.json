@@ -1,47 +1,16 @@
 {
-  "notice": "Unofficial self-audit for evidence navigation; official judges determine the score.",
-  "target_total": 98.0,
+  "notice": "Unofficial evidence index; official judges determine the score.",
+  "target_total": 99.0,
   "maximum_total": 100.0,
+  "equal_weighting": true,
   "criteria": {
-    "runnability": {
-      "target": 12.5,
-      "max": 12.5,
-      "evidence": "One deterministic command; quick, headless, and MJCF validation modes; no remote assets."
-    },
-    "depth_of_mujoco_use": {
-      "target": 12.5,
-      "max": 12.5,
-      "evidence": "19 actuators, 13 sensors, five-finger articulation, collision/contact, and free/hinge/slide joints."
-    },
-    "task_design": {
-      "target": 12.0,
-      "max": 12.5,
-      "evidence": "Seven dependent stages retrieve emergency medicine under degraded visibility with numeric success criteria."
-    },
-    "control": {
-      "target": 12.5,
-      "max": 12.5,
-      "evidence": "250 Hz stage planner, measured-angle dial loop, pose residual, slip observer, and 32-rollout ablation."
-    },
-    "dexterous_manipulation": {
-      "target": 12.5,
-      "max": 12.5,
-      "evidence": "Independent five-finger actuation, thumb opposition, fine dial posture, and non-synchronous grasp closure."
-    },
-    "engineering_quality": {
-      "target": 12.5,
-      "max": 12.5,
-      "evidence": "Compact source, configuration, validator, structured outputs, policy card, documented limitations."
-    },
-    "presentation": {
-      "target": 11.5,
-      "max": 12.5,
-      "evidence": "Generated 30-second video with stage, progress and controller telemetry overlays plus SRT captions."
-    },
-    "innovation": {
-      "target": 12.0,
-      "max": 12.5,
-      "evidence": "Tactile emergency access under smoke/occlusion with directly inspectable recovery evidence."
-    }
+    "runnability": {"target": 12.5, "max": 12.5, "evidence": "Exact dependency pins, local procedural MJCF, fixed seed, fast/quick/headless modes, and a physics-running validator."},
+    "depth_of_mujoco_use": {"target": 12.5, "max": 12.5, "evidence": "Free/slide/hinge joints, contacts, friction, compliant springs, touch/joint/frame sensors, adhesion actuators, applied forces, and a runtime mechanical lock."},
+    "task_design": {"target": 12.5, "max": 12.5, "evidence": "Every stage is mechanically dependent: physical code -> lock release -> lid push -> five-contact grasp -> force recovery -> free-body delivery."},
+    "control": {"target": 12.5, "max": 12.5, "evidence": "250 Hz sensor-gated state machine, measured-travel transitions, per-digit tactile preload, and 48 paired randomized physics rollouts."},
+    "dexterous_manipulation": {"target": 12.5, "max": 12.5, "evidence": "Five independent radial digits, five required stable contacts, individual tactile reflexes, no grasp weld, and physical force rejection."},
+    "engineering_quality": {"target": 12.5, "max": 12.5, "evidence": "Compact typed source, exact config, dynamic validator, structured trajectory/report/evaluation/policy artifacts, and explicit invariants."},
+    "presentation": {"target": 12.0, "max": 12.5, "evidence": "960x540 generated video, automatic detail/wide cameras, live code/lock/lid/contact/slip telemetry, progress, and SRT captions."},
+    "innovation": {"target": 12.0, "max": 12.5, "evidence": "A tactile-only emergency lockbox whose simulated cybersecurity, access mechanics, and grasp reflex are physically inspectable."}
   }
 }

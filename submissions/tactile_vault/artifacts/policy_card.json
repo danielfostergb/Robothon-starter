@@ -1,20 +1,22 @@
 {
-  "name": "deterministic stage prior + closed-loop tactile residual",
+  "name": "sensor-gated tactile state machine + per-finger contact reflex",
   "observations": [
-    "palm frame position",
-    "vial frame position",
-    "dial angle/velocity",
-    "latch depth",
-    "five fingertip touch channels"
+    "three key travel sensors",
+    "three key touch sensors",
+    "lid travel and handle touch",
+    "five fingertip touch channels",
+    "palm/vial/goal positions",
+    "gantry joint positions"
   ],
   "actions": [
     "gantry XYZ",
-    "wrist YPR",
-    "11 finger joints",
-    "dial load",
-    "latch spring"
+    "wrist yaw",
+    "five independent close joints",
+    "five touch-gated adhesion channels",
+    "physical lid-lock release after correct code"
   ],
-  "feedback": "EMA pose residual and slip observer correct nominal stage targets every control tick",
-  "honest_scope": "High-level phases and post-contact vial attachment are deterministic for reproducibility; gantry, wrist, fingers, dial and latch run through MuJoCo actuators and sensor feedback.",
+  "mechanical_causality": "The unactuated keys must move in order to release lid_lock; the unactuated lid must then be pushed far enough to expose the vial.",
+  "grasp_model": "Five physical fingertip contacts with touch-gated MuJoCo adhesion. No grasp weld, mocap body, or free-joint qpos write.",
+  "evaluation": "Paired randomized MuJoCo contact-physics ablation with tactile adhesion enabled/disabled.",
   "random_seed": 20260619
 }
