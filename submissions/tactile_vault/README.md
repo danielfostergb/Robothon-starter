@@ -194,7 +194,7 @@ Runtime task measurements and all 11 terminal conditions are recorded separately
 
 ---
 
-## 🏆 Why This Submission Scored 98.01
+## 🏆 Why This Submission Stands Out
 
 1. **Mechanically Dependent Long-Horizon Task**: Physical code entry, unlocking, lid opening, grasping, transport, disturbance rejection, and delivery form one causal sequence
 2. **Measured Dexterity**: Five independent touch signals directly gate grasp behavior and force response
